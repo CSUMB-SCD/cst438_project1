@@ -1,0 +1,43 @@
+{
+	"users": [
+		{
+			"userId": "",
+			"firstName": "",
+			"lastName": "",
+			"username": "",
+			"password": "",
+			"email": "",
+			"isCaregiver": false,
+			"isIndividual": false,
+			"isAdmin": false
+		}
+	],
+
+
+	"caregiverKeys": [
+		{
+			"key": "",
+			"caregiverId": ""
+		}
+	],
+
+	"caregivers": [
+		{
+			"caregiverId": "",
+			"individualId": ""
+		}
+	],
+
+	"individuals": [
+		{
+			"individualId": "",
+			"caregiverId": "",
+			"dateCreated": "",
+			"tasks": "",
+			"assessmentScores": {
+				"timestamp": "",
+				"score": ""
+			}
+		}
+	]
+}

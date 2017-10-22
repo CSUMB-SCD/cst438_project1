@@ -1,0 +1,41 @@
+tasks: {
+  taskId: "",
+  title: "",
+  dateCreated: "",
+  dueDate: "",
+  description: "",
+  hint: "", /*optional*/
+  reward: "", /*optional*/
+  completed: false,
+  categories: {
+    categoryKey: ""
+  }
+},
+
+achievements: {
+  achievementId: "",
+  tasks: {
+    taskId: "",
+    /* java: if (taskCompleted) -> getCategories() -> updateSkillsPerCategory() */
+  },
+},
+
+
+
+
+
+skills: {
+  interpersonalSkills: {
+    socialSkills: "Social Skills",
+    communicationSkills: "Communication Skills",
+    behavioralSkills: "Behavioral Skills",
+    collaborationSkills: "Collaboration Skills",
+  },
+
+  intrapersonalSkills: {
+    punctualitySkills: "Punctuality Skills",
+    organizationSkills: "Organizational Skills",
+    emotionalSkills: "Emotional Skills",
+    leadershipSkills: "Leadership Skills",
+  },
+},
