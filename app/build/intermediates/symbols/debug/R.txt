@@ -598,7 +598,7 @@ int id chains 0x7f0b0010
 int id checkbox 0x7f0b0046
 int id chronometer 0x7f0b0071
 int id collapseActionView 0x7f0b0026
-int id confirm_bttn 0x7f0b008f
+int id confirm_bttn 0x7f0b008e
 int id contentPanel 0x7f0b0039
 int id custom 0x7f0b0040
 int id customPanel 0x7f0b003f
@@ -624,7 +624,7 @@ int id image 0x7f0b0031
 int id individual_choice_bttn 0x7f0b0080
 int id individual_textView 0x7f0b007c
 int id info 0x7f0b0072
-int id instructions 0x7f0b008e
+int id instructions 0x7f0b008f
 int id last_name_editText 0x7f0b0083
 int id last_name_textView 0x7f0b0087
 int id line1 0x7f0b0077

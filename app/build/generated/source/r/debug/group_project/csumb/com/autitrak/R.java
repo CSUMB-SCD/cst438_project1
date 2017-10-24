@@ -2319,7 +2319,7 @@ containing a value of this type.
         public static final int checkbox=0x7f0b0046;
         public static final int chronometer=0x7f0b0071;
         public static final int collapseActionView=0x7f0b0026;
-        public static final int confirm_bttn=0x7f0b008f;
+        public static final int confirm_bttn=0x7f0b008e;
         public static final int contentPanel=0x7f0b0039;
         public static final int custom=0x7f0b0040;
         public static final int customPanel=0x7f0b003f;
@@ -2345,7 +2345,7 @@ containing a value of this type.
         public static final int individual_choice_bttn=0x7f0b0080;
         public static final int individual_textView=0x7f0b007c;
         public static final int info=0x7f0b0072;
-        public static final int instructions=0x7f0b008e;
+        public static final int instructions=0x7f0b008f;
         public static final int last_name_editText=0x7f0b0083;
         public static final int last_name_textView=0x7f0b0087;
         public static final int line1=0x7f0b0077;

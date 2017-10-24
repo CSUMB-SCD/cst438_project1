@@ -31,6 +31,7 @@
         <activity android:name="group_project.csumb.com.autitrak.LoginActivity" />
         <activity android:name="group_project.csumb.com.autitrak.SignupActivity" />
         <activity android:name="group_project.csumb.com.autitrak.SelectionActivity" />
+        <activity android:name="group_project.csumb.com.autitrak.VerifyActivity" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"

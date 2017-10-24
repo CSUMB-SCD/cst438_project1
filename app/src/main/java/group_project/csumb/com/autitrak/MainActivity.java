@@ -35,10 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i = new Intent(this,LoginActivity.class);
                 startActivity(i);
                 break;
-            case R.id.menu_signup_bttn:
-                i = new Intent(this,SelectionActivity.class);
-                startActivity(i);
-                break;
+
 
         }
     }

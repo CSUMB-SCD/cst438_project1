@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidMan
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:26:5-20
@@ -64,17 +64,21 @@ ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:18:27-74
 activity#group_project.csumb.com.autitrak.LoginActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:21:9-60
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:21:9-51
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:21:19-48
 activity#group_project.csumb.com.autitrak.SignupActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:22:9-61
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:22:9-52
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:22:19-49
 activity#group_project.csumb.com.autitrak.SelectionActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:23:9-64
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:23:9-55
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:23:19-52
+activity#group_project.csumb.com.autitrak.VerifyActivity
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:24:9-61
+	android:name
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:24:19-49
 uses-sdk
 INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:21:5-23:78
