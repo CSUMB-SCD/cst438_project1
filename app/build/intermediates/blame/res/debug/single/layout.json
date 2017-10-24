@@ -20,10 +20,6 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selection_page.xml",
-        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\src\\main\\res\\layout\\selection_page.xml"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\notification_action.xml"
     },
@@ -34,10 +30,6 @@
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\verification_page.xml",
-        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\src\\main\\res\\layout\\verification_page.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -142,10 +134,6 @@
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signup_page.xml",
-        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\src\\main\\res\\layout\\signup_page.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
