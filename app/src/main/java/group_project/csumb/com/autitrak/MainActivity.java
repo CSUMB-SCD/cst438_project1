@@ -8,6 +8,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -41,6 +42,30 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        int view = item.getItemId();
+        Log.d("ITEM ID: ", String.valueOf(view));
+//        Fragment fragment = null;
+//
+//        // notifications button clicked
+//        if (view == R.id.nav_notifications) {
+//            fragment = new NotificationsFragment();
+//        }
+//
+//        // progress button clicked
+//        else if (view == R.id.nav_progress) {
+//            fragment = new ProgressFragment();
+//        }
+//
+//        // settings button clicked
+//        else if (view == R.id.nav_settings) {
+//            fragment = new SettingsFragment();
+//        }
+//
+//        FragmentManager fm = getFragmentManager();
+//        FragmentTransaction ft = fm.beginTransaction();
+//        ft.replace(R.id.caregiverLinearLayout, fragment);
+//        ft.commit();
 
         if (mToggle.onOptionsItemSelected(item)) {
             return true;
