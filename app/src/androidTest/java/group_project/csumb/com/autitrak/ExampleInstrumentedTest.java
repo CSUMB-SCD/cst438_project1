@@ -35,8 +35,8 @@ public class ExampleInstrumentedTest {
         assertEquals("group_project.csumb.com.autitrak", appContext.getPackageName());
     }
 
-    @Test
-    public void testHelloWorldTest() {
-        onView(withId(R.id.helloWorldText)).check(matches(withText("Hello World!")));
-    }
+//    @Test
+//    public void testHelloWorldTest() {
+//        onView(withId(R.id.helloWorldText)).check(matches(withText("Hello World!")));
+//    }
 }
