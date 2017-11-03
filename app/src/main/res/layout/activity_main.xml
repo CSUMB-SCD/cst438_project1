@@ -1,42 +1,32 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/caregiverLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/caregiverDrawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
     tools:context="group_project.csumb.com.autitrak.MainActivity">
 
-    <Button
-        android:id="@+id/notifications_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ChangeFragment"
-        android:text="Notifications" />
-
-    <Button
-        android:id="@+id/progress_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ChangeFragment"
-        android:text="Progress" />
-
-    <Button
-        android:id="@+id/settings_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ChangeFragment"
-        android:text="Settings" />
-
-    <fragment
-        android:name="group_project.csumb.com.autitrak.NotificationsFragment"
-        android:id="@+id/caregiver_fragment"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </fragment>
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Layout"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

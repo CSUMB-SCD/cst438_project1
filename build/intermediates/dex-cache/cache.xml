@@ -11,6 +11,15 @@
         <dex dex="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_43cb0c323122720ff2d845458b9e078cfbb00406.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/chanel/.android/build-cache/2c0743911a15b26b4ad4188d33bc5e978f16fbe1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83e6fcdfee23316470d34093603d34a1964cdccb/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/chanel/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
@@ -92,6 +101,15 @@
         <dex dex="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/app/build/intermediates/pre-dexed/androidTest/debug/classes_380d38e4dddf340e098ee01a89b67deaad56f746.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/chanel/.android/build-cache/b4c3c9fbac7fda5f45b5ba6d445d8aca030d5d5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be0e2467b7919319469f7b01fbecfc00d65568ae/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/chanel/.android/build-cache/bd94191e85890ee3c5af08ea81a6c5dd4d830e6c/output/jars/classes.jar"
         jumboMode="false"
@@ -108,6 +126,15 @@
         revision="25.0.3"
         sha1="796f9229948e907471c5595fbe94655ccf03ff73">
         <dex dex="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/app/build/intermediates/pre-dexed/androidTest/debug/classes_a49e3e497a05a8b14b063df1692aab524c3143a3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chanel/.android/build-cache/c4a596959b0da79c836132d6effae3b15c84def6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3cfc3484bdba15da506eba5c641171133bbdac5d/classes.dex" />
     </item>
     <item
         is-multidex="false"

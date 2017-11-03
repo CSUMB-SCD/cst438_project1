@@ -1,10 +1,13 @@
 package group_project.csumb.com.autitrak;
 
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.google.firebase.database.DatabaseReference;
@@ -15,47 +18,31 @@ public class MainActivity extends AppCompatActivity {
 //    FirebaseDatabase database = FirebaseDatabase.getInstance();
 //    DatabaseReference myRef = database.getReference("message");
 
-
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        myRef.setValue("Hello, World!");
+
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.caregiverDrawerLayout);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    public void ChangeFragment(View view) {
-        Fragment fragment;
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 
-        // notifications button clicked
-        if (view == findViewById(R.id.notifications_button)) {
-            fragment = new NotificationsFragment();
-
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.caregiver_fragment, fragment);
-            ft.commit();
-
+        if (mToggle.onOptionsItemSelected(item)) {
+            return true;
         }
 
-        // progress button clicked
-        else if (view == findViewById(R.id.progress_button)) {
-            fragment = new ProgressFragment();
-
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.caregiver_fragment, fragment);
-            ft.commit();
-        }
-
-        // settings button clicked
-        else if(view == findViewById(R.id.settings_button)) {
-            fragment = new SettingsFragment();
-
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.caregiver_fragment, fragment);
-            ft.commit();
-        }
+        return super.onOptionsItemSelected(item);
     }
 }
