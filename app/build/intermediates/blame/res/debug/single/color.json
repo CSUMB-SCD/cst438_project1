@@ -12,6 +12,10 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
@@ -32,12 +36,20 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",

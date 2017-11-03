@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
@@ -13,13 +13,31 @@ ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidMan
 	android:versionCode
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:7:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sboyd\.android\build-cache\26431f1f52a3a989a15943c07888d5f32a77fee1\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\sboyd\.android\build-cache\37d3b1d1f15d529d95b199f8fd517d576a4d477e\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.android\build-cache\ce4626ff94081cec9a3536b7be128800bbad8252\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\sboyd\.android\build-cache\adbbb7c3407a64ffd035cee1f34872b969200cfd\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\sboyd\.android\build-cache\eea4a4a83f8a84ef0661f586192aff50648a504a\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\sboyd\.android\build-cache\b53e6369dc08ea8ad0afa2d4f58f872b725a1f67\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\sboyd\.android\build-cache\bafb4d275acb99946c6cfa316335a547cec5b132\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\sboyd\.android\build-cache\0f2fb5d61a2dd62315d8fa51c06b75bd78c5d062\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\sboyd\.android\build-cache\489181b5aed7e969e2650f593590f26b7b635bbd\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\sboyd\.android\build-cache\40f7d0690ee6993b42f892056b9e2d240d093af8\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\sboyd\.android\build-cache\14e9ee619ca60f2f12f430bc97096711359e9561\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\sboyd\.android\build-cache\a9ef1a533aa463be3d3edd031af528496452192e\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\sboyd\.android\build-cache\46953e5c1bddbc6ccf395369cbd33ef158f813b9\output\AndroidManifest.xml:4:5-19
@@ -32,50 +50,57 @@ MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.andr
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\sboyd\.android\build-cache\248e816596f45161727de94df21a9c7ec40f4f5d\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\sboyd\.android\build-cache\4bff902982ae72d0997dc507c381bdd71c72fea7\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\sboyd\.android\build-cache\bafb4d275acb99946c6cfa316335a547cec5b132\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\sboyd\.android\build-cache\0fca6dea35ccd5edd4f9b28cb777ca37ad53afb9\output\AndroidManifest.xml:5:5-20
 	android:label
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:11:9-40
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:12:9-71
-	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:12:26-68
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:13:9-40
 activity#group_project.csumb.com.autitrak.MainActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:20:27-74
 activity#group_project.csumb.com.autitrak.LoginActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:21:9-51
+ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:23:9-60
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:21:19-48
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:23:19-48
 uses-sdk
 INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sboyd\.android\build-cache\26431f1f52a3a989a15943c07888d5f32a77fee1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\sboyd\.android\build-cache\37d3b1d1f15d529d95b199f8fd517d576a4d477e\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.android\build-cache\ce4626ff94081cec9a3536b7be128800bbad8252\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\sboyd\.android\build-cache\adbbb7c3407a64ffd035cee1f34872b969200cfd\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\sboyd\.android\build-cache\eea4a4a83f8a84ef0661f586192aff50648a504a\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-database:11.4.2] C:\Users\sboyd\.android\build-cache\e2dcbaa31696c698551bb54d713972739e76697a\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database-connection:11.4.2] C:\Users\sboyd\.android\build-cache\8ce0d0015a9739b2db23f953d005b06453893cd1\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\sboyd\.android\build-cache\b53e6369dc08ea8ad0afa2d4f58f872b725a1f67\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\sboyd\.android\build-cache\bafb4d275acb99946c6cfa316335a547cec5b132\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\sboyd\.android\build-cache\0f2fb5d61a2dd62315d8fa51c06b75bd78c5d062\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\sboyd\.android\build-cache\489181b5aed7e969e2650f593590f26b7b635bbd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\sboyd\.android\build-cache\40f7d0690ee6993b42f892056b9e2d240d093af8\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\sboyd\.android\build-cache\14e9ee619ca60f2f12f430bc97096711359e9561\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\sboyd\.android\build-cache\a9ef1a533aa463be3d3edd031af528496452192e\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\sboyd\.android\build-cache\46953e5c1bddbc6ccf395369cbd33ef158f813b9\output\AndroidManifest.xml:3:5-43
@@ -88,7 +113,7 @@ MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.andr
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\sboyd\.android\build-cache\248e816596f45161727de94df21a9c7ec40f4f5d\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\sboyd\.android\build-cache\4bff902982ae72d0997dc507c381bdd71c72fea7\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\sboyd\.android\build-cache\bafb4d275acb99946c6cfa316335a547cec5b132\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\sboyd\.android\build-cache\0fca6dea35ccd5edd4f9b28cb777ca37ad53afb9\output\AndroidManifest.xml:4:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -111,6 +136,122 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\build-cache\0a62243bba4218d0fd35e1ab5f2fac2e4f775572\output\AndroidManifest.xml:45:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\sboyd\.android\build-cache\489181b5aed7e969e2650f593590f26b7b635bbd\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\sboyd\.android\build-cache\489181b5aed7e969e2650f593590f26b7b635bbd\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\sboyd\.android\build-cache\489181b5aed7e969e2650f593590f26b7b635bbd\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\sboyd\.android\build-cache\489181b5aed7e969e2650f593590f26b7b635bbd\output\AndroidManifest.xml:19:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\sboyd\.android\build-cache\14e9ee619ca60f2f12f430bc97096711359e9561\output\AndroidManifest.xml:6:9-194
 	android:authorities
