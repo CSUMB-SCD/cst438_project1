@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 //        myRef.setValue("Hello, World!");
 
         mToolbar = (Toolbar) findViewById(R.id.nav_action);
@@ -45,8 +46,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiverDrawerLayout);
+        if(drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.navigation_menu, menu);
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        displayView(item.getItemId());
 
 //        int view = item.getItemId();
 //        Log.d("ITEM ID: ", String.valueOf(view));
@@ -54,48 +70,38 @@ public class MainActivity extends AppCompatActivity {
         if (mToggle.onOptionsItemSelected(item)) {
             return true;
         }
-//
         return super.onOptionsItemSelected(item);
     }
 
+    @SuppressWarnings("StatementWithEmptyBody")
     public boolean onNavigationItemSelected(MenuItem item) {
-        displayView(item.getItemId());
-        return true;
-    }
-
-    public void displayView(int viewId) {
-        Fragment fragment = null;
-        String title = getString(R.string.app_name);
-
-        switch(viewId) {
+        switch(item.getItemId()) {
             case R.id.nav_progress:
-                fragment = new ProgressFragment();
-                title = "Progress";
+                setTitle("Progress");
+                ProgressFragment pfrag = new ProgressFragment();
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction().replace(R.id.content_frame, pfrag).commit();
                 break;
 
             case R.id.nav_notifications:
-                fragment = new NotificationsFragment();
-                title = "Notifications";
+                setTitle("Notifications");
+                NotificationsFragment nfrag = new NotificationsFragment();
+                FragmentManager fm2 = getFragmentManager();
+                fm2.beginTransaction().replace(R.id.content_frame, nfrag).commit();
                 break;
 
             case R.id.nav_settings:
-                fragment = new SettingsFragment();
-                title = "Settings";
+                setTitle("Settings");
+                NotificationsFragment sfrag = new NotificationsFragment();
+                FragmentManager fm3 = getFragmentManager();
+                fm3.beginTransaction().replace(R.id.content_frame, sfrag).commit();
+                break;
+
         }   // end switch(viewId)
-
-        if (fragment != null) {
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.content_frame, fragment);
-            ft.commit();
-        }
-
-        // set the toolbar title
-        if(getSupportActionBar() != null) {
-            getSupportActionBar().setTitle(title);
-        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiverDrawerLayout);
         drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
+
 }

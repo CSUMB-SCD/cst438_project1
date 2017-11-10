@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     tools:context="group_project.csumb.com.autitrak.MainActivity">
 
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,9 +41,6 @@
 
     </android.support.design.widget.NavigationView>
 
-    <FrameLayout
-        android:id="@+id/content_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
+
 
 </android.support.v4.widget.DrawerLayout>
