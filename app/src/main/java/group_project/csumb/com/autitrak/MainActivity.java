@@ -1,5 +1,6 @@
 package group_project.csumb.com.autitrak;
 
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,7 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolbar;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,35 +46,56 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        displayView(item.getItemId());
 
-        int view = item.getItemId();
-        Log.d("ITEM ID: ", String.valueOf(view));
-//        Fragment fragment = null;
+//        int view = item.getItemId();
+//        Log.d("ITEM ID: ", String.valueOf(view));
 //
-//        // notifications button clicked
-//        if (view == R.id.nav_notifications) {
-//            fragment = new NotificationsFragment();
-//        }
-//
-//        // progress button clicked
-//        else if (view == R.id.nav_progress) {
-//            fragment = new ProgressFragment();
-//        }
-//
-//        // settings button clicked
-//        else if (view == R.id.nav_settings) {
-//            fragment = new SettingsFragment();
-//        }
-//
-//        FragmentManager fm = getFragmentManager();
-//        FragmentTransaction ft = fm.beginTransaction();
-//        ft.replace(R.id.caregiverLinearLayout, fragment);
-//        ft.commit();
-
         if (mToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
+//
         return super.onOptionsItemSelected(item);
+    }
+
+    public boolean onNavigationItemSelected(MenuItem item) {
+        displayView(item.getItemId());
+        return true;
+    }
+
+    public void displayView(int viewId) {
+        Fragment fragment = null;
+        String title = getString(R.string.app_name);
+
+        switch(viewId) {
+            case R.id.nav_progress:
+                fragment = new ProgressFragment();
+                title = "Progress";
+                break;
+
+            case R.id.nav_notifications:
+                fragment = new NotificationsFragment();
+                title = "Notifications";
+                break;
+
+            case R.id.nav_settings:
+                fragment = new SettingsFragment();
+                title = "Settings";
+        }   // end switch(viewId)
+
+        if (fragment != null) {
+            FragmentManager fm = getFragmentManager();
+            FragmentTransaction ft = fm.beginTransaction();
+            ft.replace(R.id.content_frame, fragment);
+            ft.commit();
+        }
+
+        // set the toolbar title
+        if(getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(title);
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiverDrawerLayout);
+        drawer.closeDrawer(GravityCompat.START);
     }
 }
