@@ -57,6 +57,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     if(in)
                     {
                         Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
+                        //Replace with todo list fragment
                     }
                     else
                     {

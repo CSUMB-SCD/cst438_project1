@@ -13,6 +13,8 @@ import android.widget.Button;
 
 public class MainFragment extends Fragment{
 
+    private Button login;
+    private Button signup;
     private FragmentListener listener;
 
     public MainFragment()
@@ -30,8 +32,8 @@ public class MainFragment extends Fragment{
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
-        Button login = (Button)view.findViewById(R.id.login_fragment_button);
-        Button signup = (Button)view.findViewById(R.id.signup_fragment_button);
+       login = (Button)view.findViewById(R.id.login_fragment_button);
+       signup = (Button)view.findViewById(R.id.signup_fragment_button);
 
         login.setOnClickListener(new View.OnClickListener(){
             @Override
