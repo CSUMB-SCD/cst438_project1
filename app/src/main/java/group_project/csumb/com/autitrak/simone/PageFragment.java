@@ -1,10 +1,12 @@
-package group_project.csumb.com.autitrak;
+package group_project.csumb.com.autitrak.simone;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import group_project.csumb.com.autitrak.R;
 
 /**
  * Created by sboyd on 11/9/2017.

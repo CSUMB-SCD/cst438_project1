@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import group_project.csumb.com.autitrak.simone.LoginFragment;
+import group_project.csumb.com.autitrak.simone.MainFragment;
+
 public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
     private FragmentManager fm;
@@ -16,9 +19,10 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_container);
 
+        //Check if frame layout exist
         if(findViewById(R.id.fragment_container)!=null)
         {
-
+            //????
             if(savedInstanceState!=null)
             {
                 return;
@@ -31,6 +35,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
             mf = new MainFragment();
             lf = new LoginFragment();
 
+            //Start MainFragment onCreateView method
             fm.beginTransaction().add(R.id.fragment_container,mf).commit();
 
 
@@ -50,8 +55,10 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                 }
             });
 
+
             lf.setOnClickListener(new LoginFragment.FragmentListener(){
 
+                //Callback created in LoginFragment class, passes bool to check if FirebaseAuth signin successful
                 @Override
                 public void onSuccess(boolean in) {
                     if(in)

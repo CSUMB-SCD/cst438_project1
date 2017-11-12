@@ -1,4 +1,4 @@
-package group_project.csumb.com.autitrak;
+package group_project.csumb.com.autitrak.simone;
 
 
 public class Profile {
