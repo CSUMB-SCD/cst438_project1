@@ -16,12 +16,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png",

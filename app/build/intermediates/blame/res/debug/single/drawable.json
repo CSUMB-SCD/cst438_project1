@@ -24,12 +24,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\489181b5aed7e969e2650f593590f26b7b635bbd\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",

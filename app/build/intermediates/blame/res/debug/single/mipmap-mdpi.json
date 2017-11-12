@@ -4,6 +4,10 @@
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\logo.png",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\AutiTrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }
