@@ -1,46 +1,54 @@
 package group_project.csumb.com.autitrak.simone;
 
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by sboyd on 11/13/2017.
- */
 
-public class Individual extends User {
-    private Map<String,Integer>skills;
+
+public class Individual{
+    private int interpersonal;
+    private int intrapersonal;
+
 
     public Individual(){}
 
-    public Individual(String uid, String name)
+    public Individual(int interpersonal, int intrapersonal)
     {
-        //"1" indicates that the user is the Individual with autism
-        super(uid,name,1);
-        skills.put("Interpersonal",0);
-        skills.put("Intrapersonal",0);
+        this.interpersonal = interpersonal;
+        this.intrapersonal = intrapersonal;
     }
 
-    public Map<String,Integer>getSkills()
+    public int getInterpersonal()
     {
-        return skills;
+        return interpersonal;
+    }
+
+    public int getIntrapersonal()
+    {
+        return intrapersonal;
+    }
+
+    public void setInterpersonal(int interpersonal)
+    {
+        this.interpersonal = interpersonal;
+    }
+
+    public void setIntrapersonal(int intrapersonal)
+    {
+        this.intrapersonal= intrapersonal;
     }
 
     //Replaces existing map values with 0
     public void resetSkills()
     {
-        skills.put("Interpersonal",0);
-        skills.put("Intrapersonal",0);
+        interpersonal = 0;
+        intrapersonal = 0;
     }
 
-    //Gets existing map value and adds accumulated points
-    public boolean updateSkill(String skill_type, int points)
-    {
-        if(skills.containsKey(skill_type) && points > 0)
-        {
-            skills.put(skill_type,skills.get(skill_type)+ points);
-            return true;
-        }
-        return false;
-    }
+
 
 
 }

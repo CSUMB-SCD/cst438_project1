@@ -24,6 +24,7 @@ public class LoginFragment extends Fragment{
 
     private FragmentListener listener;
     private FirebaseAuth auth;
+    private String key;
     private Button signin;
     private EditText email;
     private  EditText password;
@@ -55,16 +56,18 @@ public class LoginFragment extends Fragment{
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
+
                             if(listener!=null)
                             {
-                                listener.onSuccess(true);
+                                key = auth.getUid();
+                                listener.onSuccess(true,key);
                             }
                         }
                         else
                         {
                             if(listener!=null)
                             {
-                                listener.onSuccess(false);
+                                listener.onSuccess(false,"");
                             }
                         }
                     }
@@ -74,13 +77,12 @@ public class LoginFragment extends Fragment{
         });
     }
 
-
     public void setOnClickListener(FragmentListener listener)
     {
         this.listener = listener;
     }
 
     public interface FragmentListener{
-        public void onSuccess(boolean in);
+        public void onSuccess(boolean in,String key);
     }
 }

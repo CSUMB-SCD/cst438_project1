@@ -7,12 +7,14 @@ import android.widget.Toast;
 
 import group_project.csumb.com.autitrak.simone.LoginFragment;
 import group_project.csumb.com.autitrak.simone.MainFragment;
+import group_project.csumb.com.autitrak.simone.SkillsFragment;
 
 public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
     private FragmentManager fm;
     private MainFragment mf;
     private LoginFragment lf;
+    private SkillsFragment sf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
             mf = new MainFragment();
             lf = new LoginFragment();
+            sf = new SkillsFragment();
 
             //Start MainFragment onCreateView method
             fm.beginTransaction().add(R.id.fragment_container,mf).commit();
@@ -60,11 +63,13 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
                 //Callback created in LoginFragment class, passes bool to check if FirebaseAuth signin successful
                 @Override
-                public void onSuccess(boolean in) {
+                public void onSuccess(boolean in,String key) {
                     if(in)
                     {
+
                         Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
-                        //Replace with todo list fragment
+                        sf.setKey(key);
+                        fm.beginTransaction().replace(R.id.fragment_container,sf).commit();
                     }
                     else
                     {
