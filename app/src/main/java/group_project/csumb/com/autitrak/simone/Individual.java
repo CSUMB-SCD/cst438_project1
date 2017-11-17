@@ -1,51 +1,37 @@
 package group_project.csumb.com.autitrak.simone;
 
 
-
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
 
-
-
 public class Individual{
-    private int interpersonal;
-    private int intrapersonal;
 
+    private Map<String,Integer> skills;
 
     public Individual(){}
 
-    public Individual(int interpersonal, int intrapersonal)
+    public Individual(Map<String,Integer>skills)
     {
-        this.interpersonal = interpersonal;
-        this.intrapersonal = intrapersonal;
+        this.skills = skills;
     }
 
-    public int getInterpersonal()
+    public void setSkills(Map<String,Integer>skills)
     {
-        return interpersonal;
+        this.skills = skills;
     }
 
-    public int getIntrapersonal()
+    public Map<String,Integer>getSkills()
     {
-        return intrapersonal;
-    }
-
-    public void setInterpersonal(int interpersonal)
-    {
-        this.interpersonal = interpersonal;
-    }
-
-    public void setIntrapersonal(int intrapersonal)
-    {
-        this.intrapersonal= intrapersonal;
+        return skills;
     }
 
     //Replaces existing map values with 0
     public void resetSkills()
     {
-        interpersonal = 0;
-        intrapersonal = 0;
+        if(skills.get("interpersonal") != null && skills.get("intrapersonal")==null)
+        {
+            skills.put("interpersonal",0);
+            skills.put("intrapersonal",0);
+        }
     }
 
 

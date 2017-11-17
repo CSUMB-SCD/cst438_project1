@@ -1,12 +1,12 @@
 package group_project.csumb.com.autitrak.simone;
 
 import android.os.Bundle;
-
+import java.util.ArrayList;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -14,6 +14,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.data.BarData;
+import com.github.mikephil.charting.data.BarDataSet;
+import com.github.mikephil.charting.data.BarEntry;
+import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.Map;
 
@@ -24,12 +29,14 @@ public class SkillsFragment extends Fragment{
 
     private FragmentListener listener;
     private DatabaseReference db;
-    private TextView interpersonal_textView;
-    private TextView intrapersonal_textView;
-    private TextView test;
     private Individual indiv;
     private String key;
-    Map<String,Integer> skills;
+
+    private BarChart chart ;
+    private ArrayList<BarEntry> BARENTRY ;
+    private ArrayList<String> BarEntryLabels ;
+    private BarDataSet Bardataset ;
+    private BarData BARDATA ;
 
     public SkillsFragment(){this.listener=null;key="";}
 
@@ -45,18 +52,38 @@ public class SkillsFragment extends Fragment{
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
         db = FirebaseDatabase.getInstance().getReference().child("individuals");
-        interpersonal_textView = (TextView)view.findViewById(R.id.interpersonal_textView);
-        intrapersonal_textView = (TextView)view.findViewById(R.id.intrapersonal_textView);
-
+        chart = (BarChart)view.findViewById(R.id.chart);
+        chart.setNoDataText("");
+        chart.setDescription("");
 
         db.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 indiv = dataSnapshot.child(key).getValue(Individual.class);
 
+                Map<String,Integer>skills;
 
-                interpersonal_textView.setText(String.format("%s",indiv.getInterpersonal()));
-                intrapersonal_textView.setText(String.format("%s",indiv.getIntrapersonal()));
+                skills = indiv.getSkills();
+
+
+                BARENTRY = new ArrayList<>();
+
+                BarEntryLabels = new ArrayList<>();
+
+                AddValuesToBARENTRY(skills.get("interpersonal"),skills.get("intrapersonal"));
+
+                AddValuesToBarEntryLabels();
+
+                Bardataset = new BarDataSet(BARENTRY, "Skills");
+
+                BARDATA = new BarData(BarEntryLabels, Bardataset);
+
+
+                Bardataset.setColors(ColorTemplate.VORDIPLOM_COLORS);
+
+                chart.setData(BARDATA);
+
+                chart.animateY(3000);
 
             }
 
@@ -70,6 +97,18 @@ public class SkillsFragment extends Fragment{
     public void setKey(String key)
     {
         this.key = key;
+    }
+
+    public void AddValuesToBARENTRY(int skill_1,int skill_2) {
+
+        BARENTRY.add(new BarEntry(skill_1,0));
+        BARENTRY.add(new BarEntry(skill_2,1));
+
+    }
+
+    public void AddValuesToBarEntryLabels() {
+        BarEntryLabels.add("Interpersonal");
+        BarEntryLabels.add("Intrapersonal");
     }
 
     public interface FragmentListener
