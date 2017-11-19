@@ -17,6 +17,8 @@
     <string name="account_name_label">Name</string>
     <string name="account_email_label">Email</string>
     <string name="account_id_label">User ID</string>
+
+    <string name="account_edit_photo_label">Edit Photo</string>
     <string name="account_save_changes_btn">Save Changes</string>
 
     <string name="progress_label">Progress</string>
