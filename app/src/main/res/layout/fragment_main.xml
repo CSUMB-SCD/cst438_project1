@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
     android:orientation="vertical"
     android:theme="@style/AppTheme">
 
     <Button
         android:id="@+id/login_fragment_button"
+        android:theme="@style/ButtonStyle"
         android:layout_width="230dp"
         android:layout_height="42dp"
         android:layout_marginBottom="23dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/black"
         android:text="Login"
-        android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/signup_fragment_button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -27,14 +24,13 @@
 
     <Button
         android:id="@+id/signup_fragment_button"
+        android:theme="@style/ButtonStyle"
         android:layout_width="230dp"
         android:layout_height="42dp"
         android:layout_marginBottom="115dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:background="@android:color/black"
         android:text="Signup"
-        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />

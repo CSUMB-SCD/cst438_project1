@@ -59,7 +59,7 @@ public class LoginFragment extends Fragment{
 
                             if(listener!=null)
                             {
-                                key = auth.getUid();
+                                key = encodeKey(auth.getCurrentUser().getEmail());
                                 listener.onSuccess(true,key);
                             }
                         }
@@ -84,5 +84,17 @@ public class LoginFragment extends Fragment{
 
     public interface FragmentListener{
         public void onSuccess(boolean in,String key);
+    }
+
+    public String encodeKey(String k)
+    {
+
+        return k.replace("%", "%25").replace(".","%2E").replace("#","%23").replace("$","%24").replace("/","%2F");
+
+    }
+
+    public String decodeKey(String k)
+    {
+        return k.replace("%25", "%").replace("%2E",".").replace("%23","#").replace("%24","$").replace("%2F","/");
     }
 }
