@@ -3,4 +3,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Question 1-->
+    <string name="q1">What body language is this person expressing?</string>
+    <string name="a1_opt1">Frustrated</string>
+    <string name="a1_opt2">Busy</string>
+    <string name="a1_opt3">Sad</string>
+    <string name="a1_opt4">Angry</string>
 </resources>

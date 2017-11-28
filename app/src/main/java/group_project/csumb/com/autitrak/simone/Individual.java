@@ -5,35 +5,28 @@ import java.util.Map;
 
 public class Individual{
 
-    private Map<String,Integer> skills;
+    private Map<String,String> skill_levels;
+    private int totalpoints;
 
     public Individual(){}
 
-    public Individual(Map<String,Integer>skills)
+
+    public void setSkillLevels(Map<String,String>skill_levels)
     {
-        this.skills = skills;
+        this.skill_levels = skill_levels;
     }
 
-    public void setSkills(Map<String,Integer>skills)
+    public void setTotalPoints(int totalpoints){this.totalpoints=totalpoints;}
+
+    public Map<String,String>getSkillLevels()
     {
-        this.skills = skills;
+        return skill_levels;
     }
 
-    public Map<String,Integer>getSkills()
+    public int getTotalPoints()
     {
-        return skills;
+        return totalpoints;
     }
-
-    //Replaces existing map values with 0
-    public void resetSkills()
-    {
-        if(skills.get("interpersonal") != null && skills.get("intrapersonal")==null)
-        {
-            skills.put("interpersonal",0);
-            skills.put("intrapersonal",0);
-        }
-    }
-
 
 
 

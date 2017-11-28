@@ -7,14 +7,21 @@ import android.widget.Toast;
 
 import group_project.csumb.com.autitrak.simone.LoginFragment;
 import group_project.csumb.com.autitrak.simone.MainFragment;
-import group_project.csumb.com.autitrak.simone.SkillsFragment;
+import group_project.csumb.com.autitrak.simone.OverviewProgressFragment;
+import group_project.csumb.com.autitrak.simone.ProgressFragment;
+import group_project.csumb.com.autitrak.simone.TasksCompletedFragment;
+import group_project.csumb.com.autitrak.simone.VisualAssessmentFragment;
+
 
 public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
     private FragmentManager fm;
     private MainFragment mf;
     private LoginFragment lf;
-    private SkillsFragment sf;
+    private ProgressFragment pf;
+    private OverviewProgressFragment of;
+    private VisualAssessmentFragment vf;
+    private TasksCompletedFragment tf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +43,10 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
             mf = new MainFragment();
             lf = new LoginFragment();
-            sf = new SkillsFragment();
+            pf = new ProgressFragment();
+            of = new OverviewProgressFragment();
+            vf = new VisualAssessmentFragment();
+            tf = new TasksCompletedFragment();
 
             //Start MainFragment onCreateView method
             fm.beginTransaction().add(R.id.fragment_container,mf).commit();
@@ -68,12 +78,45 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     {
 
                         Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
-                        sf.setKey(key);
-                        fm.beginTransaction().replace(R.id.fragment_container,sf).commit();
+                        tf.setKey(key);
+                        fm.beginTransaction().replace(R.id.fragment_container,tf).commit();
                     }
                     else
                     {
                         Toast.makeText(FragmentActivity.this,"Login failed!",Toast.LENGTH_LONG).show();
+                    }
+                }
+            });
+
+            vf.setOnClickListener(new VisualAssessmentFragment.FragmentListener(){
+                //Total points will be out of 20 points, each question is 5 points each.
+                int total_points = 0;
+
+                @Override
+                public void response(boolean selected, int id) {
+
+                    if(selected)
+                    {
+                        switch (id)
+                        {
+                            case R.id.a_1:
+
+                                break;
+
+                            case R.id.a_2:
+
+                                break;
+
+                            case R.id.a_3:
+                                break;
+
+                            case R.id.a_4:
+
+                                break;
+                        }
+                    }
+                    else{
+                        Toast.makeText(FragmentActivity.this,"Try again :)",Toast.LENGTH_LONG).show();
                     }
                 }
             });

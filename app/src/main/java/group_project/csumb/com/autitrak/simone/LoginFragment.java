@@ -83,7 +83,7 @@ public class LoginFragment extends Fragment{
     }
 
     public interface FragmentListener{
-        public void onSuccess(boolean in,String key);
+        void onSuccess(boolean in,String key);
     }
 
     public String encodeKey(String k)

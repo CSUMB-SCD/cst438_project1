@@ -18,14 +18,11 @@ import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.utils.ColorTemplate;
-
-import java.util.Map;
 
 import group_project.csumb.com.autitrak.R;
 
 
-public class SkillsFragment extends Fragment{
+public class ProgressFragment extends Fragment{
 
     private FragmentListener listener;
     private DatabaseReference db;
@@ -38,13 +35,13 @@ public class SkillsFragment extends Fragment{
     private BarDataSet Bardataset ;
     private BarData BARDATA ;
 
-    public SkillsFragment(){this.listener=null;key="";}
+    public ProgressFragment(){this.listener=null;key="";}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 
         // Defines the xml file for the fragment
-        return inflater.inflate(R.layout.fragment_skills, parent, false);
+        return inflater.inflate(R.layout.fragment_progress, parent, false);
 
     }
 
@@ -52,16 +49,16 @@ public class SkillsFragment extends Fragment{
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
         db = FirebaseDatabase.getInstance().getReference().child("individuals");
-        chart = (BarChart)view.findViewById(R.id.chart);
+        /*chart = (BarChart)view.findViewById(R.id.chart);
         chart.setNoDataText("");
-        chart.setDescription("");
+        chart.setDescription("");*/
 
         db.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 indiv = dataSnapshot.child(key).getValue(Individual.class);
 
-                Map<String,Integer>skills;
+                /*Map<String,Integer>skills;
 
                 skills = indiv.getSkills();
 
@@ -83,7 +80,7 @@ public class SkillsFragment extends Fragment{
 
                 chart.setData(BARDATA);
 
-                chart.animateY(3000);
+                chart.animateY(3000);*/
 
             }
 
@@ -99,7 +96,7 @@ public class SkillsFragment extends Fragment{
         this.key = key;
     }
 
-    public void AddValuesToBARENTRY(int skill_1,int skill_2) {
+    /*public void AddValuesToBARENTRY(int skill_1,int skill_2) {
 
         BARENTRY.add(new BarEntry(skill_1,0));
         BARENTRY.add(new BarEntry(skill_2,1));
@@ -109,7 +106,7 @@ public class SkillsFragment extends Fragment{
     public void AddValuesToBarEntryLabels() {
         BarEntryLabels.add("Interpersonal");
         BarEntryLabels.add("Intrapersonal");
-    }
+    }*/
 
     public interface FragmentListener
     {
