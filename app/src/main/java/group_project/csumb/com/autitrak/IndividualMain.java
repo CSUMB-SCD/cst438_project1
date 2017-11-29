@@ -1,9 +1,10 @@
 package group_project.csumb.com.autitrak;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentManager;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,7 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class IndividualMain extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, VisualSkillFragment.OnFragmentInteractionListener, AuditorySkillFragment.OnFragmentInteractionListener, ToDoListFragment.OnFragmentInteractionListener, TrophyFragment.OnFragmentInteractionListener, AchievementsFragment.OnFragmentInteractionListener, HighScoresFragment.OnFragmentInteractionListener, RewardsFragment.OnFragmentInteractionListener, SkillsFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class IndividualMain extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -80,23 +81,21 @@ public class IndividualMain extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment myFragment = null;
+        boolean fragmentSelected = false;
 
         if (id == R.id.nav_to_do_list) {
             setTitle("To Do List");
-            ToDoListFragment lf = new ToDoListFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, lf).commit();
-
+            myFragment = new ToDoListFragment();
+            fragmentSelected = true;
         } else if (id == R.id.nav_achievements) {
             setTitle("Achievements");
-            AchievementsFragment lf = new AchievementsFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, lf).commit();
+            myFragment = new AchievementsFragment();
+            fragmentSelected = true;
         } else if (id == R.id.nav_skills) {
             setTitle("Skills");
-            AchievementsFragment lf = new AchievementsFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, lf).commit();
+            myFragment = new SkillsFragment();
+            fragmentSelected = true;
         }
         //else if (id == R.id.nav_manage) {
 
@@ -106,8 +105,17 @@ public class IndividualMain extends AppCompatActivity
 
         //}
 
+        if(fragmentSelected == true) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_individual_main, myFragment).commit();
+        }
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 }
