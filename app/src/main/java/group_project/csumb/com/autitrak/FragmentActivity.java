@@ -1,7 +1,8 @@
 package group_project.csumb.com.autitrak;
 
-import android.support.v4.app.FragmentManager;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.widget.Toast;
 
@@ -22,6 +23,8 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
     private OverviewProgressFragment of;
     private VisualAssessmentFragment vf;
     private TasksCompletedFragment tf;
+    private Intent intent;
+    private Bundle bundle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,8 +81,15 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     {
 
                         Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
-                        tf.setKey(key);
-                        fm.beginTransaction().replace(R.id.fragment_container,tf).commit();
+                        //tf.setKey(key);
+                        //fm.beginTransaction().replace(R.id.fragment_container,tf).commit();
+                        bundle = new Bundle();
+                        bundle.putString("key",key);
+
+                        intent = new Intent(FragmentActivity.this,IndividualMain.class);
+                        intent.putExtras(bundle);
+
+                        startActivity(intent);
                     }
                     else
                     {

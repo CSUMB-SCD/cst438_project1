@@ -28,28 +28,36 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\notification_action.xml"
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_individual_main.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\activity_individual_main.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auditory_skill.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_auditory_skill.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_visual_assessment.xml",
@@ -72,6 +80,10 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_achievements.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_achievements.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
@@ -84,8 +96,16 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_high_scores.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_high_scores.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -116,6 +136,14 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_to_do_list.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_to_do_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_individual_main.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\app_bar_individual_main.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_screen_simple.xml"
     },
@@ -142,6 +170,10 @@
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_rewards.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_rewards.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
@@ -196,6 +228,10 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_visual_skill.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_visual_skill.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -204,8 +240,16 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_individual_main.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\content_individual_main.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_individual_main.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\nav_header_individual_main.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -228,6 +272,10 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_skills.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_skills.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
@@ -236,8 +284,16 @@
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_assessment_results.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_taskscompleted.xml",
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_taskscompleted.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_trophy.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\layout\\fragment_trophy.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",

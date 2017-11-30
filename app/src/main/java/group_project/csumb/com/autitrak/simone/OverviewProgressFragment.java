@@ -105,8 +105,7 @@ public class OverviewProgressFragment extends Fragment {
                 BarData data = new BarData(labels,data_set);
 
                 chart.setData(data);
-                chart.setDescription(" ");
-                chart.setDrawBorders(false);
+
 
             }
 

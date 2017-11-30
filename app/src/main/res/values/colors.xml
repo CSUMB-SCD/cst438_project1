@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#A5D8FF</color>
     <color name="colorPrimaryDark">#36393B</color>
     <color name="colorAccent">#AFD0D6</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#ffffff</color>
     <color name="bar_color">#BFB6BB</color>
-    <color name="color4">#C49799</color>
+    <color name="color4">#c49799</color>
+
+
 </resources>

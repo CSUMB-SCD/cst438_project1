@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AutiTrak</string>
 
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -11,4 +12,14 @@
     <string name="a1_opt2">Busy</string>
     <string name="a1_opt3">Sad</string>
     <string name="a1_opt4">Angry</string>
+
+    <string name="title_activity_individual_main">Start Here!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
 </resources>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
@@ -21,7 +21,7 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\bu
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:7:5-22:19
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:7:5-42:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sboyd\.android\build-cache\26431f1f52a3a989a15943c07888d5f32a77fee1\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\sboyd\.android\build-cache\37d3b1d1f15d529d95b199f8fd517d576a4d477e\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:24:5-34:19
@@ -50,8 +50,9 @@ MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\buil
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:10:9-41
@@ -66,19 +67,33 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\
 	android:theme
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:13:9-40
 activity#group_project.csumb.com.autitrak.FragmentActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:14:19-51
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:15:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:19:27-74
+activity#group_project.csumb.com.autitrak.MainActivity
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#android.intent.action.MAIN
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:25:13-29:29
+activity#group_project.csumb.com.autitrak.IndividualMain
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:31:9-40:20
+	android:label
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:33:13-67
+	android:theme
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:32:13-43
 uses-sdk
 INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sboyd\.android\build-cache\26431f1f52a3a989a15943c07888d5f32a77fee1\output\AndroidManifest.xml:5:5-7:41
@@ -107,13 +122,14 @@ MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-ca
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:23:9-59
@@ -260,13 +276,14 @@ ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cac
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:27:9-31
