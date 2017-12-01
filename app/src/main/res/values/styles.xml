@@ -1,7 +1,8 @@
 <resources>
 
-
+    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+<<<<<<< HEAD
         <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryDark">@color/brown</item>
         <item name="colorAccent">@color/red</item>
@@ -10,6 +11,12 @@
 
     <style name="NoActionBar" parent="Theme.AppCompat.Light">
         <item name="android:windowNoTitle">true</item>
+=======
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+>>>>>>> parent of f0bb282... Caregiver Account screen
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

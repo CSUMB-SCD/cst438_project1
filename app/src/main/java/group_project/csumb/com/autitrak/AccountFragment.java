@@ -13,6 +13,7 @@ import android.view.ViewGroup;
  */
 public class AccountFragment extends Fragment {
 
+
     public AccountFragment() {
         // Required empty public constructor
     }

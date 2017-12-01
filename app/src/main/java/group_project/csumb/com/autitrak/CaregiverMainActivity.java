@@ -19,12 +19,19 @@ public class CaregiverMainActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caregiver_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -34,12 +41,6 @@ public class CaregiverMainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-//        If this is un-commented, the Account Fragment will be the first screen to load upon login.
-//        AccountFragment af = new AccountFragment();
-//        FragmentManager fm = getSupportFragmentManager();
-//        fm.beginTransaction().replace(R.id.fragment, af).commit();
-//        drawer.closeDrawer(GravityCompat.START);
     }
 
     @Override
@@ -80,31 +81,33 @@ public class CaregiverMainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_progress) {
+        if (id == R.id.nav_camera) {
             setTitle("Progress");
             ProgressFragment pf = new ProgressFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.fragment, pf).commit();
-        } else if (id == R.id.nav_notifications) {
+        } else if (id == R.id.nav_gallery) {
             setTitle("Notifications");
             NotificationsFragment nf = new NotificationsFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.fragment, nf).commit();
-        } else if (id == R.id.nav_account) {
+        } else if (id == R.id.nav_slideshow) {
             setTitle("Account");
             AccountFragment af = new AccountFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.fragment, af).commit();
-        } else if (id == R.id.nav_settings) {
+        } else if (id == R.id.nav_manage) {
             setTitle("Settings");
             SettingsFragment sf = new SettingsFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.fragment, sf).commit();
-        } else if (id == R.id.nav_help) {
+        } else if (id == R.id.nav_share) {
             setTitle("Help");
             HelpFragment hf = new HelpFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.fragment, hf).commit();
+        } else if (id == R.id.nav_send) {
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

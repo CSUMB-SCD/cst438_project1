@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AutiTrak</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="open">Open</string>
@@ -11,6 +12,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
 
     <!--Profile/Account Labels-->
     <string name="account_header_label">Update Account</string>
@@ -25,4 +27,6 @@
     <string name="notifications_label">Notifications</string>
     <string name="settings_label">Settings</string>
 
+=======
+>>>>>>> parent of f0bb282... Caregiver Account screen
 </resources>
