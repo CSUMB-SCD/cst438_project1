@@ -12,9 +12,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
     <!--Profile/Account Labels-->
     <string name="account_header_label">Update Account</string>
     <string name="account_name_label">Name</string>
@@ -28,8 +25,5 @@
     <string name="notifications_label">Notifications</string>
     <string name="settings_label">Settings</string>
 
-=======
->>>>>>> parent of f0bb282... Caregiver Account screen
-=======
->>>>>>> parent of f0bb282... Caregiver Account screen
+
 </resources>
