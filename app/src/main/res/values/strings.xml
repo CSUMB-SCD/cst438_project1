@@ -22,4 +22,27 @@
 
 
 
+    <!--caregiver strings-->
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_caregiver_main">CaregiverMainActivity</string>
+
+
+
+
+
+    <!--Profile/Account Labels-->
+    <string name="account_header_label">Update Account</string>
+    <string name="account_name_label">Name</string>
+    <string name="account_email_label">Email</string>
+    <string name="account_id_label">User ID</string>
+
+    <string name="account_edit_photo_label">Edit Photo</string>
+    <string name="account_save_changes_btn">Save Changes</string>
+
+    <string name="progress_label">Progress</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="settings_label">Settings</string>
+
 </resources>
