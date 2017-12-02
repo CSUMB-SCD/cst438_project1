@@ -702,6 +702,8 @@
     <string name="a1_opt2">Busy</string>
     <string name="a1_opt3">Sad</string>
     <string name="a1_opt4">Angry</string>
+    <string name="a2_opt1"/>
+    <string name="a2_opt2"/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -772,9 +774,10 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="project_id" translatable="false">autitrak-75c25</string>
     <string name="q1">What body language is this person expressing?</string>
+    <string name="q2"/>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_individual_main">Start Here!</string>
+    <string name="title_activity_individual_main"> </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1836,7 +1839,7 @@
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
     <style name="ListViewModelTheme">
-        <item name="android:background">@color/color4</item>
+
     </style>
     <style name="OverviewTheme" parent="Theme.AppCompat">
         <item name="android:background">@color/white</item>

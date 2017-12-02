@@ -5,21 +5,30 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-
+    <!--Questions Begin-->
     <!--Question 1-->
     <string name="q1">What body language is this person expressing?</string>
     <string name="a1_opt1">Frustrated</string>
     <string name="a1_opt2">Busy</string>
     <string name="a1_opt3">Sad</string>
     <string name="a1_opt4">Angry</string>
+    <!--Question 1-->
 
-    <string name="title_activity_individual_main">Start Here!</string>
+
+    <!--Question 2-->
+    <string name="q2"></string>
+    <string name="a2_opt1"></string>
+    <string name="a2_opt2"></string>
+    <!--Question 2-->
+
+    <!--Questions End-->
+
+    <string name="title_activity_individual_main"> </string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-
 
 
 </resources>

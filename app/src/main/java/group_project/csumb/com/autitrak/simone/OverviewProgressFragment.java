@@ -103,9 +103,9 @@ public class OverviewProgressFragment extends Fragment {
                 data_set.setColor(R.color.bar_color);
                 data_set.setValueTextSize(14);
                 BarData data = new BarData(labels,data_set);
-
                 chart.setData(data);
-
+                chart.invalidate();
+                chart.refreshDrawableState();
 
             }
 
@@ -119,10 +119,7 @@ public class OverviewProgressFragment extends Fragment {
     }
 
 
-    public void setKey(String key)
-    {
-        this.key = key;
-    }
+    public void setKey(String key){this.key=key;}
 
     public interface FragmentListener{
 

@@ -2,9 +2,7 @@ package group_project.csumb.com.autitrak;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -12,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import group_project.csumb.com.autitrak.brittany.AchievementsFragment;
 import group_project.csumb.com.autitrak.brittany.AuditorySkillFragment;
@@ -20,11 +17,19 @@ import group_project.csumb.com.autitrak.brittany.HighScoresFragment;
 import group_project.csumb.com.autitrak.brittany.RewardsFragment;
 import group_project.csumb.com.autitrak.brittany.ToDoListFragment;
 import group_project.csumb.com.autitrak.brittany.TrophyFragment;
-import group_project.csumb.com.autitrak.brittany.VisualSkillFragment;
-import group_project.csumb.com.autitrak.simone.OverviewProgressFragment;
+import group_project.csumb.com.autitrak.simone.ProgressFragment;
+import group_project.csumb.com.autitrak.simone.VisualAssessmentMainFragment;
 
 public class IndividualMain extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, VisualSkillFragment.OnFragmentInteractionListener, AuditorySkillFragment.OnFragmentInteractionListener, ToDoListFragment.OnFragmentInteractionListener, TrophyFragment.OnFragmentInteractionListener, AchievementsFragment.OnFragmentInteractionListener, HighScoresFragment.OnFragmentInteractionListener, RewardsFragment.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, AuditorySkillFragment.OnFragmentInteractionListener, ToDoListFragment.OnFragmentInteractionListener, TrophyFragment.OnFragmentInteractionListener, AchievementsFragment.OnFragmentInteractionListener, HighScoresFragment.OnFragmentInteractionListener, RewardsFragment.OnFragmentInteractionListener {
+
+
+
+    private VisualAssessmentMainFragment vf;
+    private AchievementsFragment af;
+    private ToDoListFragment tf;
+    private ProgressFragment pf;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,14 +38,7 @@ public class IndividualMain extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -50,6 +48,11 @@ public class IndividualMain extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+
+
+
     }
 
     @Override
@@ -87,13 +90,15 @@ public class IndividualMain extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-        OverviewProgressFragment of = null;
-        ToDoListFragment tf = null;
-        AchievementsFragment af = null;
 
+        // Handle navigation view item clicks here.
+        tf = null;
+        af = null;
+        pf = null;
+        vf = null;
+        int id = item.getItemId();
         boolean fragmentSelected = false;
+
 
         if (id == R.id.nav_to_do_list) {
             setTitle("To Do List");
@@ -107,24 +112,24 @@ public class IndividualMain extends AppCompatActivity
         else if(id == R.id.nav_progress)
         {
             setTitle("Progress");
-            of = new OverviewProgressFragment();
-            String key = getIntent().getExtras().getString("key");
-            of.setKey(key);
+            pf = new ProgressFragment();
+            pf.setKey(getIntent().getExtras().getString("key"));
+            fragmentSelected = true;
+        }
+        else if(id == R.id.v_assessment){
+            setTitle("Visual Assessment");
+            vf = new VisualAssessmentMainFragment();
             fragmentSelected = true;
         }
 
-        //else if (id == R.id.nav_manage) {
 
-        //} else if (id == R.id.nav_share) {
-
-        //} else if (id == R.id.nav_send) {
-
-        //}
 
         if(fragmentSelected == true) {
-            if(of != null)
+            if(pf != null)
             {
-                getSupportFragmentManager().beginTransaction().replace(R.id.content_individual_main, of).commit();
+
+                getSupportFragmentManager().beginTransaction().replace(R.id.content_individual_main,pf).commit();
+
             }
             else if(af != null)
             {
@@ -134,6 +139,11 @@ public class IndividualMain extends AppCompatActivity
             {
                 getSupportFragmentManager().beginTransaction().replace(R.id.content_individual_main, tf).commit();
             }
+            else if(vf != null)
+            {
+                getSupportFragmentManager().beginTransaction().replace(R.id.content_individual_main,vf).commit();
+            }
+
 
         }
 

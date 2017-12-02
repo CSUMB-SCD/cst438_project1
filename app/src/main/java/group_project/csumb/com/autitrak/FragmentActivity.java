@@ -6,23 +6,24 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import group_project.csumb.com.autitrak.simone.LoginFragment;
 import group_project.csumb.com.autitrak.simone.MainFragment;
-import group_project.csumb.com.autitrak.simone.OverviewProgressFragment;
-import group_project.csumb.com.autitrak.simone.ProgressFragment;
-import group_project.csumb.com.autitrak.simone.TasksCompletedFragment;
-import group_project.csumb.com.autitrak.simone.VisualAssessmentFragment;
+import group_project.csumb.com.autitrak.simone.User;
 
 
 public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
     private FragmentManager fm;
+    private DatabaseReference db;
+    private User user;
     private MainFragment mf;
     private LoginFragment lf;
-    private ProgressFragment pf;
-    private OverviewProgressFragment of;
-    private VisualAssessmentFragment vf;
-    private TasksCompletedFragment tf;
     private Intent intent;
     private Bundle bundle;
 
@@ -46,10 +47,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
             mf = new MainFragment();
             lf = new LoginFragment();
-            pf = new ProgressFragment();
-            of = new OverviewProgressFragment();
-            vf = new VisualAssessmentFragment();
-            tf = new TasksCompletedFragment();
+
 
             //Start MainFragment onCreateView method
             fm.beginTransaction().add(R.id.fragment_container,mf).commit();
@@ -77,19 +75,43 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                 //Callback created in LoginFragment class, passes bool to check if FirebaseAuth signin successful
                 @Override
                 public void onSuccess(boolean in,String key) {
+                    final String user_key = key;
                     if(in)
                     {
 
-                        Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
-                        //tf.setKey(key);
-                        //fm.beginTransaction().replace(R.id.fragment_container,tf).commit();
-                        bundle = new Bundle();
-                        bundle.putString("key",key);
+                        db = FirebaseDatabase.getInstance().getReference().child("users");
 
-                        intent = new Intent(FragmentActivity.this,IndividualMain.class);
-                        intent.putExtras(bundle);
+                        db.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                    user = dataSnapshot.child(user_key).getValue(User.class);
 
-                        startActivity(intent);
+                                    if(user.getType() == 0)
+                                    {
+                                        Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
+                                        //Chanel replace MainActivity.clas with your Activity here!!!
+                                        intent = new Intent(FragmentActivity.this,MainActivity.class);
+                                        startActivity(intent);
+                                    }
+                                    else
+                                    {
+                                        Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
+                                        bundle = new Bundle();
+                                        bundle.putString("key",user_key);
+
+                                        intent = new Intent(FragmentActivity.this,IndividualMain.class);
+                                        intent.putExtras(bundle);
+
+                                        startActivity(intent);
+                                    }
+                                }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+
                     }
                     else
                     {
@@ -98,38 +120,9 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                 }
             });
 
-            vf.setOnClickListener(new VisualAssessmentFragment.FragmentListener(){
-                //Total points will be out of 20 points, each question is 5 points each.
-                int total_points = 0;
 
-                @Override
-                public void response(boolean selected, int id) {
-
-                    if(selected)
-                    {
-                        switch (id)
-                        {
-                            case R.id.a_1:
-
-                                break;
-
-                            case R.id.a_2:
-
-                                break;
-
-                            case R.id.a_3:
-                                break;
-
-                            case R.id.a_4:
-
-                                break;
-                        }
-                    }
-                    else{
-                        Toast.makeText(FragmentActivity.this,"Try again :)",Toast.LENGTH_LONG).show();
-                    }
-                }
-            });
         }
     }
+
+
 }

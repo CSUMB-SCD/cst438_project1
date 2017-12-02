@@ -22,6 +22,11 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\bu
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:7:5-42:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sboyd\.android\build-cache\26431f1f52a3a989a15943c07888d5f32a77fee1\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\sboyd\.android\build-cache\37d3b1d1f15d529d95b199f8fd517d576a4d477e\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:24:5-34:19
@@ -39,18 +44,13 @@ MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\sboyd\.android
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\sboyd\.android\build-cache\a9ef1a533aa463be3d3edd031af528496452192e\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\sboyd\.android\build-cache\46953e5c1bddbc6ccf395369cbd33ef158f813b9\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\sboyd\.android\build-cache\fc24f893416a32d579ceb308ed35fd88a61a59cd\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\sboyd\.android\build-cache\248e816596f45161727de94df21a9c7ec40f4f5d\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\sboyd\.android\build-cache\4bff902982ae72d0997dc507c381bdd71c72fea7\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\sboyd\.android\build-cache\0fca6dea35ccd5edd4f9b28cb777ca37ad53afb9\output\AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\sboyd\.android\build-cache\248e816596f45161727de94df21a9c7ec40f4f5d\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\sboyd\.android\build-cache\4bff902982ae72d0997dc507c381bdd71c72fea7\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\sboyd\.android\build-cache\0fca6dea35ccd5edd4f9b28cb777ca37ad53afb9\output\AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:29:5-20
@@ -96,6 +96,11 @@ ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidMan
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:32:13-43
 uses-sdk
 INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sboyd\.android\build-cache\26431f1f52a3a989a15943c07888d5f32a77fee1\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\sboyd\.android\build-cache\37d3b1d1f15d529d95b199f8fd517d576a4d477e\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:17:5-43
@@ -115,18 +120,13 @@ MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\sboyd\.android
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\sboyd\.android\build-cache\a9ef1a533aa463be3d3edd031af528496452192e\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\sboyd\.android\build-cache\46953e5c1bddbc6ccf395369cbd33ef158f813b9\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\sboyd\.android\build-cache\fc24f893416a32d579ceb308ed35fd88a61a59cd\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\sboyd\.android\build-cache\248e816596f45161727de94df21a9c7ec40f4f5d\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\sboyd\.android\build-cache\4bff902982ae72d0997dc507c381bdd71c72fea7\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\sboyd\.android\build-cache\0fca6dea35ccd5edd4f9b28cb777ca37ad53afb9\output\AndroidManifest.xml:4:5-43
-MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\sboyd\.android\build-cache\248e816596f45161727de94df21a9c7ec40f4f5d\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\sboyd\.android\build-cache\4bff902982ae72d0997dc507c381bdd71c72fea7\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\sboyd\.android\build-cache\0fca6dea35ccd5edd4f9b28cb777ca37ad53afb9\output\AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:21:5-23:58
@@ -139,6 +139,24 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\
 	android:minSdkVersion
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.android\build-cache\c9cfb1778f2040e47753a88ded20cdbd3d0bcd66\output\AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.android\build-cache\458a2b519dc6fa6d34106bd3a07c178004b29029\output\AndroidManifest.xml:21:5-78
@@ -271,21 +289,3 @@ ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\sboyd
 		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\sboyd\.android\build-cache\fc24f893416a32d579ceb308ed35fd88a61a59cd\output\AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\sboyd\.android\build-cache\fc24f893416a32d579ceb308ed35fd88a61a59cd\output\AndroidManifest.xml:20:20-65
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\fd6bdfab4b5b9da3254299d4718c4d055844d5e3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sboyd\.android\build-cache\5b48772845124e87803fed975d5436abdf8b1395\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sboyd\.android\build-cache\b305b3886b328fcc71361e694ed82264018a312d\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sboyd\.android\build-cache\e1b6f42b2c99f36fab5d3207c6374a2107387381\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sboyd\.android\build-cache\20c109d40f6f045da2a0836a8d01ae2437d1645f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sboyd\.android\build-cache\19353f89a0dc3d22b86d22c772628e0e0cbb9081\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\6a4e90329930179234ab7ff4630c7a06cdc37268\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sboyd\.android\build-cache\595b7ca31e2cd6da12187084fbef12a8ff030c94\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sboyd\.android\build-cache\dc450c18bf8009b033d4bca82af3fb8da9334ef4\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sboyd\.android\build-cache\ed79bfbcd1cea960fd6021c68793e13cf441e48b\output\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:26:9-47
