@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a395aba-01b8-44b8-b76b-e41bce4b0cb4" name="Default" comment="fragments created for progress and assessment segments">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/caregiver_notif_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/caregiver_notif_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java" />
     </list>
     <ignored path="AutiTrak.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,16 +49,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="CaregiverMainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="138" column="50" lean-forward="false" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
+              <folding>
+                <element signature="e#1737#1768#0" expanded="true" />
+                <element signature="e#1770#1802#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaregiverNotificationsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notifications/CaregiverNotificationsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="caregiver_notif_activity.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/caregiver_notif_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding>
                 <element signature="e#1242#1271#0" expanded="true" />
-                <element signature="e#1776#1796#0" expanded="true" />
-                <element signature="e#2029#2049#0" expanded="true" />
-                <element signature="e#2282#2302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,21 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="181">
+              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1893,8 +1907,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/SettingsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/caregiver_fragment_help.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/caregiver_fragment_account.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_caregiver_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverNotificationsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notifications/CaregiverUnreadActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notifications/CaregiverSentActivity.java" />
@@ -1909,12 +1921,15 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/caregiver_notif_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_caregiver_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="739" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="701" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -2357,7 +2372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.CaregiverNotificationsActivity">
+  <component name="RunManager" selected="Android App.CaregiverMainActivity">
     <configuration default="false" name="FragmentActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
       <module name="app" />
       <option name="DEPLOY" value="true" />
@@ -2404,7 +2419,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.FragmentActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933993" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982119" />
       </method>
     </configuration>
     <configuration default="false" name="ExampleInstrumentedT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
@@ -2452,7 +2467,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933993" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982119" />
       </method>
     </configuration>
     <configuration default="false" name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
@@ -2527,7 +2542,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.chanel.CaregiverMainActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933993" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982119" />
       </method>
     </configuration>
     <configuration default="false" name="CaregiverNotificationsActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
@@ -2576,7 +2591,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933993" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982119" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2649,7 +2664,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933994" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982119" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2697,7 +2712,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933994" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982119" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2880,7 +2895,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.IndividualMain" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512331933994" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512344982120" />
       </method>
     </configuration>
     <list size="6">
@@ -2893,8 +2908,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android App.CaregiverNotificationsActivity" />
-        <item index="1" class="java.lang.String" itemvalue="Android App.CaregiverMainActivity" />
+        <item index="0" class="java.lang.String" itemvalue="Android App.CaregiverMainActivity" />
+        <item index="1" class="java.lang.String" itemvalue="Android App.CaregiverNotificationsActivity" />
         <item index="2" class="java.lang.String" itemvalue="Android App.FragmentActivity" />
         <item index="3" class="java.lang.String" itemvalue="Android Instrumented Tests.ExampleInstrumentedT..." />
         <item index="4" class="java.lang.String" itemvalue="Android JUnit.ExampleUnitTest" />
@@ -3060,7 +3075,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="739" y="23" width="701" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3077,13 +3092,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.4914071" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.097647056" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28683835" sideWeight="0.49529412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27825466" sideWeight="0.49529412" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3177,14 +3192,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/7b347cf71e7a21ec93019581d49b80b3/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-25/android.jar!/android/content/Intent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -3214,21 +3221,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_individual_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/AccountFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3236,6 +3233,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3243,13 +3241,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/ProgressFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3257,6 +3249,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3322,6 +3315,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-271">
           <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3330,25 +3324,6 @@
         <state relative-caret-position="-1160">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/caregiver_fragment_account.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="75" lean-forward="false" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_caregiver_notifications.xml">
@@ -3397,17 +3372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_caregiver_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_caregiver_main_drawer.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -3434,28 +3398,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_caregiver_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -3500,17 +3442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -3573,16 +3504,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notifications/CaregiverNotificationsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -3634,14 +3555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -3658,15 +3571,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/caregiver_fragment_account.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="75" lean-forward="false" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_individual_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/ProgressFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_caregiver_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/CaregiverMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="138" column="50" lean-forward="false" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
+          <folding>
+            <element signature="e#1737#1768#0" expanded="true" />
+            <element signature="e#1770#1802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notifications/CaregiverNotificationsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_caregiver_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/25.3.1/design-25.3.1-sources.jar!/android/support/design/widget/AppBarLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/caregiver_notif_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
             <element signature="e#1242#1271#0" expanded="true" />
-            <element signature="e#1776#1796#0" expanded="true" />
-            <element signature="e#2029#2049#0" expanded="true" />
-            <element signature="e#2282#2302#0" expanded="true" />
           </folding>
         </state>
       </provider>

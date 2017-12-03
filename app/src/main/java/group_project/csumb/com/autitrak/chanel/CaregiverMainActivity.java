@@ -19,6 +19,8 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 
 import group_project.csumb.com.autitrak.R;
+import group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity;
+import group_project.csumb.com.autitrak.chanel.Notifications.UnreadActivity;
 
 public class CaregiverMainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -31,57 +33,56 @@ public class CaregiverMainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.caregiver_fragment_account);
+        setContentView(R.layout.activity_caregiver_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         // TODO: switch between fragments (might need to go back to Navigation Drawer.. BOOHOO)
-//                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-//        drawer.setDrawerListener(toggle);
-//        toggle.syncState();
-//
-//        NavigationView navigationView = (NavigationView) findViewById(R.id.caregiver_nav_view);
-//        navigationView.setNavigationItemSelectedListener(this);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.caregiver_nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
         // init ImageButtons
-        progressBtn = (ImageButton) findViewById(R.id.caregiver_progress_btn);
-        notifBtn = (ImageButton) findViewById(R.id.caregiver_notif_btn);
-        settingsBtn = (ImageButton) findViewById(R.id.caregiver_settings_btn);
+//        progressBtn = (ImageButton) findViewById(R.id.caregiver_progress_btn);
+//        notifBtn = (ImageButton) findViewById(R.id.caregiver_notif_btn);
+//        settingsBtn = (ImageButton) findViewById(R.id.caregiver_settings_btn);
 
         // listener for progressBtn
-        progressBtn.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                setTitle("Progress");
-                ProgressFragment pf = new ProgressFragment();
-                FragmentManager fm = getSupportFragmentManager();
-                fm.beginTransaction().replace(R.id.caregiver_fragment, pf).addToBackStack(null).commit();
-            }
-        });
+//        progressBtn.setOnClickListener(new View.OnClickListener() {
+//
+//            public void onClick(View v) {
+//                setTitle("Progress");
+//                ProgressFragment pf = new ProgressFragment();
+//                FragmentManager fm = getSupportFragmentManager();
+//                fm.beginTransaction().replace(R.id.caregiver_fragment, pf).addToBackStack(null).commit();
+//            }
+//        });
 
         // listener for notifBtn
-        notifBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setTitle("Notifications");
-                NotificationsFragment nf = new NotificationsFragment();
-                FragmentManager fm = getSupportFragmentManager();
-                fm.beginTransaction().replace(R.id.caregiver_fragment, nf).addToBackStack(null).commit();
-            }
-        });
+//        notifBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                setTitle("Notifications");
+//                NotificationsFragment nf = new NotificationsFragment();
+//                FragmentManager fm = getSupportFragmentManager();
+//                fm.beginTransaction().replace(R.id.caregiver_fragment, nf).addToBackStack(null).commit();
+//            }
+//        });
 
         // listener for settingsBtn
-        settingsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setTitle("Settings");
-                SettingsFragment sf = new SettingsFragment();
-                FragmentManager fm = getSupportFragmentManager();
-                fm.beginTransaction().replace(R.id.caregiver_fragment, sf).addToBackStack(null).commit();
-            }
-        });
+//        settingsBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                setTitle("Settings");
+//                SettingsFragment sf = new SettingsFragment();
+//                FragmentManager fm = getSupportFragmentManager();
+//                fm.beginTransaction().replace(R.id.caregiver_fragment, sf).addToBackStack(null).commit();
+//            }
+//        });
     }
 
 
@@ -124,36 +125,46 @@ public class CaregiverMainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        // Progress
         if (id == R.id.caregiver_nav_progress) {
             setTitle("Progress");
             ProgressFragment pf = new ProgressFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.caregiver_fragment, pf).commit();
-        } else if (id == R.id.caregiver_nav_notifications) {
-            setTitle("Notifications");
-            NotificationsFragment nf = new NotificationsFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.caregiver_fragment, nf).commit();
-        } else if (id == R.id.caregiver_nav_account) {
+        }
+
+        // Notifications
+        else if (id == R.id.caregiver_nav_notifications) {
+
+            Intent intent = new Intent(this, CaregiverNotificationsActivity.class);
+            startActivity(intent);
+        }
+
+        // Account
+        else if (id == R.id.caregiver_nav_account) {
             setTitle("Account");
             AccountFragment af = new AccountFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.caregiver_fragment, af).commit();
-        } else if (id == R.id.caregiver_nav_settings) {
+        }
+
+        // Settings
+        else if (id == R.id.caregiver_nav_settings) {
             setTitle("Settings");
             SettingsFragment sf = new SettingsFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.caregiver_fragment, sf).commit();
-        } else if (id == R.id.caregiver_nav_help) {
+        }
+
+        // Help
+        else if (id == R.id.caregiver_nav_help) {
             setTitle("Help");
             HelpFragment hf = new HelpFragment();
             FragmentManager fm = getSupportFragmentManager();
             fm.beginTransaction().replace(R.id.caregiver_fragment, hf).commit();
-        } else if (id == R.id.nav_send) {
-
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
