@@ -3,7 +3,6 @@
     <!-- Base application theme. -->
 
 
-
     <style name="ButtonStyle">
         <item name="android:color">@color/colorPrimaryDark</item>
         <item name="android:textColor">@color/colorAccent</item>
@@ -41,9 +40,9 @@
     <!--caregiver stuff-->
     <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
 
-        <!--<item name="colorPrimary">@color/blue</item>-->
-        <!--<item name="colorPrimaryDark">@color/brown</item>-->
-        <!--<item name="colorAccent">@color/red</item>-->
+    <!--<item name="colorPrimary">@color/blue</item>-->
+    <!--<item name="colorPrimaryDark">@color/brown</item>-->
+    <!--<item name="colorAccent">@color/red</item>-->
 
     <!--</style>-->
 
@@ -55,9 +54,6 @@
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
-
-
-
 
 
 </resources>
