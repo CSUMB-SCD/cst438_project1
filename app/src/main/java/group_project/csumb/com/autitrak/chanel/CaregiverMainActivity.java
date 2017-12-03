@@ -22,19 +22,19 @@ public class CaregiverMainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_caregiver_main);
+        setContentView(R.layout.caregiver_fragment_account);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.caregiver_nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+//        drawer.setDrawerListener(toggle);
+//        toggle.syncState();
+//
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.caregiver_nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
@@ -79,27 +79,27 @@ public class CaregiverMainActivity extends AppCompatActivity
             setTitle("Progress");
             ProgressFragment pf = new ProgressFragment();
             FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, pf).commit();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, pf).commit();
         } else if (id == R.id.caregiver_nav_notifications) {
             setTitle("Notifications");
             NotificationsFragment nf = new NotificationsFragment();
             FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, nf).commit();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, nf).commit();
         } else if (id == R.id.caregiver_nav_account) {
             setTitle("Account");
             AccountFragment af = new AccountFragment();
             FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, af).commit();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, af).commit();
         } else if (id == R.id.caregiver_nav_settings) {
             setTitle("Settings");
             SettingsFragment sf = new SettingsFragment();
             FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, sf).commit();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, sf).commit();
         } else if (id == R.id.caregiver_nav_help) {
             setTitle("Help");
             HelpFragment hf = new HelpFragment();
             FragmentManager fm = getSupportFragmentManager();
-            fm.beginTransaction().replace(R.id.fragment, hf).commit();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, hf).commit();
         } else if (id == R.id.nav_send) {
 
         }

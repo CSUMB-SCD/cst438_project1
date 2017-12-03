@@ -1,8 +1,10 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="group_project.csumb.com.autitrak.chanel.AccountFragment">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -132,13 +134,6 @@
             </android.support.v7.widget.CardView>
         </RelativeLayout>
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Account Fragment" />
-
-
         <!--account info-->
         <LinearLayout
             android:layout_width="300dp"
@@ -158,14 +153,8 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/ic_fingerprint_black_24dp"/>
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Account Fragment" />
 
                 <TextView
-                    android:background="@color/off_white"
                     android:textColor="@color/blue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,14 +179,16 @@
                     android:layout_height="30dp"
                     android:src="@drawable/ic_person_black_24dp"/>
 
-                <EditText
-                    android:backgroundTint="@android:color/transparent"
+                <TextView
+                    android:textColor="@color/blue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/account_name_label"
                     android:paddingLeft="20dp"
+                    android:textStyle="bold"
                     android:layout_gravity="center_vertical"
                     android:textSize="18dp"/>
+
             </LinearLayout>
 
 
@@ -214,12 +205,13 @@
                     android:layout_height="30dp"
                     android:src="@drawable/ic_email_black_24dp"/>
 
-                <EditText
-                    android:backgroundTint="@android:color/transparent"
+                <TextView
+                    android:textColor="@color/blue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/account_email_label"
                     android:paddingLeft="20dp"
+                    android:textStyle="bold"
                     android:layout_gravity="center_vertical"
                     android:textSize="18dp"/>
             </LinearLayout>
