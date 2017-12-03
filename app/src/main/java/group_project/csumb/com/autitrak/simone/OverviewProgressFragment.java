@@ -39,7 +39,7 @@ public class OverviewProgressFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 
         // Defines the xml file for the fragment
-        return inflater.inflate(R.layout.fragment_overview_progress, parent, false);
+        return inflater.inflate(R.layout.fragment_individual_overview_progress, parent, false);
 
     }
 
@@ -48,8 +48,8 @@ public class OverviewProgressFragment extends Fragment {
 
         db = FirebaseDatabase.getInstance().getReference().child("tasks").child(key);
         tasks = new ArrayList<>();
-        points_earned = (TextView)view.findViewById(R.id.points_placeholder);
-        chart = (BarChart)view.findViewById(R.id.chart);
+        points_earned = (TextView)view.findViewById(R.id.individual_points_placeholder);
+        chart = (BarChart)view.findViewById(R.id.individual_chart);
         chart.setNoDataText(" ");
 
         db.addListenerForSingleValueEvent(new ValueEventListener() {

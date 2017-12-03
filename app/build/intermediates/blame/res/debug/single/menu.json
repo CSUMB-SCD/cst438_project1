@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\menu\\individual_main.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\menu\\individual_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_individual_main_drawer.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\menu\\activity_individual_main_drawer.xml"
+    }
+]

@@ -20,12 +20,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",

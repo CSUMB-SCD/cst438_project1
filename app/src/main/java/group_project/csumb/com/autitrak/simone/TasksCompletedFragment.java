@@ -38,14 +38,14 @@ public class TasksCompletedFragment extends ListFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         // Defines the xml file for the fragment
-        return inflater.inflate(R.layout.fragment_taskscompleted, parent, false);
+        return inflater.inflate(R.layout.fragment_individual_taskscompleted, parent, false);
     }
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         db = FirebaseDatabase.getInstance().getReference().child("tasks").child(key);
         tasks = new ArrayList<>();
-        list = (ListView)view.findViewById(R.id.tasks_completed);
+        list = (ListView)view.findViewById(R.id.individual_tasks_completed);
         aList = new ArrayList<HashMap<String,String>>();
 
 
@@ -74,7 +74,7 @@ public class TasksCompletedFragment extends ListFragment {
                 String[]keys = {"description","date","level","points"};
                 int[]ids = {R.id.description,R.id.date,R.id.level,R.id.points};
 
-                SimpleAdapter adapter = new SimpleAdapter(getActivity(),aList,R.layout.list_view_model,keys,ids);
+                SimpleAdapter adapter = new SimpleAdapter(getActivity(),aList,R.layout.individual_list_view_model,keys,ids);
                 list.setAdapter(adapter);
 
 

@@ -55,7 +55,7 @@ public class ToDoListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_to_do_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_individual_to_do_list, container, false);
         itemList = new ArrayList<>();
         itemsRecycler = (RecyclerView)view.findViewById(R.id.recyclerId);
         itemsRecycler.setLayoutManager(new LinearLayoutManager(getContext()));

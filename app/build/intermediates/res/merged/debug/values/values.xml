@@ -698,12 +698,22 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="a1_opt1">Frustrated</string>
-    <string name="a1_opt2">Busy</string>
+    <string name="a1_opt1">Sick</string>
+    <string name="a1_opt2">Happy</string>
     <string name="a1_opt3">Sad</string>
     <string name="a1_opt4">Angry</string>
-    <string name="a2_opt1"/>
-    <string name="a2_opt2"/>
+    <string name="a2_opt1">Sad</string>
+    <string name="a2_opt2">Disgust</string>
+    <string name="a2_opt3">Tired</string>
+    <string name="a2_opt4">Nervous</string>
+    <string name="a3_opt1">Excited</string>
+    <string name="a3_opt2">Curious</string>
+    <string name="a3_opt3">Happy</string>
+    <string name="a3_opt4">Angry</string>
+    <string name="a4_opt1">Sleepy</string>
+    <string name="a4_opt2">Thinking</string>
+    <string name="a4_opt3">Happy</string>
+    <string name="a4_opt4">Sad</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -773,8 +783,10 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="project_id" translatable="false">autitrak-75c25</string>
-    <string name="q1">What body language is this person expressing?</string>
-    <string name="q2"/>
+    <string name="q1">What expression is the image showing?</string>
+    <string name="q2">What expression is the image showing?</string>
+    <string name="q3">What expression is the image showing?</string>
+    <string name="q4">What expression is the image showing?</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_individual_main"> </string>
@@ -2167,7 +2179,7 @@
     <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="Base.ThemeOverlay.AppCompat.Dialog.Alert"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
     <style name="VisualAssessmentTheme">
-        <item name="android:background">@color/color4</item>
+
     </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>

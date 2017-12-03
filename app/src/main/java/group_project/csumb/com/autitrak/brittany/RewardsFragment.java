@@ -71,7 +71,7 @@ public class RewardsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_rewards, container, false);
+        View view = inflater.inflate(R.layout.fragment_individual_rewards, container, false);
         rewardList = new ArrayList<>();
         rewardsRecycler = (RecyclerView)view.findViewById(R.id.rewardRecyclerId);
         rewardsRecycler.setLayoutManager(new LinearLayoutManager(getContext()));

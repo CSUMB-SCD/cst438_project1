@@ -6,21 +6,44 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--Questions Begin-->
+
+    <!--Beginner-->
     <!--Question 1-->
-    <string name="q1">What body language is this person expressing?</string>
-    <string name="a1_opt1">Frustrated</string>
-    <string name="a1_opt2">Busy</string>
+    <string name="q1">What expression is the image showing?</string>
+    <string name="a1_opt1">Sick</string>
+    <string name="a1_opt2">Happy</string>
     <string name="a1_opt3">Sad</string>
     <string name="a1_opt4">Angry</string>
     <!--Question 1-->
 
 
     <!--Question 2-->
-    <string name="q2"></string>
-    <string name="a2_opt1"></string>
-    <string name="a2_opt2"></string>
+    <string name="q2">What expression is the image showing?</string>
+    <string name="a2_opt1">Sad</string>
+    <string name="a2_opt2">Disgust</string>
+    <string name="a2_opt3">Tired</string>
+    <string name="a2_opt4">Nervous</string>
     <!--Question 2-->
 
+
+    <!--Question 3-->
+    <string name="q3">What expression is the image showing?</string>
+    <string name="a3_opt1">Excited</string>
+    <string name="a3_opt2">Curious</string>
+    <string name="a3_opt3">Happy</string>
+    <string name="a3_opt4">Angry</string>
+    <!--Question 3-->
+
+    <!--Question 4-->
+    <string name="q4">What expression is the image showing?</string>
+    <string name="a4_opt1">Sleepy</string>
+    <string name="a4_opt2">Thinking</string>
+    <string name="a4_opt3">Happy</string>
+    <string name="a4_opt4">Sad</string>
+    <!--Question 4-->
+
+
+    <!--Beginner-->
     <!--Questions End-->
 
     <string name="title_activity_individual_main"> </string>

@@ -30,7 +30,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_container);
+        setContentView(R.layout.fragment_individual_container);
 
         //Check if frame layout exist
         if(findViewById(R.id.fragment_container)!=null)

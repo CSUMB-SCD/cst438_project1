@@ -47,7 +47,7 @@ public class AchievementsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_achievements, container, false);
+        view = inflater.inflate(R.layout.fragment_individual_achievements, container, false);
 
         if(Utilities.rotation == 0){
             View parent= (View) container.getParent();

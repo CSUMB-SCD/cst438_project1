@@ -39,12 +39,12 @@ public class ProgressFragment extends Fragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_progress, container, false);
+        view = inflater.inflate(R.layout.fragment_individual_progress, container, false);
         super.onCreate(savedInstanceState);
 
-        final ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        final ViewPager viewPager = (ViewPager) view.findViewById(R.id.individual_viewpager);
         setupViewPager(viewPager);
-        tabLayout = (TabLayout)view.findViewById(R.id.tabs);
+        tabLayout = (TabLayout)view.findViewById(R.id.individual_tabs);
         tabLayout.setupWithViewPager(viewPager);
         return view;
     }

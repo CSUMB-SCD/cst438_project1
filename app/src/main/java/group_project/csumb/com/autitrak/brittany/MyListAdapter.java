@@ -24,7 +24,7 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ListItemVi
 
     @Override
     public ListItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, null, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.individual_list_item, null, false);
         return new ListItemViewHolder(view);
     }
 
