@@ -35,6 +35,16 @@ public class CaregiverMainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // TODO: switch between fragments (might need to go back to Navigation Drawer.. BOOHOO)
+//                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+//        drawer.setDrawerListener(toggle);
+//        toggle.syncState();
+//
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.caregiver_nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
+
         // init ImageButtons
         progressBtn = (ImageButton) findViewById(R.id.caregiver_progress_btn);
         notifBtn = (ImageButton) findViewById(R.id.caregiver_notif_btn);
