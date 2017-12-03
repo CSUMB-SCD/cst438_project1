@@ -3698,10 +3698,10 @@ public final class R {
     public static final int caregiver_fragment_notifications=0x7f0a0022;
     public static final int caregiver_fragment_progress=0x7f0a0023;
     public static final int caregiver_fragment_settings=0x7f0a0024;
-    public static final int caregiver_notif_sent_activity=0x7f0a0025;
-    public static final int caregiver_notif_trash_activity=0x7f0a0026;
-    public static final int caregiver_notif_unread_activity=0x7f0a0027;
-    public static final int caregiver_notifications_fragment=0x7f0a0028;
+    public static final int caregiver_notif_activity=0x7f0a0025;
+    public static final int caregiver_notif_inbox_fragment=0x7f0a0026;
+    public static final int caregiver_notif_sent_fragment=0x7f0a0027;
+    public static final int caregiver_notif_unread_fragment=0x7f0a0028;
     public static final int content_caregiver_main=0x7f0a0029;
     public static final int content_individual_main=0x7f0a002a;
     public static final int design_bottom_navigation_item=0x7f0a002b;
@@ -3762,8 +3762,9 @@ public final class R {
     public static final int activity_caregiver_main_drawer=0x7f0b0000;
     public static final int activity_individual_main_drawer=0x7f0b0001;
     public static final int caregiver_main=0x7f0b0002;
-    public static final int caregiver_notifications_menu=0x7f0b0003;
-    public static final int individual_main=0x7f0b0004;
+    public static final int caregiver_notif_menu=0x7f0b0003;
+    public static final int caregiver_notifications_menu=0x7f0b0004;
+    public static final int individual_main=0x7f0b0005;
   }
   public static final class mipmap {
     public static final int ic_help_black_24dp=0x7f0c0000;
