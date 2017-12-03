@@ -1,4 +1,4 @@
-package group_project.csumb.com.autitrak.chanel;
+package group_project.csumb.com.autitrak.chanel.Notifications;
 
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -41,7 +41,7 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.caregiver_notifications_activity);
+        setContentView(R.layout.caregiver_notif_activity);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -73,7 +73,7 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.caregiver_notifications_menu, menu);
+        getMenuInflater().inflate(R.menu.caregiver_notif_menu, menu);
         return true;
     }
 
@@ -120,7 +120,7 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.caregiver_notifications_fragment, container, false);
+            View rootView = inflater.inflate(R.layout.caregiver_notif_unread_fragment, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;

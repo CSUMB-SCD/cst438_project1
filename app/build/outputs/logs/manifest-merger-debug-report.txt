@@ -178,14 +178,14 @@ ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_pr
 		ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:38:13-60
 	android:name
 		ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:37:13-57
-activity#group_project.csumb.com.autitrak.chanel.CaregiverNotificationsActivity
+activity#group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity
 ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:45:9-55:20
 	android:label
 		ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:47:13-75
 	android:theme
 		ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:46:13-66
+		ADDED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml:46:13-80
 uses-sdk
 INJECTED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/AndroidManifest.xml

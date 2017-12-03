@@ -65,7 +65,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="group_project.csumb.com.autitrak.chanel.CaregiverNotificationsActivity"
+            android:name="group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity"
             android:label="@string/title_activity_caregiver_notifications"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
