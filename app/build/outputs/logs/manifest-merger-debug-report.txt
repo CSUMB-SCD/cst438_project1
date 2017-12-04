@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
@@ -21,7 +21,7 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.android\bu
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:7:5-42:19
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:7:5-62:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.android\build-cache\0908ae7928cfbb5da78cc8043e14cb69945c5f52\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.android\build-cache\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\output\AndroidManifest.xml:29:5-20
@@ -94,6 +94,20 @@ ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidMan
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:34:13-56
 	android:name
 		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:32:13-43
+activity#group_project.csumb.com.autitrak.chanel.CaregiverMainActivity
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:41:3-49:20
+	android:theme
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:42:13-57
+activity#group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:50:9-60:20
+	android:label
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:52:13-75
+	android:theme
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:51:13-80
 uses-sdk
 INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.android\build-cache\67ab5a294c5259ba84abae5f57e9fbb96d737d37\output\AndroidManifest.xml:21:5-23:62

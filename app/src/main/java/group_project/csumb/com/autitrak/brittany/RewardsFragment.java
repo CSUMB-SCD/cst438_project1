@@ -73,7 +73,7 @@ public class RewardsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_individual_rewards, container, false);
         rewardList = new ArrayList<>();
-        rewardsRecycler = (RecyclerView)view.findViewById(R.id.rewardRecyclerId);
+        rewardsRecycler = (RecyclerView)view.findViewById(R.id.individual_rewardRecyclerId);
         rewardsRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
         MyListAdapter adapter = new MyListAdapter(rewardList);

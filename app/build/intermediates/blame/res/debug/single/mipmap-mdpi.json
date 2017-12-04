@@ -4,7 +4,27 @@
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_person_black_24dp.png",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_settings_black_24dp.png",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_help_black_24dp.png",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_help_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_notifications_black_24dp.png",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_show_chart_black_24dp.png",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\mipmap-mdpi\\ic_show_chart_black_24dp.png"
     }
 ]
