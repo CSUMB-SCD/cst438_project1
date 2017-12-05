@@ -74,13 +74,13 @@ public class RewardsFragment extends Fragment {
         rewardsRecycler = (RecyclerView)view.findViewById(R.id.rewardRecyclerId);
         rewardsRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
-        MyListAdapter adapter = new MyListAdapter(rewardList);
+        RewardsAdapter adapter = new RewardsAdapter(rewardList);
         rewardsRecycler.setAdapter(adapter);
         return view;
     }
 
     public void fillList() {
-        rewardList.add(new ListItem("Trip To Pizza", "You have earned a pizza from your favorite pizza place!",R.drawable.pizza));
+        rewardList.add(new ListItem("Trip To Pizza", "12/5/2017"));
         //rewardList.add(new ListItem("Sweep", "Sweep the house to keep it nice and tidy.", R.drawable.sweep));
     }
 

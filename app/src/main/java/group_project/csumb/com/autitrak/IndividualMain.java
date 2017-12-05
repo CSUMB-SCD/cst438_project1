@@ -88,7 +88,8 @@ public class IndividualMain extends AppCompatActivity
             setTitle("To Do List");
             myFragment = new ToDoListFragment();
             fragmentSelected = true;
-        } else if (id == R.id.nav_achievements) {
+        }
+        else if (id == R.id.nav_achievements) {
             setTitle("Achievements");
             myFragment = new AchievementsFragment();
             fragmentSelected = true;
@@ -97,6 +98,7 @@ public class IndividualMain extends AppCompatActivity
             myFragment = new SkillsFragment();
             fragmentSelected = true;
         }
+
         //else if (id == R.id.nav_manage) {
 
         //} else if (id == R.id.nav_share) {

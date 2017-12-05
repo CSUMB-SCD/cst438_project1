@@ -5,25 +5,43 @@ package group_project.csumb.com.autitrak;
  */
 
 public class ListItem {
-    private String name;
-    private String info;
-    private int imageID;
+    private String description;
+    private String level;
+    private String startDate;
+    private String endDate;
+    private int points;
 
-    public ListItem(String name, String info, int imageID) {
-        this.name = name;
-        this.info = info;
-        this.imageID = imageID;
+    public ListItem(String description, String level, String startDate, String endDate, int points) {
+        this.description = description;
+        this.level = level;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.points = points;
     }
 
-    public String getName() {return name;}
+    public ListItem(String description, String endDate) {
+        this.description = description;
+        this.endDate = endDate;
+    }
 
-    public void setName(String name) {this.name = name;}
+    public ListItem(String description, String endDate, int points) {
+        this.description = description;
+        this.endDate = endDate;
+        this.points = points;
+    }
 
-    public String getInfo() {return info;}
+    public String getDescription() {return description;}
+    public void setDescription(String description) {this.description = description;}
 
-    public void setInfo(String info) {this.info = info;}
+    public String getLevel() {return level;}
+    public void setLevel(String level) {this.level = level;}
 
-    public int getImageID() {return imageID;}
+    public String getStartDate() {return startDate;}
+    public void setStartDate(String startDate) {this.startDate = startDate;}
 
-    public void setImageID(int imageID) {this.imageID = imageID;}
+    public String getEndDate() {return endDate;}
+    public void setEndDate(String endDate) {this.endDate = endDate;}
+
+    public int getPoints() {return points;}
+    public void setPoints(int points) {this.points = points;}
 }

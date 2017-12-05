@@ -74,14 +74,13 @@ public class TrophyFragment extends Fragment {
         trophyRecycler = (RecyclerView)view.findViewById(R.id.trophyRecyclerId);
         trophyRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
-        MyListAdapter adapter = new MyListAdapter(trophyList);
+        ScoreAdapter adapter = new ScoreAdapter(trophyList);
         trophyRecycler.setAdapter(adapter);
         return view;
     }
 
     public void fillList() {
-        trophyList.add(new ListItem("Completed First Task", "Congrats, you have just earned your first trophy!",R.drawable.trophy1));
-
+        trophyList.add(new ListItem("Completed First Task", "12/4/2017"));
     }
 
     // TODO: Rename method, update argument and hook method into UI event

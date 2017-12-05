@@ -56,7 +56,6 @@ public class AchievementsFragment extends Fragment {
                 tabs.setTabTextColors(Color.parseColor("#FFFFFF"),Color.parseColor("#FFFFFF"));
                 appBar.addView(tabs);
 
-
                 viewPager= (ViewPager) view.findViewById(R.id.idViewPagerInformation);
                 fillViewPager(viewPager);
                 viewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener(){

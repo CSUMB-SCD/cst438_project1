@@ -5,10 +5,9 @@
     tools:context="group_project.csumb.com.autitrak.RewardsFragment">
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/rewardRecyclerId"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_width="wrap_content"
-        android:id="@+id/rewardRecyclerId">
-    </android.support.v7.widget.RecyclerView>
-
+        android:background="#BFB6BB"></android.support.v7.widget.RecyclerView>
 
 </FrameLayout>
