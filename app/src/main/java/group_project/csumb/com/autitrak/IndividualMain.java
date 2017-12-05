@@ -48,11 +48,6 @@ public class IndividualMain extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
-
-
-
     }
 
     @Override
@@ -90,7 +85,6 @@ public class IndividualMain extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-
         // Handle navigation view item clicks here.
         tf = null;
         af = null;
@@ -98,7 +92,6 @@ public class IndividualMain extends AppCompatActivity
         vf = null;
         int id = item.getItemId();
         boolean fragmentSelected = false;
-
 
         if (id == R.id.nav_to_do_list) {
             setTitle("To Do List");
@@ -122,7 +115,11 @@ public class IndividualMain extends AppCompatActivity
             fragmentSelected = true;
         }
 
+        //} else if (id == R.id.nav_share) {
 
+        //} else if (id == R.id.nav_send) {
+
+        //}
 
         if(fragmentSelected == true) {
             if(pf != null)

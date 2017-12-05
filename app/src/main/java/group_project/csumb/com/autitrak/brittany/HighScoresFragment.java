@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -76,13 +77,13 @@ public class HighScoresFragment extends Fragment {
         scoreRecycler = (RecyclerView)view.findViewById(R.id.individual_rewardRecyclerId);
         scoreRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
-        MyListAdapter adapter = new MyListAdapter(scoreList);
+        ScoreAdapter adapter = new ScoreAdapter(scoreList);
         scoreRecycler.setAdapter(adapter);
         return view;
     }
 
     public void fillList() {
-        scoreList.add(new ListItem("Earned New High Score", "Congrats, you have just earned the high score!",R.drawable.high_score));
+        scoreList.add(new ListItem("Earned New High Score", "12/4/2017", 100));
 
     }
 

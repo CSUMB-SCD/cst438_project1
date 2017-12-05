@@ -13,7 +13,7 @@
         android:label="Tests for group_project.csumb.com.autitrak"
         android:targetPackage="group_project.csumb.com.autitrak" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
