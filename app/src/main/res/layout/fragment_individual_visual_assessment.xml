@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:theme="@style/VisualAssessmentTheme">
+   >
 
 
     <android.support.constraint.ConstraintLayout
@@ -25,7 +25,8 @@
             android:text=""
             app:layout_constraintBottom_toTopOf="@+id/questions"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent" />
+            app:layout_constraintRight_toRightOf="parent"
+            />
 
         <Button
             android:id="@+id/v_next_bttn"
@@ -41,7 +42,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.971"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent" />
+            app:layout_constraintRight_toRightOf="parent"
+            android:theme="@style/ButtonStyle"/>
 
         <ImageView
             android:id="@+id/q_img"
@@ -73,35 +75,44 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            tools:layout_editor_absoluteY="273dp">
+            tools:layout_editor_absoluteY="273dp"
+            >
 
             <RadioButton
                 android:id="@+id/a_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
+                android:text=""
+                android:buttonTint="@color/colorPrimaryBlue"
+                style="@style/RadioButtonStyle"/>
 
             <RadioButton
                 android:id="@+id/a_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
+                android:text=""
+                android:buttonTint="@color/colorPrimaryBlue"
+                style="@style/RadioButtonStyle"/>
 
             <RadioButton
                 android:id="@+id/a_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
+                android:text=""
+                android:buttonTint="@color/colorPrimaryBlue"
+                style="@style/RadioButtonStyle"/>
 
             <RadioButton
                 android:id="@+id/a_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
+                android:text=""
+                android:buttonTint="@color/colorPrimaryBlue"
+                style="@style/RadioButtonStyle"/>
 
         </RadioGroup>
     </android.support.constraint.ConstraintLayout>

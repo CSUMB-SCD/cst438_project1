@@ -32,12 +32,12 @@
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\drawable\\q4_beginner.png"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
@@ -116,12 +116,12 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\veggies.jpg",
-        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\drawable\\veggies.jpg"
-    },
-    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\q1_beginner.png",
         "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\drawable\\q1_beginner.png"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\veggies.jpg",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\drawable\\veggies.jpg"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
@@ -192,6 +192,10 @@
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gradientbackground.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\drawable\\gradientbackground.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
@@ -242,10 +246,6 @@
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\f14a0e51a217fc61e6cfd2146bdefd8a1d7253c8\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img1.png",
-        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\src\\main\\res\\drawable\\img1.png"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",

@@ -140,7 +140,7 @@ public class VisualAssessmentFragment extends Fragment {
                 {
                     AssessmentResultsFragment af = new AssessmentResultsFragment();
                     Bundle b = new Bundle();
-                    b.putInt("score",score);
+                    b.putInt("score",score+10);
                     af.setArguments(b);
                     getChildFragmentManager().beginTransaction().replace(R.id.v_assess,af).commit();
                 }

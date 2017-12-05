@@ -1,10 +1,50 @@
 [
     {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_help_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_help_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pie_chart_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_pie_chart_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_show_chart_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_show_chart_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_insert_chart_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_insert_chart_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fingerprint_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fingerprint_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_person_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
         "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
         "source": "C:\\Users\\sboyd\\.android\\build-cache\\67ab5a294c5259ba84abae5f57e9fbb96d737d37\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email_black_24dp.xml",
+        "source": "C:\\Users\\sboyd\\AndroidStudioProjects\\Autitrak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_black_24dp.xml"
     }
 ]

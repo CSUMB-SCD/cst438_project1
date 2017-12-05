@@ -12,6 +12,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import group_project.csumb.com.autitrak.chanel.CaregiverMainActivity;
 import group_project.csumb.com.autitrak.simone.LoginFragment;
 import group_project.csumb.com.autitrak.simone.MainFragment;
 import group_project.csumb.com.autitrak.simone.User;
@@ -33,7 +34,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
         setContentView(R.layout.fragment_individual_container);
 
         //Check if frame layout exist
-        if(findViewById(R.id.fragment_container)!=null)
+        if(findViewById(R.id.fragment_individual_container)!=null)
         {
             //????
             if(savedInstanceState!=null)
@@ -50,7 +51,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
 
             //Start MainFragment onCreateView method
-            fm.beginTransaction().add(R.id.fragment_container,mf).commit();
+            fm.beginTransaction().add(R.id.fragment_individual_container,mf).commit();
 
 
             //Attach listener
@@ -60,7 +61,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                 {
                     if(v.getId() == R.id.login_fragment_button)
                     {
-                        fm.beginTransaction().replace(R.id.fragment_container,lf).commit();
+                        fm.beginTransaction().replace(R.id.fragment_individual_container,lf).commit();
                     }
                     else if(v.getId() == R.id.signup_fragment_button)
                     {
@@ -90,7 +91,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                                     {
                                         Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
                                         //Chanel replace MainActivity.clas with your Activity here!!!
-                                        intent = new Intent(FragmentActivity.this,MainActivity.class);
+                                        intent = new Intent(FragmentActivity.this, CaregiverMainActivity.class);
                                         startActivity(intent);
                                     }
                                     else
@@ -99,7 +100,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                                         bundle = new Bundle();
                                         bundle.putString("key",user_key);
 
-                                        intent = new Intent(FragmentActivity.this,IndividualMain.class);
+                                        intent = new Intent(FragmentActivity.this, IndividualMain.class);
                                         intent.putExtras(bundle);
 
                                         startActivity(intent);

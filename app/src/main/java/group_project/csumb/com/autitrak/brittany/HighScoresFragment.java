@@ -73,7 +73,7 @@ public class HighScoresFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_individual_high_scores, container, false);
         scoreList = new ArrayList<>();
-        scoreRecycler = (RecyclerView)view.findViewById(R.id.scoreRecyclerId);
+        scoreRecycler = (RecyclerView)view.findViewById(R.id.individual_rewardRecyclerId);
         scoreRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
         MyListAdapter adapter = new MyListAdapter(scoreList);

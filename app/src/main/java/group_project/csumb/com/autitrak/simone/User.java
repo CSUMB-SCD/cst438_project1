@@ -1,8 +1,5 @@
 package group_project.csumb.com.autitrak.simone;
 
-/**
- * Created by sboyd on 11/13/2017.
- */
 
 public class User {
 
@@ -14,6 +11,8 @@ public class User {
 
     public User(){}
 
+    public User(String name, int type, String linkedemail, boolean active){this.name=name;this.type=type;this.linkedemail=linkedemail;
+    this.active=active;}
 
     public void setName(String name)
     {

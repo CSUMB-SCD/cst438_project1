@@ -59,7 +59,7 @@ public class AchievementsFragment extends Fragment {
                 appBar.addView(tabs);
 
 
-                viewPager= (ViewPager) view.findViewById(R.id.idViewPagerInformation);
+                viewPager= (ViewPager) view.findViewById(R.id.individual_idViewPagerInformation);
                 fillViewPager(viewPager);
                 viewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener(){
                     @Override

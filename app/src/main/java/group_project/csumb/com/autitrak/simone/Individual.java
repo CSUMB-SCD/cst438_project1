@@ -10,6 +10,8 @@ public class Individual{
 
     public Individual(){}
 
+    public Individual(int totalpoints, Map<String,String> skills_levels)
+    {this.totalpoints=totalpoints;this.skill_levels=skills_levels;}
 
     public void setSkillLevels(Map<String,String>skill_levels)
     {

@@ -6,26 +6,23 @@
 
     <style name="ButtonStyle">
         <item name="android:color">@color/colorPrimaryDark</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimaryBlue</item>
+    </style>
+    
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/colorPrimaryBlue</item>
     </style>
 
-    <style name="OverviewTheme" parent="Theme.AppCompat">
-        <item name="android:background">@color/white</item>
-    </style>
-
-    <style name="VisualAssessmentTheme">
-
-    </style>
-
-    <style name="ListViewModelTheme">
-
+    <style name="TextStyle">
+        <item name="android:textColor">@color/colorPrimaryBlue</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/white</item>
+        
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -36,6 +33,22 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+	<!--caregiver stuff-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
 
+    <!--<item name="colorPrimary">@color/blue</item>-->
+    <!--<item name="colorPrimaryDark">@color/brown</item>-->
+    <!--<item name="colorAccent">@color/red</item>-->
 
+    <!--</style>-->
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
 </resources>

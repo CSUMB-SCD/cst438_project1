@@ -15,6 +15,9 @@ public class Task {
 
     public Task() {}
 
+    public Task(String description,String skillType,String level,String startdate,String enddate,boolean active,int points)
+    {this.description=description;this.skillType=skillType;this.level=level;this.startdate=startdate;this.enddate=enddate;this.active=active;
+    this.points=points;}
 
     public String getDescription()
     {

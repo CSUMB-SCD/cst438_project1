@@ -4,9 +4,17 @@
     <color name="colorPrimary">#A5D8FF</color>
     <color name="colorPrimaryDark">#36393B</color>
     <color name="colorAccent">#AFD0D6</color>
+    <color name="colorPrimaryBlue">#31C4FF</color>
     <color name="white">#ffffff</color>
     <color name="bar_color">#BFB6BB</color>
-    <color name="color4">#c49799</color>
 
 
+
+    <!--caregiver colors-->
+    <color name="gray">#36393b</color>
+    <color name="brown">#686963</color>
+    <color name="blue">#3d5467</color>
+    <color name="green">#8aa29e</color>
+    <color name="off_white">#f1edee</color>
+    <color name="red">#db5461</color>
 </resources>
