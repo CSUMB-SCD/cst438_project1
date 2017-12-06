@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="group_project.csumb.com.autitrak.chanel.Notifications.NotificationsActivity">
+    tools:context="group_project.csumb.com.autitrak.chanel.NotificationsFragment">
 
     <!--INBOX/OUTBOX header-->
     <android.support.design.widget.AppBarLayout
@@ -50,9 +50,13 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:background="@color/off_white">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/caregiver_notif_recycler_view"
             android:layout_width="match_parent"
@@ -60,9 +64,7 @@
 
 
         </android.support.v7.widget.RecyclerView>
-        </RelativeLayout>
-    </android.support.v4.view.ViewPager>
-
+    </RelativeLayout>
 
     <!--new email button-->
     <android.support.design.widget.FloatingActionButton
