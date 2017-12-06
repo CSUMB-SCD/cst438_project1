@@ -45,8 +45,7 @@
     <string name="help_label">Help</string>
     <string name="title_activity_caregiver_notifications">CaregiverNotificationsActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="tab_text_1">UNREAD</string>
-    <string name="tab_text_2">INBOX</string>
-    <string name="tab_text_3">SENT</string>
+    <string name="tab_text_1">INBOX</string>
+    <string name="tab_text_2">OUTBOX</string>
 
 </resources>
