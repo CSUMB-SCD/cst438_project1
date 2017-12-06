@@ -22,6 +22,7 @@ MERGED from [com.google.android.gms:play-services-basement:11.4.2] /Users/chanel
 MERGED from [com.android.support:transition:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/a448a7f45593799d64dc4278a8e3bf63/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8b999edaef7dba11da233400894502e8/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/f5cb62b6219a2a52dc44f15402910b24/AndroidManifest.xml:17:1-26:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/5cdf3acc93c0d6cf208adb00f1ca19ea/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/d4bef773e842c98b98b686d72ce4af20/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/b67ae42ae05cab94839567b81fe04054/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/5282e0cf663042100bd5dd7aebbbd65b/AndroidManifest.xml:17:1-31:12
@@ -98,6 +99,8 @@ MERGED from [com.android.support:transition:25.3.1] /Users/chanel/.gradle/caches
 MERGED from [com.android.support:transition:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/a448a7f45593799d64dc4278a8e3bf63/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8b999edaef7dba11da233400894502e8/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8b999edaef7dba11da233400894502e8/AndroidManifest.xml:29:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/5cdf3acc93c0d6cf208adb00f1ca19ea/AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/5cdf3acc93c0d6cf208adb00f1ca19ea/AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/d4bef773e842c98b98b686d72ce4af20/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/d4bef773e842c98b98b686d72ce4af20/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/b67ae42ae05cab94839567b81fe04054/AndroidManifest.xml:26:5-20
@@ -226,6 +229,8 @@ MERGED from [com.android.support:support-v4:25.3.1] /Users/chanel/.gradle/caches
 MERGED from [com.android.support:support-v4:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8b999edaef7dba11da233400894502e8/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/f5cb62b6219a2a52dc44f15402910b24/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/f5cb62b6219a2a52dc44f15402910b24/AndroidManifest.xml:20:5-43
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/5cdf3acc93c0d6cf208adb00f1ca19ea/AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/5cdf3acc93c0d6cf208adb00f1ca19ea/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/d4bef773e842c98b98b686d72ce4af20/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/d4bef773e842c98b98b686d72ce4af20/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/chanel/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/b67ae42ae05cab94839567b81fe04054/AndroidManifest.xml:20:5-43

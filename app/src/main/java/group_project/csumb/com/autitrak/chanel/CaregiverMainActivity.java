@@ -19,9 +19,6 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 
 import group_project.csumb.com.autitrak.R;
-import group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity;
-import group_project.csumb.com.autitrak.chanel.Notifications.UnreadActivity;
-
 public class CaregiverMainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 

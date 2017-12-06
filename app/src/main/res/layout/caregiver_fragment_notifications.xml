@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity">
+    tools:context="group_project.csumb.com.autitrak.chanel.Notifications.NotificationsActivity">
 
     <!--INBOX/OUTBOX header-->
     <android.support.design.widget.AppBarLayout
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/caregiver_notif_recycle_view"
+            android:id="@+id/caregiver_notif_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
