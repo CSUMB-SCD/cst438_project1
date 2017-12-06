@@ -34,7 +34,7 @@ public class CaregiverMainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caregiver_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.caregiver_main_toolbar);
         setSupportActionBar(toolbar);
 
         // TODO: switch between fragments (might need to go back to Navigation Drawer.. BOOHOO)

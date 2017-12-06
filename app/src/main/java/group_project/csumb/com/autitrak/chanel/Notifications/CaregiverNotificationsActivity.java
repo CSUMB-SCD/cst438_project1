@@ -1,8 +1,13 @@
 package group_project.csumb.com.autitrak.chanel.Notifications;
 
+import android.content.Intent;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -20,6 +25,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import group_project.csumb.com.autitrak.R;
+import group_project.csumb.com.autitrak.chanel.AccountFragment;
+import group_project.csumb.com.autitrak.chanel.HelpFragment;
+import group_project.csumb.com.autitrak.chanel.ProgressFragment;
+import group_project.csumb.com.autitrak.chanel.SettingsFragment;
 
 public class CaregiverNotificationsActivity extends AppCompatActivity {
 
@@ -43,8 +52,11 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.caregiver_notif_activity);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.caregiver_main_toolbar);
+//        setSupportActionBar(toolbar);
+//
+
+
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -107,7 +119,7 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
 
-            switch(position) {
+            switch (position) {
                 case 0:
                     UnreadActivity tab1 = new UnreadActivity();
                     return tab1;
@@ -129,7 +141,7 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
         }
 
         public CharSequence getPageTitle(int position) {
-            switch(position) {
+            switch (position) {
                 case 0:
                     return "UNREAD";
                 case 1:
