@@ -52,9 +52,9 @@ public class CaregiverNotificationsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.caregiver_notif_activity);
 
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.caregiver_main_toolbar);
-//        setSupportActionBar(toolbar);
-//
+        Toolbar toolbar = (Toolbar) findViewById(R.id.caregiver_main_toolbar);
+        this.setSupportActionBar(toolbar);
+
 
 
         // Create the adapter that will return a fragment for each of the three
