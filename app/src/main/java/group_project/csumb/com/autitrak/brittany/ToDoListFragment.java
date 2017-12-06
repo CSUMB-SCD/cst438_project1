@@ -27,8 +27,8 @@ public class ToDoListFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    RecyclerView itemsRecycler;
-    ArrayList<ListItem> itemList;
+    RecyclerView todoListRecycler;
+    ArrayList<ListItem> todoList;
 
     public ToDoListFragment() {
         // Required empty public constructor
@@ -56,20 +56,20 @@ public class ToDoListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_individual_to_do_list, container, false);
-        itemList = new ArrayList<>();
-        itemsRecycler = (RecyclerView)view.findViewById(R.id.recyclerId);
-        itemsRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
+        todoList = new ArrayList<>();
+        todoListRecycler = (RecyclerView)view.findViewById(R.id.recyclerId);
+        todoListRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
-        MyListAdapter adapter = new MyListAdapter(itemList);
-        itemsRecycler.setAdapter(adapter);
+        ToDoListAdapter adapter = new ToDoListAdapter(todoList);
+        todoListRecycler.setAdapter(adapter);
         return view;
     }
 
     public void fillList() {
-        itemList.add(new ListItem("Brush Teeth", "Brush your teeth for a bright healthy smile.",R.drawable.toothbrush));
-        itemList.add(new ListItem("Sweep", "Sweep the house to keep it nice and tidy.", R.drawable.sweep));
-        itemList.add(new ListItem("Pick Up Dog Poo", "Pick Up After The Dog So It's Not Stinky.", R.drawable.dog));
-        itemList.add(new ListItem("Eat All Your Veggies", "Sweep the house to keep it nice and tidy.", R.drawable.veggies));
+        todoList.add(new ListItem("Brush Teeth", "Beginner","12/3/2017", "12/4/2017", 10));
+        todoList.add(new ListItem("Sweep", "Beginner", "12/3/2017", "12/4/2017", 20));
+        todoList.add(new ListItem("Pick Up Dog Poo", "Intermediate", "12/4/2017", "12/6/2017", 35));
+        todoList.add(new ListItem("Eat All Your Veggies", "Intermediate", "12/3/2017", "12/3/2017", 10));
     }
 
     public void onButtonPressed(Uri uri) {

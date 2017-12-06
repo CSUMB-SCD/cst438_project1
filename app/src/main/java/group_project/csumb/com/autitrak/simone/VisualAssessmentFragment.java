@@ -57,17 +57,23 @@ public class VisualAssessmentFragment extends Fragment {
 
         if(difficulty==0) {
 
-                question.setText(R.string.q1);
+                question.setText(R.string.b_q1);
                 img.setImageResource(R.drawable.q1_beginner);
-                a1.setText(R.string.a1_opt1);
-                a2.setText(R.string.a1_opt2);
-                a3.setText(R.string.a1_opt3);
-                a4.setText(R.string.a1_opt4);
-
+                a1.setText(R.string.b_a1_opt1);
+                a2.setText(R.string.b_a1_opt2);
+                a3.setText(R.string.b_a1_opt3);
+                a4.setText(R.string.b_a1_opt4);
+                score+=10;
         }
         else if(difficulty == 1)
         {
-
+            question.setText(R.string.i_q1);
+            img.setImageResource(R.drawable.q1_intermediate);
+            a1.setText(R.string.i_a1_opt1);
+            a2.setText(R.string.i_a1_opt2);
+            a3.setText(R.string.i_a1_opt3);
+            a4.setText(R.string.i_a1_opt4);
+            score+=20;
         }
         else if(difficulty == 2)
         {
@@ -78,69 +84,108 @@ public class VisualAssessmentFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
-                if(q_num == 1 && a3.isChecked())
+                if(q_num == 1 && difficulty == 0 && a3.isChecked())
                 {
                     score+=5;
                 }
-                else if(q_num == 2 && a2.isChecked())
+                else if(q_num == 2 && difficulty == 0 && a2.isChecked())
                 {
                     score+=5;
                 }
-                else if(q_num == 3 && a4.isChecked())
+                else if(q_num == 3 && difficulty == 0 && a4.isChecked())
                 {
                     score+=5;
                 }
-                else if(q_num == 4 && a1.isChecked())
+                else if(q_num == 4 && difficulty == 0 && a1.isChecked())
                 {
                     score+=5;
+                }
+                else if(q_num == 1 && difficulty == 1 && a2.isChecked())
+                {
+                    score+=10;
+                }
+                else if(q_num == 2 && difficulty == 1 && a1.isChecked())
+                {
+                    score+=10;
+                }
+                else if(q_num == 3 && difficulty == 1 && a3.isChecked())
+                {
+                    score+=10;
+                }
+                else if(q_num == 4 && difficulty == 1 && a2.isChecked())
+                {
+                    score+=10;
                 }
 
-                answers.clearCheck();
+
                 if(q_num < 5) {
 
                     q_num++;
 
                 }
-                if (q_num == 2) {
-                    question.setText(R.string.q2);
+                if (q_num == 2 && difficulty == 0) {
+                    answers.clearCheck();
+                    question.setText(R.string.b_q2);
                     img.setImageResource(R.drawable.q2_beginner);
-                    a1.setText(R.string.a2_opt1);
-                    a2.setText(R.string.a2_opt2);
-                    a3.setText(R.string.a2_opt3);
-                    a4.setText(R.string.a2_opt4);
+                    a1.setText(R.string.b_a2_opt1);
+                    a2.setText(R.string.b_a2_opt2);
+                    a3.setText(R.string.b_a2_opt3);
+                    a4.setText(R.string.b_a2_opt4);
 
-                } else if (q_num == 3) {
-                    question.setText(R.string.q3);
+                } else if (q_num == 3 && difficulty ==0 ) {
+                    answers.clearCheck();
+                    question.setText(R.string.b_q3);
                     img.setImageResource(R.drawable.q3_beginner);
-                    a1.setText(R.string.a3_opt1);
-                    a2.setText(R.string.a3_opt2);
-                    a3.setText(R.string.a3_opt3);
-                    a4.setText(R.string.a3_opt4);
+                    a1.setText(R.string.b_a3_opt1);
+                    a2.setText(R.string.b_a3_opt2);
+                    a3.setText(R.string.b_a3_opt3);
+                    a4.setText(R.string.b_a3_opt4);
 
-                    if(a4.isChecked())
-                    {
-                        score+=5;
-                    }
-                } else if (q_num == 4) {
-                    question.setText(R.string.q4);
+                } else if (q_num == 4 && difficulty == 0) {
+                    answers.clearCheck();
+                    question.setText(R.string.b_q4);
                     img.setImageResource(R.drawable.q4_beginner);
-                    a1.setText(R.string.a4_opt1);
-                    a2.setText(R.string.a4_opt2);
-                    a3.setText(R.string.a4_opt3);
-                    a4.setText(R.string.a4_opt4);
+                    a1.setText(R.string.b_a4_opt1);
+                    a2.setText(R.string.b_a4_opt2);
+                    a3.setText(R.string.b_a4_opt3);
+                    a4.setText(R.string.b_a4_opt4);
 
-                    if(a1.isChecked())
-                    {
-                        score+=5;
-                    }
                 }
-
-
+                else if(q_num == 2 && difficulty == 1)
+                {
+                    answers.clearCheck();
+                    question.setText(R.string.i_q2);
+                    img.setImageResource(R.drawable.q2_intermediate);
+                    a1.setText(R.string.i_a2_opt1);
+                    a2.setText(R.string.i_a2_opt2);
+                    a3.setText(R.string.i_a2_opt3);
+                    a4.setText(R.string.i_a2_opt4);
+                }
+                else if(q_num == 3 && difficulty == 1)
+                {
+                    answers.clearCheck();
+                    question.setText(R.string.i_q3);
+                    img.setImageResource(R.drawable.q3_intermediate);
+                    a1.setText(R.string.i_a3_opt1);
+                    a2.setText(R.string.i_a3_opt2);
+                    a3.setText(R.string.i_a3_opt3);
+                    a4.setText(R.string.i_a3_opt4);
+                }
+                else if(q_num == 4 && difficulty == 1)
+                {
+                    answers.clearCheck();
+                    question.setText(R.string.i_q4);
+                    img.setImageResource(R.drawable.q4_intermediate);
+                    a1.setText(R.string.i_a4_opt1);
+                    a2.setText(R.string.i_a4_opt2);
+                    a3.setText(R.string.i_a4_opt3);
+                    a4.setText(R.string.i_a4_opt4);
+                }
                 else
                 {
                     AssessmentResultsFragment af = new AssessmentResultsFragment();
                     Bundle b = new Bundle();
-                    b.putInt("score",score+10);
+                    b.putInt("score",score);
                     af.setArguments(b);
                     getChildFragmentManager().beginTransaction().replace(R.id.v_assess,af).commit();
                 }

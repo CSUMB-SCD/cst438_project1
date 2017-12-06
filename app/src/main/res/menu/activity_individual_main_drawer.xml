@@ -10,29 +10,16 @@
             android:id="@+id/nav_achievements"
             android:icon="@drawable/trophy_icon"
             android:title="Achievements" />
-        <item
-            android:id="@+id/nav_skills"
-            android:icon="@drawable/skills_icon"
-            android:title="Skills" />
+
         <item
             android:id="@+id/nav_progress"
+            android:icon="@drawable/progress_icon"
             android:title="Progress"/>
         <item
             android:id="@+id/v_assessment"
+            android:icon="@drawable/assessment_icon"
             android:title="Visual Assessment"/>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
 
 </menu>

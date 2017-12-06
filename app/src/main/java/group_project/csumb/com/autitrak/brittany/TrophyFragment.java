@@ -73,7 +73,7 @@ public class TrophyFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_individual_trophy, container, false);
         trophyList = new ArrayList<>();
-        trophyRecycler = (RecyclerView)view.findViewById(R.id.trophyRecyclerId);
+        trophyRecycler = (RecyclerView)view.findViewById(R.id.individual_trophyRecyclerId);
         trophyRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
         ScoreAdapter adapter = new ScoreAdapter(trophyList);

@@ -28,6 +28,8 @@ public class OverviewProgressFragment extends Fragment {
     private FragmentListener listener;
     private DatabaseReference db;
     private BarChart chart;
+    private BarData data;
+    private BarDataSet data_set;
     private ArrayList<Task> tasks;
     private TextView points_earned;
     private String key;
@@ -51,6 +53,8 @@ public class OverviewProgressFragment extends Fragment {
         points_earned = (TextView)view.findViewById(R.id.individual_points_placeholder);
         chart = (BarChart)view.findViewById(R.id.individual_chart);
         chart.setNoDataText(" ");
+        chart.setDescription(" ");
+
 
         db.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -99,11 +103,14 @@ public class OverviewProgressFragment extends Fragment {
                 labels.add("Beginner");
                 labels.add("Intermediate");
                 labels.add("Advanced");
-                BarDataSet data_set = new BarDataSet(entries,"Completed Tasks");
-                data_set.setColor(R.color.bar_color);
+                data_set = new BarDataSet(entries,"Completed Tasks");
                 data_set.setValueTextSize(14);
-                BarData data = new BarData(labels,data_set);
+                data_set.setValueTextColor(R.color.colorPrimaryBlue);
+                data_set.setBarShadowColor(R.color.colorPrimaryBlue);
+                data = new BarData(labels,data_set);
                 chart.setData(data);
+                chart.setDrawBorders(false);
+                chart.setDrawGridBackground(false);
                 chart.invalidate();
                 chart.refreshDrawableState();
 
