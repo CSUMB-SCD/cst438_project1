@@ -64,19 +64,19 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
     @Override
     public void onBindViewHolder(NotificationViewHolder holder, int position) {
 
-        Log.d("NotificationAdapter", "setting views");
+
         // get product at specified position
         Notification notif = notificationList.get(position);
 
         // binding data with ViewHolder views
         holder.subject.setText(notif.getSubject());
-        Log.d("NotificationAdapter", "set subject");
+
         holder.date.setText(notif.getDate());
-        Log.d("NotificationAdapter", "set date");
+
         holder.message.setText(notif.getMessage());
-        Log.d("NotificationAdapter", "set message");
+
         holder.sender.setText(notif.getSender());
-        Log.d("NotificationAdapter", "set sender");
+
 
         //holder.senderIcon.setImageDrawable(mCtx.getDrawable(notif.getSenderIcon()));
     }
@@ -110,7 +110,7 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
             // sender stuff
             sender = (TextView) itemView.findViewById(R.id.notif_sender);
 
-            //String senderFirstLetter = Character.toString(sender.getText().toString().charAt(0)).toUpperCase();
+            //String senderFirstLetter = Character.toString(sender.getText().toString().charAt(0));
 
             ColorGenerator colgen = ColorGenerator.MATERIAL;
             senderIcon = (ImageView)itemView.findViewById(R.id.notif_sender_icon);
