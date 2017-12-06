@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity">
+    tools:context="group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity"
+    android:background="@color/off_white">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"

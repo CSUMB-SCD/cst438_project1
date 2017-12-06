@@ -135,9 +135,10 @@ public class CaregiverMainActivity extends AppCompatActivity
 
         // Notifications
         else if (id == R.id.caregiver_nav_notifications) {
-
-            Intent intent = new Intent(this, CaregiverNotificationsActivity.class);
-            startActivity(intent);
+            setTitle("Notifications");
+            NotificationsFragment pf = new NotificationsFragment();
+            FragmentManager fm = getSupportFragmentManager();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, pf).commit();
         }
 
         // Account
