@@ -3,6 +3,7 @@ package group_project.csumb.com.autitrak;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -52,6 +53,10 @@ public class IndividualMain extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        tf = new ToDoListFragment();
+        FragmentManager fm = getSupportFragmentManager();
+        fm.beginTransaction().replace(R.id.content_individual_main, tf).commit();
 
         auth = FirebaseAuth.getInstance();
     }
@@ -119,6 +124,7 @@ public class IndividualMain extends AppCompatActivity
             setTitle("Visual Assessment");
             vf = new VisualAssessmentMainFragment();
             fragmentSelected = true;
+
         }
 
         //} else if (id == R.id.nav_share) {

@@ -7,7 +7,13 @@
     <color name="colorPrimaryBlue">#418B9C</color>
     <color name="white">#ffffff</color>
     <color name="bar_color">@color/gray</color>
-
+    <color name="points">#C1DF1F</color>
+    <color name="fuschia">#DE41CC</color>
+    <color name="dark_blue">#0949A2</color>
+    <color name="purple">#70009F</color>
+    <color name="beginner_task">#32936F</color>
+    <color name="intermediate_task">#EFCA08</color>
+    <color name="advanced_task">#BF4E30</color>
 
     <!--caregiver colors-->
     <color name="gray">#36393b</color>
@@ -16,6 +22,5 @@
     <color name="green">#8aa29e</color>
     <color name="off_white">#fafafa</color>
     <color name="red">#db5461</color>
-
 
 </resources>

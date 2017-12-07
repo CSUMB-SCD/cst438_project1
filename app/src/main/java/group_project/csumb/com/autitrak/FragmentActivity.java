@@ -99,7 +99,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                                 }
                                 else
                                 {
-                                    Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
+//                                    Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
                                     bundle = new Bundle();
                                     bundle.putString("key",user_key);
 

@@ -14,6 +14,10 @@
     <string name="indiv_menu_4">ASSESSMENT</string>
 
 
+    <!--individual to do list-->
+    <string name="task_name">TASK NAME</string>
+    <string name="task_difficulty">DIFFICULTY:</string>
+    <string name="task_points">+10</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

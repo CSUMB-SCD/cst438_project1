@@ -29,6 +29,7 @@ public class ToDoListFragment extends Fragment {
 
     RecyclerView todoListRecycler;
     ArrayList<ListItem> todoList;
+    ToDoListAdapter adapter;
 
     public ToDoListFragment() {
         // Required empty public constructor
@@ -58,18 +59,24 @@ public class ToDoListFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_individual_to_do_list, container, false);
         todoList = new ArrayList<>();
         todoListRecycler = (RecyclerView)view.findViewById(R.id.recyclerId);
-        todoListRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
-        fillList();
-        ToDoListAdapter adapter = new ToDoListAdapter(todoList);
+        todoListRecycler.setHasFixedSize(true);
+        todoListRecycler.setLayoutManager(new LinearLayoutManager(this.getActivity()));
+
+        todoList.add(new ListItem("Brush Teeth", "Beginner","Dec. 5, 2017", "Dec. 5, 2017", 10, R.drawable.brush_teeth));
+        todoList.add(new ListItem("Eat Veggies", "Beginner", "Dec. 8, 2017", "Dec. 8, 2017", 20, R.drawable.eat_veggies));
+        todoList.add(new ListItem("Read Book", "Intermediate", "Dec. 9, 2017", "Dec. 9, 2017", 35, R.drawable.read_book));
+        todoList.add(new ListItem("Default Task", "Advanced", "Dec. 9, 2017", "Dec. 9, 2017", 8, R.drawable.puzzle));
+        
+        adapter = new ToDoListAdapter(todoList);
         todoListRecycler.setAdapter(adapter);
         return view;
     }
 
     public void fillList() {
-        todoList.add(new ListItem("Brush Teeth", "Beginner","12/3/2017", "12/4/2017", 10));
-        todoList.add(new ListItem("Sweep", "Beginner", "12/3/2017", "12/4/2017", 20));
-        todoList.add(new ListItem("Pick Up Dog Poo", "Intermediate", "12/4/2017", "12/6/2017", 35));
-        todoList.add(new ListItem("Eat All Your Veggies", "Intermediate", "12/3/2017", "12/3/2017", 10));
+        todoList.add(new ListItem("Brush Teeth", "Beginner","Dec. 5, 2017", "Dec. 5, 2017", 10, R.drawable.brush_teeth));
+        todoList.add(new ListItem("Eat Veggies", "Beginner", "Dec. 8, 2017", "Dec. 8, 2017", 20, R.drawable.eat_veggies));
+        todoList.add(new ListItem("Read Book", "Intermediate", "Dec. 9, 2017", "Dec. 9, 2017", 35, R.drawable.read_book));
+        todoList.add(new ListItem("Default Task", "Advanced", "Dec. 9, 2017", "Dec. 9, 2017", 8, R.drawable.puzzle));
     }
 
     public void onButtonPressed(Uri uri) {
