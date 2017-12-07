@@ -14,12 +14,12 @@ public class AssessmentResultsFragment extends Fragment {
     private TextView score_textview;
     private int score;
 
-    public AssessmentResultsFragment(){this.score=0;};
+    public AssessmentResultsFragment(){this.score=0;}
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_individual_assessment_results, parent, false);;
+        View v = inflater.inflate(R.layout.fragment_individual_assessment_results, parent, false);
         score_textview = (TextView)v.findViewById(R.id.individual_score);
         score = getArguments().getInt("score");
         score_textview.setText(String.format("%s pts",score));
