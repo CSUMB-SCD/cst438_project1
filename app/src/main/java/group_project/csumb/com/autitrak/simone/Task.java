@@ -10,13 +10,13 @@ public class Task {
     private String startdate;
     private String enddate;
     private boolean active;
-    private int points;
+    private long points;
     private String reward;
 
 
     public Task() {}
 
-    public Task(String description,String skillType,String level,String startdate,String enddate,boolean active,int points,String reward)
+    public Task(String description,String skillType,String level,String startdate,String enddate,boolean active,long points,String reward)
     {this.description=description;this.skillType=skillType;this.level=level;this.startdate=startdate;this.enddate=enddate;this.active=active;
     this.points=points;this.reward=reward;}
 
@@ -44,7 +44,7 @@ public class Task {
         return active;
     }
 
-    public int getPoints(){return points;}
+    public long getPoints(){return points;}
 
     public String getReward(){return reward;}
 
@@ -60,7 +60,7 @@ public class Task {
 
     public void setActive(boolean active){this.active=active;}
 
-    public void setPoints(int points){this.points=points;}
+    public void setPoints(long points){this.points=points;}
 
     public void setReward(String reward){this.reward=reward;}
 

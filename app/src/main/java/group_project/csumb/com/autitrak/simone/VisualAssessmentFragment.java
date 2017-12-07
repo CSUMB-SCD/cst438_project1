@@ -31,7 +31,7 @@ public class VisualAssessmentFragment extends Fragment {
     private Button next_bttn;
     private TextView question;
     private int difficulty;
-    private int score;
+    private long score;
     private int q_num;
     private AnimationDrawable advanced_imgview;
     private String key;
@@ -231,10 +231,8 @@ public class VisualAssessmentFragment extends Fragment {
                 else
                 {
                     AssessmentResultsFragment af = new AssessmentResultsFragment();
-                    Bundle b = new Bundle();
-                    b.putInt("score",score);
-                    b.putString("key",key);
-                    af.setArguments(b);
+                    af.setScore(score);
+                    af.setKey(key);
                     getChildFragmentManager().beginTransaction().replace(R.id.v_assess,af).commit();
                 }
             }
@@ -243,8 +241,6 @@ public class VisualAssessmentFragment extends Fragment {
 
 
     }
-
-
 
 
     public void setKey(String key){this.key=key;}

@@ -117,6 +117,7 @@ public class IndividualMain extends AppCompatActivity
         else if(id == R.id.v_assessment){
             setTitle("Visual Assessment");
             vf = new VisualAssessmentMainFragment();
+            vf.setKey(getIntent().getExtras().getString("key"));
             fragmentSelected = true;
         }
 

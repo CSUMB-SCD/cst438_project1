@@ -66,7 +66,7 @@ public class TasksCompletedFragment extends ListFragment {
                         hm.put("description",tasks.get(i).getDescription());
                         hm.put("date","Completion date: " + tasks.get(i).getEndDate());
                         hm.put("level","Difficulty: "+ tasks.get(i).getLevel());
-                        hm.put("points","Points: " + Integer.toString(tasks.get(i).getPoints()));
+                        hm.put("points","Points: " + Long.toString(tasks.get(i).getPoints()));
                         aList.add(hm);
                     }
                 }

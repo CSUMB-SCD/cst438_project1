@@ -5,13 +5,13 @@ public class User {
 
 
     private String name;
-    private int type;
+    private long type;
     private String linkedemail;
     private boolean active;
 
     public User(){}
 
-    public User(String name, int type, String linkedemail, boolean active){this.name=name;this.type=type;this.linkedemail=linkedemail;
+    public User(String name, long type, String linkedemail, boolean active){this.name=name;this.type=type;this.linkedemail=linkedemail;
     this.active=active;}
 
     public void setName(String name)
@@ -19,7 +19,7 @@ public class User {
         this.name = name;
     }
 
-    public void setType(int type){this.type=type;}
+    public void setType(long type){this.type=type;}
 
     public void setLinkedEmail(String linkedemail){this.linkedemail=linkedemail;}
 
@@ -30,7 +30,7 @@ public class User {
         return name;
     }
 
-    public int getType()
+    public long getType()
     {
         return type;
     }
