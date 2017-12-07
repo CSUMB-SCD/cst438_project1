@@ -26,6 +26,7 @@ public class IndividualMain extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, AuditorySkillFragment.OnFragmentInteractionListener, ToDoListFragment.OnFragmentInteractionListener, TrophyFragment.OnFragmentInteractionListener, AchievementsFragment.OnFragmentInteractionListener, HighScoresFragment.OnFragmentInteractionListener, RewardsFragment.OnFragmentInteractionListener {
 
 
+    // TODO: just load To Do List fragment right away
 
     private VisualAssessmentMainFragment vf;
     private AchievementsFragment af;
@@ -43,7 +44,7 @@ public class IndividualMain extends AppCompatActivity
 
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.indiv_drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -57,7 +58,7 @@ public class IndividualMain extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.indiv_drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -149,7 +150,7 @@ public class IndividualMain extends AppCompatActivity
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.indiv_drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
