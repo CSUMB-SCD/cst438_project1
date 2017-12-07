@@ -10,35 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a395aba-01b8-44b8-b76b-e41bce4b0cb4" name="Default" comment="fragments created for progress and assessment segments">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/help_nav.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notifications_nav.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/person_nav.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/progress_nav.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/settings_nav.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/group_project/csumb/com/autitrak/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/group_project/csumb/com/autitrak/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/group_project/csumb/com/autitrak/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notification.java" afterPath="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/Notification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/NotificationAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/group_project/csumb/com/autitrak/chanel/NotificationAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_caregiver_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_caregiver_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_caregiver_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_caregiver_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_caregiver_main_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_caregiver_main_drawer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-    </list>
+    <list default="true" id="5a395aba-01b8-44b8-b76b-e41bce4b0cb4" name="Default" comment="fragments created for progress and assessment segments" />
     <ignored path="AutiTrak.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -2248,7 +2220,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.FragmentActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822564" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038415" />
       </method>
     </configuration>
     <configuration default="false" name="ExampleInstrumentedT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
@@ -2296,7 +2268,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822564" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038415" />
       </method>
     </configuration>
     <configuration default="false" name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
@@ -2371,7 +2343,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.chanel.CaregiverMainActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822564" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038415" />
       </method>
     </configuration>
     <configuration default="false" name="CaregiverNotificationsActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
@@ -2420,7 +2392,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822565" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038415" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2493,7 +2465,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822565" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038415" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2541,7 +2513,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822565" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038415" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2724,7 +2696,7 @@
       <option name="ACTIVITY_CLASS" value="group_project.csumb.com.autitrak.IndividualMain" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512622822567" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512623038416" />
       </method>
     </configuration>
     <list size="6">
