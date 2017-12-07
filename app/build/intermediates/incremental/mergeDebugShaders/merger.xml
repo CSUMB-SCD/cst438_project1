@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/chanel/School/438_cst/AndroidStudioProjects/AutiTrak/cst438_project1/app/src/debug/shaders"/></dataSet></merger>
