@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,6 +28,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
     private LoginFragment lf;
     private Intent intent;
     private Bundle bundle;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +51,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
             mf = new MainFragment();
             lf = new LoginFragment();
 
+            auth = FirebaseAuth.getInstance();
 
             //Start MainFragment onCreateView method
             fm.beginTransaction().add(R.id.fragment_individual_container,mf).commit();
@@ -122,6 +125,15 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
             });
 
 
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(auth.getCurrentUser() != null)
+        {
+            auth.signOut();
         }
     }
 

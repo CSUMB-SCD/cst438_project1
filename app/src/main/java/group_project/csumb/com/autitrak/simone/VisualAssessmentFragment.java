@@ -1,5 +1,6 @@
 package group_project.csumb.com.autitrak.simone;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -21,6 +22,7 @@ public class VisualAssessmentFragment extends Fragment {
 
 
     private ImageView img;
+    private ImageView refresh;
     private RadioGroup answers;
     private RadioButton a1;
     private RadioButton a2;
@@ -31,8 +33,10 @@ public class VisualAssessmentFragment extends Fragment {
     private int difficulty;
     private int score;
     private int q_num;
+    private AnimationDrawable advanced_imgview;
+    private String key;
 
-    public VisualAssessmentFragment(){this.score=0;q_num=1;}
+    public VisualAssessmentFragment(){this.score=0;q_num=1;key = " ";}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -46,6 +50,7 @@ public class VisualAssessmentFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
         img = (ImageView)view.findViewById(R.id.q_img);
+        refresh = (ImageView)view.findViewById(R.id.refresh);
         answers = (RadioGroup)view.findViewById(R.id.questions);
         next_bttn = (Button)view.findViewById(R.id.v_next_bttn);
         question = (TextView)view.findViewById(R.id.q);
@@ -77,6 +82,28 @@ public class VisualAssessmentFragment extends Fragment {
         }
         else if(difficulty == 2)
         {
+            refresh.setVisibility(View.VISIBLE);
+            img.setBackgroundResource(R.drawable.assessment_animations);
+            advanced_imgview = (AnimationDrawable)img.getBackground();
+            question.setText(R.string.a_q1);
+            a1.setText(R.string.a_q1_opt1);
+            a2.setText(R.string.a_q1_opt2);
+            a3.setText(R.string.a_q1_opt3);
+            a4.setText(R.string.a_q1_opt4);
+            advanced_imgview.start();
+
+
+
+            refresh.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    advanced_imgview.setVisible(true,true);
+                    advanced_imgview.selectDrawable(0);
+                    advanced_imgview.start();
+                }
+            });
+
+            score+=40;
 
         }
 
@@ -115,6 +142,10 @@ public class VisualAssessmentFragment extends Fragment {
                 else if(q_num == 4 && difficulty == 1 && a2.isChecked())
                 {
                     score+=10;
+                }
+                else if(q_num == 1 && difficulty == 2 && a2.isChecked())
+                {
+                    score+=20;
                 }
 
 
@@ -186,6 +217,7 @@ public class VisualAssessmentFragment extends Fragment {
                     AssessmentResultsFragment af = new AssessmentResultsFragment();
                     Bundle b = new Bundle();
                     b.putInt("score",score);
+                    b.putString("key",key);
                     af.setArguments(b);
                     getChildFragmentManager().beginTransaction().replace(R.id.v_assess,af).commit();
                 }
@@ -199,6 +231,7 @@ public class VisualAssessmentFragment extends Fragment {
 
 
 
+    public void setKey(String key){this.key=key;}
 
     public void setDifficulty(int difficulty){this.difficulty=difficulty;}
 

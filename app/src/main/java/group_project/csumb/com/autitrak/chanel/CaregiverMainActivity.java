@@ -1,14 +1,8 @@
 package group_project.csumb.com.autitrak.chanel;
 
-import android.content.Intent;
-import android.media.Image;
-import android.net.wifi.p2p.WifiP2pManager;
-import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,25 +12,25 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
 
-import group_project.csumb.com.autitrak.R;
-import group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity;
-import group_project.csumb.com.autitrak.chanel.Notifications.UnreadActivity;
+import com.google.firebase.auth.FirebaseAuth;
 
+import group_project.csumb.com.autitrak.R;
 public class CaregiverMainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    ImageButton progressBtn;
-    ImageButton notifBtn;
-    ImageButton settingsBtn;
-
+    private ImageButton progressBtn;
+    private ImageButton notifBtn;
+    private ImageButton settingsBtn;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caregiver_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.caregiver_main_toolbar);
         setSupportActionBar(toolbar);
 
+        auth = FirebaseAuth.getInstance();
         // TODO: switch between fragments (might need to go back to Navigation Drawer.. BOOHOO)
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -135,9 +129,10 @@ public class CaregiverMainActivity extends AppCompatActivity
 
         // Notifications
         else if (id == R.id.caregiver_nav_notifications) {
-
-            Intent intent = new Intent(this, CaregiverNotificationsActivity.class);
-            startActivity(intent);
+            setTitle("Notifications");
+            NotificationsFragment pf = new NotificationsFragment();
+            FragmentManager fm = getSupportFragmentManager();
+            fm.beginTransaction().replace(R.id.caregiver_fragment, pf).commit();
         }
 
         // Account
@@ -167,5 +162,14 @@ public class CaregiverMainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.caregiver_drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(auth.getCurrentUser() != null)
+        {
+            auth.signOut();
+        }
     }
 }

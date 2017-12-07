@@ -13,6 +13,7 @@ import group_project.csumb.com.autitrak.R;
 public class AssessmentResultsFragment extends Fragment {
     private TextView score_textview;
     private int score;
+
     public AssessmentResultsFragment(){this.score=0;};
 
 

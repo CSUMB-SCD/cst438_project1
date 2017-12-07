@@ -13,12 +13,13 @@ import group_project.csumb.com.autitrak.R;
 
 public class VisualAssessmentMainFragment extends Fragment {
 
-    Button beginner;
-    Button intermediate;
-    Button advanced;
-    VisualAssessmentFragment vf;
+    private Button beginner;
+    private Button intermediate;
+    private Button advanced;
+    private VisualAssessmentFragment vf;
+    private String key;
 
-    public VisualAssessmentMainFragment() {}
+    public VisualAssessmentMainFragment() {this.key=" ";}
 
 
     @Override
@@ -34,6 +35,7 @@ public class VisualAssessmentMainFragment extends Fragment {
         intermediate = (Button)view.findViewById(R.id.intermediate_start);
         advanced = (Button)view.findViewById(R.id.advanced_start);
         vf = new VisualAssessmentFragment();
+        vf.setKey(key);
 
         beginner.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,4 +61,6 @@ public class VisualAssessmentMainFragment extends Fragment {
             }
         });
     }
+
+    public void setKey(String key){this.key=key;}
 }

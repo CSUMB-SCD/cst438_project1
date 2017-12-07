@@ -81,6 +81,18 @@
     <string name="i_a4_opt4">Upset.</string>
     <!--Question 4-->
     <!--Intermediate-->
+
+    <!--Advanced-->
+
+    <!--Question 1-->
+    <string name="a_q1">What expression is given in the 2nd frame?</string>
+    <string name="a_q1_opt1">Disgust</string>
+    <string name="a_q1_opt2">Surprise</string>
+    <string name="a_q1_opt3">Sadness</string>
+    <string name="a_q1_opt4">Joy</string>
+    <!--Question 1-->
+
+    <!--Advanced-->
     <!--Questions End-->
 
     <string name="title_activity_individual_main"> </string>
@@ -89,9 +101,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-	
-	
-	<!--caregiver strings-->
+
+
+
+    <!--caregiver strings-->
 
     <string name="open">Open</string>
     <string name="close">Close</string>
@@ -107,13 +120,17 @@
     <string name="account_edit_photo_label">Edit Photo</string>
     <string name="account_save_changes_btn">Save Changes</string>
 
+
+    <string name="linked_accounts_label">Accounts</string>
     <string name="progress_label">Progress</string>
     <string name="notifications_label">Notifications</string>
     <string name="settings_label">Settings</string>
+    <string name="help_label">Help</string>
     <string name="title_activity_caregiver_notifications">CaregiverNotificationsActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="tab_text_1">UNREAD</string>
-    <string name="tab_text_2">INBOX</string>
+    <string name="tab_text_1">INBOX</string>
+    <string name="tab_text_2">OUTBOX</string>
+
     <string name="tab_text_3">SENT</string>
 
 </resources>

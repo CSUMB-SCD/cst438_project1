@@ -11,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import group_project.csumb.com.autitrak.brittany.AchievementsFragment;
 import group_project.csumb.com.autitrak.brittany.AuditorySkillFragment;
 import group_project.csumb.com.autitrak.brittany.HighScoresFragment;
@@ -29,6 +31,7 @@ public class IndividualMain extends AppCompatActivity
     private AchievementsFragment af;
     private ToDoListFragment tf;
     private ProgressFragment pf;
+    private FirebaseAuth auth;
 
 
     @Override
@@ -48,6 +51,8 @@ public class IndividualMain extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        auth = FirebaseAuth.getInstance();
     }
 
     @Override
@@ -121,7 +126,7 @@ public class IndividualMain extends AppCompatActivity
 
         //}
 
-        if(fragmentSelected == true) {
+        if(fragmentSelected) {
             if(pf != null)
             {
 
@@ -149,6 +154,14 @@ public class IndividualMain extends AppCompatActivity
         return true;
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(auth.getCurrentUser() != null)
+        {
+            auth.signOut();
+        }
+    }
     @Override
     public void onFragmentInteraction(Uri uri) {
 
