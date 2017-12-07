@@ -37,7 +37,7 @@
     <string name="account_edit_photo_label">Edit Photo</string>
     <string name="account_save_changes_btn">Save Changes</string>
 
-
+    <string name="nav_header">Menu</string>
     <string name="linked_accounts_label">Accounts</string>
     <string name="progress_label">Progress</string>
     <string name="notifications_label">Notifications</string>

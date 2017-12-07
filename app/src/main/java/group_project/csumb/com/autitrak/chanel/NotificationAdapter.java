@@ -32,7 +32,7 @@ import group_project.csumb.com.autitrak.R;
  */
 public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapter.NotificationViewHolder> {
 
-
+    String TAG = "NotificationAdapter";
     private Context mCtx;       // context used to inflate the layout
     private List<Notification> notificationList;    // store all notifications in a list
 
@@ -77,6 +77,13 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
 
         holder.sender.setText(notif.getSender());
 
+        String senderFirstLetter = Character.toString(holder.sender.getText().toString().charAt(0)).toUpperCase();
+
+        ColorGenerator colgen = ColorGenerator.MATERIAL;
+        Drawable senderDrawable = TextDrawable.builder().buildRound(senderFirstLetter, colgen.getRandomColor());
+
+        holder.senderIcon.setImageDrawable(senderDrawable);
+
 
         //holder.senderIcon.setImageDrawable(mCtx.getDrawable(notif.getSenderIcon()));
     }
@@ -110,11 +117,13 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
             // sender stuff
             sender = (TextView) itemView.findViewById(R.id.notif_sender);
 
-            //String senderFirstLetter = Character.toString(sender.getText().toString().charAt(0));
+            String senderString = sender.getText().toString();
+
+
 
             ColorGenerator colgen = ColorGenerator.MATERIAL;
             senderIcon = (ImageView)itemView.findViewById(R.id.notif_sender_icon);
-            Drawable senderDrawable = TextDrawable.builder().buildRound("A", colgen.getRandomColor());
+            Drawable senderDrawable = TextDrawable.builder().buildRound(senderString, colgen.getRandomColor());
 
             senderIcon.setImageDrawable(senderDrawable);
 

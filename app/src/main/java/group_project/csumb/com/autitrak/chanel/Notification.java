@@ -40,19 +40,15 @@ public class Notification {
     public String getSender() {
         return sender;
     }
-
     public String getRecipient() {
         return recipient;
     }
-
     public String getMessage() {
         return message;
     }
-
     public String getDate() {
         return date;
     }
-
     public int getStatus() {
         return status;
     }
