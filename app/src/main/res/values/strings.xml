@@ -108,6 +108,15 @@
     <string name="a_q1_opt4">Joy</string>
     <!--Question 1-->
 
+    <!--Question 2-->
+    <string name="a_q2">What is the underlying emotion hidden in the expression?</string>
+    <string name="a_q2_opt1">Disgust</string>
+    <string name="a_q2_opt2">Joy</string>
+    <string name="a_q2_opt3">Anger</string>
+    <string name="a_q2_opt4">Neutral</string>
+    <!--Question 2-->
+    <!--Advanced-->
+    <!--Questions End-->
     <!--Advanced-->
     <!--Questions End-->
 

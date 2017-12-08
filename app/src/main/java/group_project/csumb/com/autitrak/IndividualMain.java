@@ -55,6 +55,7 @@ public class IndividualMain extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         tf = new ToDoListFragment();
+        tf.setKey(getIntent().getExtras().getString("key"));
         FragmentManager fm = getSupportFragmentManager();
         fm.beginTransaction().replace(R.id.content_individual_main, tf).commit();
 
@@ -107,6 +108,7 @@ public class IndividualMain extends AppCompatActivity
         if (id == R.id.nav_to_do_list) {
             setTitle("To Do List");
             tf = new ToDoListFragment();
+            tf.setKey(getIntent().getExtras().getString("key"));
             fragmentSelected = true;
         } else if (id == R.id.nav_achievements) {
             setTitle("Achievements");
@@ -123,6 +125,7 @@ public class IndividualMain extends AppCompatActivity
         else if(id == R.id.v_assessment){
             setTitle("Visual Assessment");
             vf = new VisualAssessmentMainFragment();
+            vf.setKey(getIntent().getExtras().getString("key"));
             fragmentSelected = true;
 
         }

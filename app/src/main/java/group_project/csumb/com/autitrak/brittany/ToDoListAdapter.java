@@ -27,15 +27,22 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ListIt
     private List<ListItem> itemList;
     private Context ctx;
 
-    public ToDoListAdapter(Context ctx, List<ListItem> itemList) {
-        this.ctx = ctx;
+//    public ToDoListAdapter(Context ctx, List<ListItem> itemList) {
+//        this.ctx = ctx;
+//        this.itemList = itemList;
+//    }
+
+    public ToDoListAdapter(List<ListItem> itemList) {
         this.itemList = itemList;
     }
 
     @Override
     public ListItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        LayoutInflater inflater = LayoutInflater.from(ctx);
-        View view = inflater.inflate(R.layout.individual_list_item, null);
+//        LayoutInflater inflater = LayoutInflater.from(ctx);
+//        View view = inflater.inflate(R.layout.individual_list_item, null);
+//        return new ListItemViewHolder(view);
+
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.individual_list_item, null, true);
         return new ListItemViewHolder(view);
     }
 

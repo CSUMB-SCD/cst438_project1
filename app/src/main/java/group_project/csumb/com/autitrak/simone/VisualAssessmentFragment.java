@@ -31,7 +31,7 @@ public class VisualAssessmentFragment extends Fragment {
     private Button next_bttn;
     private TextView question;
     private int difficulty;
-    private int score;
+    private long score;
     private int q_num;
     private AnimationDrawable advanced_imgview;
     private String key;
@@ -147,6 +147,10 @@ public class VisualAssessmentFragment extends Fragment {
                 {
                     score+=20;
                 }
+                else if(q_num == 2 && difficulty == 2 && a3.isChecked())
+                {
+                    score+=20;
+                }
 
 
                 if(q_num < 5) {
@@ -212,13 +216,23 @@ public class VisualAssessmentFragment extends Fragment {
                     a3.setText(R.string.i_a4_opt3);
                     a4.setText(R.string.i_a4_opt4);
                 }
+                else if(q_num == 2 && difficulty == 2)
+                {
+                    answers.clearCheck();
+                    refresh.setVisibility(View.INVISIBLE);
+                    question.setText(R.string.a_q2);
+                    img.setBackgroundResource(android.R.color.transparent);
+                    img.setImageResource(R.drawable.q2_advanced);
+                    a1.setText(R.string.a_q2_opt1);
+                    a2.setText(R.string.a_q2_opt2);
+                    a3.setText(R.string.a_q2_opt3);
+                    a4.setText(R.string.a_q2_opt4);
+                }
                 else
                 {
                     AssessmentResultsFragment af = new AssessmentResultsFragment();
-                    Bundle b = new Bundle();
-                    b.putInt("score",score);
-                    b.putString("key",key);
-                    af.setArguments(b);
+                    af.setScore(score);
+                    af.setKey(key);
                     getChildFragmentManager().beginTransaction().replace(R.id.v_assess,af).commit();
                 }
             }
@@ -227,8 +241,6 @@ public class VisualAssessmentFragment extends Fragment {
 
 
     }
-
-
 
 
     public void setKey(String key){this.key=key;}
