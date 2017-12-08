@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -45,6 +46,7 @@ public class ToDoListFragment extends Fragment {
     ToDoListAdapter adapter;
     List<Task>tasks;
 
+    RelativeLayout rlayout;
     public ToDoListFragment() {
         // Required empty public constructor
     }
@@ -73,6 +75,11 @@ public class ToDoListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_individual_to_do_list, container, false);
+
+        // TODO: figure out how to put bg img on to do list 
+//        rlayout = (RelativeLayout) view.findViewById(R.id.to_do_list_rlayout);
+//        rlayout.setBackground(getActivity().getResources().getDrawable(R.drawable.to_do_list_bg));
+
         todoList = new ArrayList<>();
         todoListRecycler = (RecyclerView)view.findViewById(R.id.recyclerId);
         todoListRecycler.setHasFixedSize(true);
@@ -92,7 +99,7 @@ public class ToDoListFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
-        db.addListenerForSingleValueEvent(new ValueEventListener() {
+        db.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
