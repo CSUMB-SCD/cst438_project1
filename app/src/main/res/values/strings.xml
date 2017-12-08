@@ -46,8 +46,6 @@
     <!--Beginner-->
 
 
-
-
     <!--Intermediate-->
     <!--Question 1-->
     <string name="i_q1">Based on the body language, what is the woman in the center of the crowd feeling?</string>
@@ -89,9 +87,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-	
-	
-	<!--caregiver strings-->
+
+
+    <!--caregiver strings-->
 
     <string name="open">Open</string>
     <string name="close">Close</string>

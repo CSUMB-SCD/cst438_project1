@@ -65,7 +65,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     }
                     else if(v.getId() == R.id.signup_fragment_button)
                     {
-
+                       fm.beginTransaction().replace(R.id.fragment_individual_container_signup, lf).commit();
                     }
                 }
             });
