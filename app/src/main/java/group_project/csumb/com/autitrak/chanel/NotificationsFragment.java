@@ -47,6 +47,25 @@ public class NotificationsFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
         // mock Notifications for now
 
+
+        notifList.add(
+                new Notification("This project deserves an A+!",
+                        "f@demo.com",
+                        "autitrak@demo.com",
+                        "Our team worked really hard and really well together.",
+                        "Dec. 7, 2017",
+                        2));
+
+
+        notifList.add(
+                new Notification("Throw in some extra credit, too.",
+                        "f@demo.com",
+                        "autitrak@demo.com",
+                        "I mean, why not?",
+                        "Dec. 5, 2017",
+                        2));
+
+
         // unread
         notifList.add(
                 new Notification("Demo Notification Subject",
@@ -55,6 +74,24 @@ public class NotificationsFragment extends Fragment {
                         "This is a mock notification to test the Caregiver Notifications screen on AutiTrak.",
                         "Dec. 5, 2017",
                         0));
+
+        // sent
+        notifList.add(
+                new Notification("Help Confirmation",
+                        "h@demo.com",
+                        "autitrak@demo.com",
+                        "Hello, Meredith. We've received your notice \"Unable to Add Tasks\". Please allow 2-3 business days for a response from the team.",
+                        "Oct. 8, 2017",
+                        2));
+
+        notifList.add(
+                new Notification("Confirmate - Unable to Add Tasks",
+                        "g@demo.com",
+                        "autitrak@demo.com",
+                        "Hello AutiTrak team! I am trying to add tasks for my child but my list is not updating.",
+                        "Oct. 8, 2017",
+                        2));
+
 
         // read
         notifList.add(
@@ -65,14 +102,8 @@ public class NotificationsFragment extends Fragment {
                         "Nov. 21, 2017",
                         1));
 
-        // sent
-        notifList.add(
-                new Notification("Unable to Add Tasks",
-                        "caregiver@demo.com",
-                        "autitrak@demo.com",
-                        "Hello AutiTrak team! I am trying to add tasks for my child but my list is not updating.",
-                        "Oct. 8, 2017",
-                        2));
+
+
 
         adapter = new NotificationAdapter(this.getActivity(), notifList);
         recyclerView.setAdapter(adapter);

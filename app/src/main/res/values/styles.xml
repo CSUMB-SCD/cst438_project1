@@ -13,11 +13,11 @@
     </style>
 
     <style name="VisualAssessmentTheme">
-        <item name="android:background">@color/color4</item>
+        <item name="android:background">@color/off_white</item>
     </style>
 
     <style name="ListViewModelTheme">
-        <item name="android:background">@color/color4</item>
+        <item name="android:background">@color/off_white</item>
     </style>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">

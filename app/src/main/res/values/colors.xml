@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#A5D8FF</color>
-    <color name="colorPrimaryDark">#36393B</color>
-    <color name="colorAccent">#AFD0D6</color>
+    <color name="colorPrimary">#EBF6FD</color>
+    <color name="colorPrimaryDark">#25638E</color>
+    <color name="colorAccent">#db5461</color>
+    <color name="colorPrimaryBlue">#418B9C</color>
     <color name="white">#ffffff</color>
-    <color name="bar_color">#BFB6BB</color>
-    <color name="color4">#c49799</color>
-
+    <color name="bar_color">@color/gray</color>
+    <color name="points">#C1DF1F</color>
+    <color name="fuschia">#DE41CC</color>
+    <color name="dark_blue">#0949A2</color>
+    <color name="purple">#70009F</color>
+    <color name="beginner_task">#32936F</color>
+    <color name="intermediate_task">#EFCA08</color>
+    <color name="advanced_task">#BF4E30</color>
 
     <!--caregiver colors-->
     <color name="gray">#36393b</color>
