@@ -1,12 +1,148 @@
 <resources>
     <string name="app_name">AutiTrak</string>
-    <string name="title_activity_individual_main">Start Here!</string>
+
+    <!--login-->
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+
+    <!--individual menu-->
+    <string name="indiv_menu_1">TO DO LIST</string>
+    <string name="indiv_menu_2">ACHIEVEMENTS</string>
+    <string name="indiv_menu_3">PROGRESS</string>
+    <string name="indiv_menu_4">ASSESSMENT</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Questions Begin-->
+
+    <!--Beginner-->
+    <!--Question 1-->
+    <string name="b_q1">What expression is the image showing?</string>
+    <string name="b_a1_opt1">Sick</string>
+    <string name="b_a1_opt2">Happy</string>
+    <string name="b_a1_opt3">Sad</string>
+    <string name="b_a1_opt4">Angry</string>
+    <!--Question 1-->
+
+
+    <!--Question 2-->
+    <string name="b_q2">What expression is the image showing?</string>
+    <string name="b_a2_opt1">Sad</string>
+    <string name="b_a2_opt2">Disgust</string>
+    <string name="b_a2_opt3">Tired</string>
+    <string name="b_a2_opt4">Nervous</string>
+    <!--Question 2-->
+
+
+    <!--Question 3-->
+    <string name="b_q3">What expression is the image showing?</string>
+    <string name="b_a3_opt1">Excited</string>
+    <string name="b_a3_opt2">Curious</string>
+    <string name="b_a3_opt3">Happy</string>
+    <string name="b_a3_opt4">Angry</string>
+    <!--Question 3-->
+
+    <!--Question 4-->
+    <string name="b_q4">What expression is the image showing?</string>
+    <string name="b_a4_opt1">Sleepy</string>
+    <string name="b_a4_opt2">Thinking</string>
+    <string name="b_a4_opt3">Happy</string>
+    <string name="b_a4_opt4">Sad</string>
+    <!--Question 4-->
+
+
+    <!--Beginner-->
+
+
+
+
+    <!--Intermediate-->
+    <!--Question 1-->
+    <string name="i_q1">Based on the body language, what is the woman in the center of the crowd feeling?</string>
+    <string name="i_a1_opt1">She is feeling scared.</string>
+    <string name="i_a1_opt2">She is feeling anxious.</string>
+    <string name="i_a1_opt3">She is lost.</string>
+    <string name="i_a1_opt4">Feeling sad.</string>
+    <!--Question 1-->
+
+    <!--Question 2-->
+    <string name="i_q2">Is the man in the image…</string>
+    <string name="i_a2_opt1">Frustrated.</string>
+    <string name="i_a2_opt2">Feeling upset.</string>
+    <string name="i_a2_opt3">Feeling excitement.</string>
+    <string name="i_a2_opt4">Feeling sad.</string>
+    <!--Question 2-->
+
+    <!--Question 3-->
+    <string name="i_q3">What body language is the woman showing?</string>
+    <string name="i_a3_opt1">She is very happy.</string>
+    <string name="i_a3_opt2">Mad.</string>
+    <string name="i_a3_opt3">Feeling stressed out.</string>
+    <string name="i_a3_opt4">Thinking.</string>
+    <!--Question 3-->
+
+    <!--Question 4-->
+    <string name="i_q4">Based on how the superior is talking to the soldier, what emotions would the soldier be feeling?</string>
+    <string name="i_a4_opt1">Very scared.</string>
+    <string name="i_a4_opt2">Nervous.</string>
+    <string name="i_a4_opt3">Feeling guilty.</string>
+    <string name="i_a4_opt4">Upset.</string>
+    <!--Question 4-->
+    <!--Intermediate-->
+
+    <!--Advanced-->
+
+    <!--Question 1-->
+    <string name="a_q1">What expression is given in the 2nd frame?</string>
+    <string name="a_q1_opt1">Disgust</string>
+    <string name="a_q1_opt2">Surprise</string>
+    <string name="a_q1_opt3">Sadness</string>
+    <string name="a_q1_opt4">Joy</string>
+    <!--Question 1-->
+
+    <!--Advanced-->
+    <!--Questions End-->
+
+    <string name="title_activity_individual_main"> </string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Place Screen Here</string>
+
+
+    <!--caregiver strings-->
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_caregiver_main">CaregiverMainActivity</string>
+
+
+    <!--Profile/Account Labels-->
+    <string name="account_header_label">Update Account</string>
+    <string name="account_name_label">Name</string>
+    <string name="account_email_label">Email</string>
+    <string name="account_id_label">User ID</string>
+
+    <string name="account_edit_photo_label">Edit Photo</string>
+    <string name="account_save_changes_btn">Save Changes</string>
+
+
+    <string name="linked_accounts_label">Accounts</string>
+    <string name="progress_label">Progress</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="settings_label">Settings</string>
+    <string name="help_label">Help</string>
+    <string name="title_activity_caregiver_notifications">CaregiverNotificationsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">INBOX</string>
+    <string name="tab_text_2">OUTBOX</string>
+
+    <string name="tab_text_3">SENT</string>
+
 </resources>

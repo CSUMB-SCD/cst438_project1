@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1057418346392",
+    "firebase_url": "https://autitrak-75c25.firebaseio.com",
+    "project_id": "autitrak-75c25",
+    "storage_bucket": "autitrak-75c25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057418346392:android:33af4ac615cae1b4",
+        "android_client_info": {
+          "package_name": "group_project.csumb.com.autitrak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057418346392-3havipgq1dvs31nf05sa21ghid43tb5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-pBBcRSFD2_M7Z_WlBWmdVLnChf2cSyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
