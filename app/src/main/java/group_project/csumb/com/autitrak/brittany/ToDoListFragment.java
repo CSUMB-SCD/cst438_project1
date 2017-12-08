@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import group_project.csumb.com.autitrak.R;
 
@@ -29,30 +30,30 @@ public class ToDoListFragment extends Fragment {
     private OnFragmentInteractionListener mListener;
 
     RecyclerView todoListRecycler;
-    ArrayList<ListItem> todoList;
+    List<ListItem> todoList;
     ToDoListAdapter adapter;
 
     public ToDoListFragment() {
         // Required empty public constructor
     }
 
-    public static ToDoListFragment newInstance(String param1, String param2) {
-        ToDoListFragment fragment = new ToDoListFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+//    public static ToDoListFragment newInstance(String param1, String param2) {
+//        ToDoListFragment fragment = new ToDoListFragment();
+//        Bundle args = new Bundle();
+//        args.putString(ARG_PARAM1, param1);
+//        args.putString(ARG_PARAM2, param2);
+//        fragment.setArguments(args);
+//        return fragment;
+//    }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if(getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
+//    @Override
+//    public void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        if(getArguments() != null) {
+//            mParam1 = getArguments().getString(ARG_PARAM1);
+//            mParam2 = getArguments().getString(ARG_PARAM2);
+//        }
+//    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -69,7 +70,7 @@ public class ToDoListFragment extends Fragment {
         todoList.add(new ListItem("Default Task", "Advanced", "Dec. 9, 2017", "Dec. 9, 2017", 8, R.drawable.puzzle));
 
         Log.d("To Do List Size:", String.valueOf(todoList.size()));
-        adapter = new ToDoListAdapter(todoList);
+        adapter = new ToDoListAdapter(this.getActivity(), todoList);
         todoListRecycler.setAdapter(adapter);
         return view;
     }

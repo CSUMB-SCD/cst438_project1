@@ -1,5 +1,6 @@
 package group_project.csumb.com.autitrak.brittany;
 
+import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,7 +12,7 @@ import android.widget.TextView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import group_project.csumb.com.autitrak.R;
 
@@ -23,15 +24,17 @@ import group_project.csumb.com.autitrak.R;
 
 public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ListItemViewHolder>{
     public static final int RADIUS = 8;
-    ArrayList<ListItem> itemList;
+    private List<ListItem> itemList;
+    private Context ctx;
 
-    public ToDoListAdapter(ArrayList<ListItem> itemList) {
+    public ToDoListAdapter(Context ctx, List<ListItem> itemList) {
+        this.ctx = ctx;
         this.itemList = itemList;
     }
 
     @Override
     public ListItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        LayoutInflater inflater = LayoutInflater.from(ctx);
         View view = inflater.inflate(R.layout.individual_list_item, null);
         return new ListItemViewHolder(view);
     }
