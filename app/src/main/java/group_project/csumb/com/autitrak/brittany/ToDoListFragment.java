@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -66,7 +67,8 @@ public class ToDoListFragment extends Fragment {
         todoList.add(new ListItem("Eat Veggies", "Beginner", "Dec. 8, 2017", "Dec. 8, 2017", 20, R.drawable.eat_veggies));
         todoList.add(new ListItem("Read Book", "Intermediate", "Dec. 9, 2017", "Dec. 9, 2017", 35, R.drawable.read_book));
         todoList.add(new ListItem("Default Task", "Advanced", "Dec. 9, 2017", "Dec. 9, 2017", 8, R.drawable.puzzle));
-        
+
+        Log.d("To Do List Size:", String.valueOf(todoList.size()));
         adapter = new ToDoListAdapter(todoList);
         todoListRecycler.setAdapter(adapter);
         return view;

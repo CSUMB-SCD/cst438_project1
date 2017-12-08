@@ -22,7 +22,8 @@
         android:textSize="16dp"
         android:inputType="textEmailAddress"
         android:layout_gravity="center_horizontal"
-        android:hint="@string/email"/>
+        android:hint="@string/email"
+        android:textAllCaps="true"/>
 
     <EditText
         android:id="@+id/password_editText"
