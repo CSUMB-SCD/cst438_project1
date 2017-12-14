@@ -3,6 +3,7 @@ package group_project.csumb.com.autitrak;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,14 +19,14 @@ import group_project.csumb.com.autitrak.brittany.AuditorySkillFragment;
 import group_project.csumb.com.autitrak.brittany.HighScoresFragment;
 import group_project.csumb.com.autitrak.brittany.RewardsFragment;
 import group_project.csumb.com.autitrak.brittany.ToDoListFragment;
-import group_project.csumb.com.autitrak.brittany.TrophyFragment;
 import group_project.csumb.com.autitrak.simone.ProgressFragment;
 import group_project.csumb.com.autitrak.simone.VisualAssessmentMainFragment;
 
 public class IndividualMain extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, AuditorySkillFragment.OnFragmentInteractionListener, ToDoListFragment.OnFragmentInteractionListener, TrophyFragment.OnFragmentInteractionListener, AchievementsFragment.OnFragmentInteractionListener, HighScoresFragment.OnFragmentInteractionListener, RewardsFragment.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, AuditorySkillFragment.OnFragmentInteractionListener, ToDoListFragment.OnFragmentInteractionListener, AchievementsFragment.OnFragmentInteractionListener, HighScoresFragment.OnFragmentInteractionListener, RewardsFragment.OnFragmentInteractionListener {
 
 
+    // TODO: just load To Do List fragment right away
 
     private VisualAssessmentMainFragment vf;
     private AchievementsFragment af;
@@ -43,7 +44,7 @@ public class IndividualMain extends AppCompatActivity
 
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.indiv_drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -52,12 +53,17 @@ public class IndividualMain extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        tf = new ToDoListFragment();
+        tf.setKey(getIntent().getExtras().getString("key"));
+        FragmentManager fm = getSupportFragmentManager();
+        fm.beginTransaction().replace(R.id.content_individual_main, tf).commit();
+
         auth = FirebaseAuth.getInstance();
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.indiv_drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -101,10 +107,12 @@ public class IndividualMain extends AppCompatActivity
         if (id == R.id.nav_to_do_list) {
             setTitle("To Do List");
             tf = new ToDoListFragment();
+            tf.setKey(getIntent().getExtras().getString("key"));
             fragmentSelected = true;
         } else if (id == R.id.nav_achievements) {
             setTitle("Achievements");
             af = new AchievementsFragment();
+            af.setKey(getIntent().getExtras().getString("key"));
             fragmentSelected = true;
         }
         else if(id == R.id.nav_progress)
@@ -119,6 +127,7 @@ public class IndividualMain extends AppCompatActivity
             vf = new VisualAssessmentMainFragment();
             vf.setKey(getIntent().getExtras().getString("key"));
             fragmentSelected = true;
+
         }
 
         //} else if (id == R.id.nav_share) {
@@ -150,7 +159,7 @@ public class IndividualMain extends AppCompatActivity
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.indiv_drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

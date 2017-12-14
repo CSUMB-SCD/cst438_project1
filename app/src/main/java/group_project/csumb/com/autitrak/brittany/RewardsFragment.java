@@ -10,9 +10,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
+import java.util.List;
 
 import group_project.csumb.com.autitrak.R;
+import group_project.csumb.com.autitrak.simone.Task;
 
 
 /**
@@ -34,11 +42,15 @@ public class RewardsFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
-    RecyclerView rewardsRecycler;
-    ArrayList<ListItem> rewardList;
+    private RecyclerView rewardsRecycler;
+    private ArrayList<ListItem> rewardList;
+    private String key;
+    private List<Task> tasks;
+    private DatabaseReference db;
 
     public RewardsFragment() {
         // Required empty public constructor
+        this.key = " ";
     }
 
     /**
@@ -76,14 +88,38 @@ public class RewardsFragment extends Fragment {
         rewardsRecycler = (RecyclerView)view.findViewById(R.id.individual_rewardRecyclerId);
         rewardsRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         fillList();
-        RewardsAdapter adapter = new RewardsAdapter(rewardList);
-        rewardsRecycler.setAdapter(adapter);
+
         return view;
     }
 
     public void fillList() {
-        rewardList.add(new ListItem("Trip To Pizza", "12/5/2017"));
-        //rewardList.add(new ListItem("Sweep", "Sweep the house to keep it nice and tidy.", R.drawable.sweep));
+        db = FirebaseDatabase.getInstance().getReference().child("tasks").child(key);
+        tasks = new ArrayList<>();
+
+        db.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (long i = 0; i < dataSnapshot.getChildrenCount(); i++) {
+                    tasks.add(dataSnapshot.child(Long.toString(i + 1)).getValue(Task.class));
+                }
+
+                for(int i = 0; i < tasks.size(); i++)
+                {
+                    if(!tasks.get(i).isActive())
+                    {
+                        rewardList.add(new ListItem(tasks.get(i).getDescription(),tasks.get(i).getEndDate()));
+                    }
+                }
+
+                RewardsAdapter adapter = new RewardsAdapter(rewardList);
+                rewardsRecycler.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -120,6 +156,11 @@ public class RewardsFragment extends Fragment {
      * "http://developer.android.com/training/basics/fragments/communicating.html"
      * >Communicating with Other Fragments</a> for more information.
      */
+    public void setKey(String key)
+    {
+        this.key = key;
+    }
+
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);

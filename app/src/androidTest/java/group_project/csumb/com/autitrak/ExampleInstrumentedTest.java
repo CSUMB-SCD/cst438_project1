@@ -1,19 +1,19 @@
 package group_project.csumb.com.autitrak;
 
-import android.content.Context;
-import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
+import android.support.v4.app.FragmentTransaction;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import group_project.csumb.com.autitrak.simone.MainFragment;
+
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
-import static org.junit.Assert.*;
 
 /**
  * Instrumentation test, which will execute on an Android device.
@@ -24,19 +24,32 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
 
     @Rule
-    public ActivityTestRule<MainActivity> menuActivityTestRule =
-            new ActivityTestRule<>(MainActivity.class, true, true);
+    public ActivityTestRule<FragmentActivity> activityTestRule =
+            new ActivityTestRule<>(FragmentActivity.class, true, true);
+
 
     @Test
-    public void useAppContext() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
+    public void launchMainFragment()
+    {
+        activityTestRule.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                MainFragment mf = initMainFragment();
+            }
+        });
 
-        assertEquals("group_project.csumb.com.autitrak", appContext.getPackageName());
+        onView(withId(R.id.login_fragment_button)).check(matches(isDisplayed()));
+        onView(withId(R.id.signup_fragment_button)).check(matches(isDisplayed()));
+    }
+    private MainFragment initMainFragment()
+    {
+        FragmentActivity activity = (FragmentActivity)activityTestRule.getActivity();
+        FragmentTransaction transaction = activity.getSupportFragmentManager().beginTransaction();
+        MainFragment mf = new MainFragment();
+        transaction.add(mf,"menu_frag");
+        transaction.commit();
+        return mf;
     }
 
-    @Test
-    public void testHelloWorldTest() {
-        onView(withId(R.id.helloWorldText)).check(matches(withText("Hello World!")));
-    }
+
 }

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single" >
+
         <item
             android:id="@+id/nav_to_do_list"
-            android:icon="@drawable/list_icon"
-            android:title="To Do List" />
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/indiv_menu_1" />
         <item
             android:id="@+id/nav_achievements"
-            android:icon="@drawable/trophy_icon"
-            android:title="Achievements" />
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/indiv_menu_2"/>
 
         <item
             android:id="@+id/nav_progress"
-            android:icon="@drawable/progress_icon"
-            android:title="Progress"/>
+            android:icon="@drawable/ic_insert_chart_black_24dp"
+            android:title="@string/indiv_menu_3"/>
         <item
             android:id="@+id/v_assessment"
-            android:icon="@drawable/assessment_icon"
-            android:title="Visual Assessment"/>
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            android:title="@string/indiv_menu_4"/>
     </group>
-
-
 </menu>

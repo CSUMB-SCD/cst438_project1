@@ -88,27 +88,27 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                         db.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
-                                    user = dataSnapshot.child(user_key).getValue(User.class);
+                                user = dataSnapshot.child(user_key).getValue(User.class);
 
-                                    if(user.getType() == 0)
-                                    {
-                                        Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
-                                        //Chanel replace MainActivity.clas with your Activity here!!!
-                                        intent = new Intent(FragmentActivity.this, CaregiverMainActivity.class);
-                                        startActivity(intent);
-                                    }
-                                    else
-                                    {
-                                        Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
-                                        bundle = new Bundle();
-                                        bundle.putString("key",user_key);
-
-                                        intent = new Intent(FragmentActivity.this, IndividualMain.class);
-                                        intent.putExtras(bundle);
-
-                                        startActivity(intent);
-                                    }
+                                if(user.getType() == 0)
+                                {
+                                    Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
+                                    //Chanel replace MainActivity.clas with your Activity here!!!
+                                    intent = new Intent(FragmentActivity.this, CaregiverMainActivity.class);
+                                    startActivity(intent);
                                 }
+                                else
+                                {
+//                                    Toast.makeText(FragmentActivity.this,"Welcome",Toast.LENGTH_LONG).show();
+                                    bundle = new Bundle();
+                                    bundle.putString("key",user_key);
+
+                                    intent = new Intent(FragmentActivity.this, IndividualMain.class);
+                                    intent.putExtras(bundle);
+
+                                    startActivity(intent);
+                                }
+                            }
 
                             @Override
                             public void onCancelled(DatabaseError databaseError) {

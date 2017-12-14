@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d06528bcf647eaa8305f8f1ee9d6e9e3\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:transition:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d739e5414eb59fccbd4efbeba3bc168f\AndroidManifest.xml:17:1-28:12
@@ -40,25 +40,25 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users
 MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\01371f0731657074f0f2b04e2077d309\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\d3bd7d092723f8c1f2c2b5c49433f155\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\b8d07bae3340e0d777e94be64fdb4d19\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:1-64:12
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:1-64:12
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e64cb69cd365809d7c15430d22ad256e\AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e64cb69cd365809d7c15430d22ad256e\AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\11dd441ef080c11c1fb2799e8f9337dc\AndroidManifest.xml:20:5-66
@@ -66,9 +66,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\sboyd\
 MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\d15da9ce81df2dcebcbc88d73940beaa\AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\d15da9ce81df2dcebcbc88d73940beaa\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:7:5-62:19
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:7:5-62:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d06528bcf647eaa8305f8f1ee9d6e9e3\AndroidManifest.xml:29:5-20
@@ -136,63 +136,63 @@ MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\User
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\b8d07bae3340e0d777e94be64fdb4d19\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\b8d07bae3340e0d777e94be64fdb4d19\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:13:9-40
 activity#group_project.csumb.com.autitrak.FragmentActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:15:19-51
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:15:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:19:27-74
 activity#group_project.csumb.com.autitrak.MainActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#android.intent.action.MAIN
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:25:13-29:29
 activity#group_project.csumb.com.autitrak.IndividualMain
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:31:9-40:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:31:9-40:20
 	android:label
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:33:13-67
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:33:13-67
 	android:theme
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:32:13-43
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:32:13-43
 activity#group_project.csumb.com.autitrak.chanel.CaregiverMainActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:41:3-49:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:41:3-49:20
 	android:theme
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:43:13-60
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:43:13-60
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:42:13-57
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:42:13-57
 activity#group_project.csumb.com.autitrak.chanel.Notifications.CaregiverNotificationsActivity
-ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:50:9-60:20
+ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:50:9-60:20
 	android:label
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:52:13-75
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:52:13-75
 	android:theme
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:53:13-56
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml:51:13-80
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml:51:13-80
 uses-sdk
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d06528bcf647eaa8305f8f1ee9d6e9e3\AndroidManifest.xml:21:5-23:78
@@ -265,18 +265,18 @@ MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\User
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\d3bd7d092723f8c1f2c2b5c49433f155\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\b8d07bae3340e0d777e94be64fdb4d19\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\b8d07bae3340e0d777e94be64fdb4d19\AndroidManifest.xml:4:5-43
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sboyd\AndroidStudioProjects\AutiTrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sboyd\AndroidStudioProjects\Autitrak\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6f91d3c8b132d00be684a6e05c00cb15\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sboyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d06528bcf647eaa8305f8f1ee9d6e9e3\AndroidManifest.xml:25:5-27:34

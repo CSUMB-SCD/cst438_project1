@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BFB6BB"
-    tools:context="group_project.csumb.com.autitrak.HighScoresFragment">
+    tools:context="group_project.csumb.com.autitrak.brittany.HighScoresFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/individual_scoreRecyclerId"

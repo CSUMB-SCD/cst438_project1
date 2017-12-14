@@ -22,14 +22,15 @@ import group_project.csumb.com.autitrak.R;
 public class AchievementsFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
-    View view;
+    private View view;
     private AppBarLayout appBar;
     private TabLayout tabs;
     private ViewPager viewPager;
-
+    private String key;
 
     public AchievementsFragment() {
         // Required empty public constructor
+        this.key=" ";
     }
 
     public static AchievementsFragment newInstance(String param1, String param2) {
@@ -78,9 +79,12 @@ public class AchievementsFragment extends Fragment {
 
     private void fillViewPager(ViewPager viewPager) {
         SectionsAdapter adapter = new SectionsAdapter(getFragmentManager());
-        adapter.addFragment(new RewardsFragment(),"REWARDS");
-        adapter.addFragment(new TrophyFragment(),"TROPHIES");
-        adapter.addFragment(new HighScoresFragment(),"HIGH SCORES");
+        RewardsFragment rf = new RewardsFragment();
+        HighScoresFragment hf = new HighScoresFragment();
+
+        rf.setKey(key);
+        adapter.addFragment(rf,"REWARDS");
+        adapter.addFragment(hf,"HIGH SCORES");
 
         viewPager.setAdapter(adapter);
     }
@@ -115,6 +119,11 @@ public class AchievementsFragment extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    public void setKey(String key)
+    {
+        this.key = key;
     }
 
     public interface OnFragmentInteractionListener {

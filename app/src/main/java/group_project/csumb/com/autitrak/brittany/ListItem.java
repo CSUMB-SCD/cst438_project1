@@ -9,14 +9,18 @@ public class ListItem {
     private String level;
     private String startDate;
     private String endDate;
-    private int points;
+    private long points;
+    private int img;
 
-    public ListItem(String description, String level, String startDate, String endDate, int points) {
+
+
+    public ListItem(String description, String level, String startDate, String endDate, long points, int img) {
         this.description = description;
         this.level = level;
         this.startDate = startDate;
         this.endDate = endDate;
         this.points = points;
+        this.img = img;
     }
 
     public ListItem(String description, String endDate) {
@@ -24,7 +28,7 @@ public class ListItem {
         this.endDate = endDate;
     }
 
-    public ListItem(String description, String endDate, int points) {
+    public ListItem(String description, String endDate, long points) {
         this.description = description;
         this.endDate = endDate;
         this.points = points;
@@ -42,6 +46,9 @@ public class ListItem {
     public String getEndDate() {return endDate;}
     public void setEndDate(String endDate) {this.endDate = endDate;}
 
-    public int getPoints() {return points;}
+    public long getPoints() {return points;}
     public void setPoints(int points) {this.points = points;}
+    public int getImg() {
+        return img;
+    }
 }
