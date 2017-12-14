@@ -14,6 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import group_project.csumb.com.autitrak.chanel.CaregiverMainActivity;
+import group_project.csumb.com.autitrak.jose.CaregiverScreenFragment;
 import group_project.csumb.com.autitrak.jose.ProgressPageFragment;
 import group_project.csumb.com.autitrak.jose.SignUpFragment;
 import group_project.csumb.com.autitrak.simone.LoginFragment;
@@ -28,7 +29,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity {
     private User user;
     private MainFragment mf;
     private LoginFragment lf;
-    private SignUpFragment suf;
+    private CaregiverScreenFragment csf;
     private Intent intent;
     private Bundle bundle;
 
@@ -52,7 +53,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity {
 
             mf = new MainFragment();
             lf = new LoginFragment();
-            suf = new SignUpFragment();
+            csf = new CaregiverScreenFragment();
 
 
             //Start MainFragment onCreateView method
@@ -70,7 +71,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity {
                     }
                     else if(v.getId() == R.id.signup_fragment_button)
                     {
-                       fm.beginTransaction().replace(R.id.signup_frag_container , suf).commit();
+                       fm.beginTransaction().replace(R.id.fragment_individual_container , csf).commit();
                     }
                 }
             });

@@ -1,8 +1,5 @@
 package group_project.csumb.com.autitrak.jose;
 
-import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -55,8 +52,7 @@ public class SignUpFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sign_up, container, false);
     }
@@ -64,28 +60,41 @@ public class SignUpFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-            signUp = (Button)view.findViewById(R.id.signUp);
             firstName = (EditText)view.findViewById(R.id.firstName);
             lastName = (EditText)view.findViewById(R.id.lastName);
             username = (EditText)view.findViewById(R.id.username);
             emailTextEdit = (EditText)view.findViewById(R.id.email_editText);
             passwordTextEdit = (EditText)view.findViewById(R.id.password_editText);
-            b1 = (RadioButton)view.findViewById(R.id.yes_bttn);
-            b2 = (RadioButton)view.findViewById(R.id.no_bttn);
-            next = (Button)view.findViewById(R.id.signup_next_bttn);
+            signUp = (Button)view.findViewById(R.id.signUp);
             email = emailTextEdit.toString();
             key = encodeKey(email);
 
         mAuth = FirebaseAuth.getInstance();
 
         signUp.setOnClickListener(new View.OnClickListener() {
+
             @Override
-            public void onClick(View view) {
-                if (view.getId() == R.id.signUp){
-                    mListener.onSuccess(true, key);
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful())
+                {
+                    if(mListener!=null)
+                    {
+                        mListener.onSuccess(true,key);
+                    }
+                }
+                else
+                {
+                    if(mListener!=null)
+                    {
+                        mListener.onSuccess(false,"");
+                    }
                 }
             }
         });
+    }
+
+    public void setType (int t){
+        type = t;
     }
 
     @Override
@@ -93,22 +102,20 @@ public class SignUpFragment extends Fragment {
         super.onStart();
     }
 
-    //private void createAccount(String firstName, String lastName, String username, String email, String password) {
   private void createAccount(String email,String password, String username, String first_name, String last_name, int type) {
         Log.d(TAG, "createAccount:" + email);
         if (!validateForm()) {
             return;
         }
-        //showProgressDialog();
-        // create user with email
-     //   mAuth.createUserWithEmailAndPassword(firstName, lastName, username, email, password)
+
       final String e = email;
       final String f = first_name;
       final String l = last_name;
       final String u = username;
       final String p = password;
       final int t = type;
-        mAuth.createUserWithEmailAndPassword(email, password)
+
+            mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -171,18 +178,7 @@ public class SignUpFragment extends Fragment {
         db.child(encodeKey(emailTextEdit)).setValue(user);
     }
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onSuccess(boolean in, String key);
-    }
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
+        void onSuccess(boolean in,String key);
     }
 
     @Override

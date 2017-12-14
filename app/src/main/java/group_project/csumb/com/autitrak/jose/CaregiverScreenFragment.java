@@ -1,7 +1,5 @@
 package group_project.csumb.com.autitrak.jose;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -9,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RadioButton;
-
 import group_project.csumb.com.autitrak.R;
 
 public class CaregiverScreenFragment extends Fragment {
@@ -40,26 +37,19 @@ public class CaregiverScreenFragment extends Fragment {
                 if(yes_button.isChecked()) {
                     // CODE THAT WILL SET TYPE TO YES
                     type = 1;
-                    mListener.changeFragment(type);
+                    SignUpFragment newSingup = new SignUpFragment();
+                    newSingup.setType(type);
+                    getChildFragmentManager().beginTransaction().replace(R.id.fragment_individual_container, newSingup).commit();
                 }
                 else if(no_button.isChecked()) {
                     // CODE THAT WILL SET TYPE TO NO
                     type = 0;
-                    mListener.changeFragment(type);
+                    SignUpFragment newSingup = new SignUpFragment();
+                    newSingup.setType(type);
+                    getChildFragmentManager().beginTransaction().replace(R.id.fragment_individual_container, newSingup).commit();
                 }
             }
         });
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
     }
 
     @Override
@@ -69,7 +59,6 @@ public class CaregiverScreenFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         public void changeFragment(int type);
     }
 }
