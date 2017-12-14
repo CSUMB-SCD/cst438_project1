@@ -7,64 +7,48 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.RadioButton;
 
 import group_project.csumb.com.autitrak.R;
 
 public class CaregiverScreenFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
     private OnFragmentInteractionListener mListener;
+    private RadioButton yes_button;
+    private RadioButton no_button;
+    private Button next;
+    private int type;
 
-    public CaregiverScreenFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment CaregiverScreenFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static CaregiverScreenFragment newInstance(String param1, String param2) {
-        CaregiverScreenFragment fragment = new CaregiverScreenFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+    public CaregiverScreenFragment (){this.mListener = null;}
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_caregiver_screen, container, false);
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        yes_button = (RadioButton)view.findViewById(R.id.yes_button);
+        no_button = (RadioButton)view.findViewById(R.id.no_button);
+        next = (Button)view.findViewById(R.id.next_button);
+
+        next.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                if(yes_button.isChecked()) {
+                    // CODE THAT WILL SET TYPE TO YES
+                    type = 1;
+                    mListener.changeFragment(type);
+                }
+                else if(no_button.isChecked()) {
+                    // CODE THAT WILL SET TYPE TO NO
+                    type = 0;
+                    mListener.changeFragment(type);
+                }
+            }
+        });
     }
 
     @Override
@@ -84,18 +68,8 @@ public class CaregiverScreenFragment extends Fragment {
         mListener = null;
     }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
+        public void changeFragment(int type);
     }
 }

@@ -1,6 +1,7 @@
 package group_project.csumb.com.autitrak;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.view.View;
@@ -13,18 +14,21 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import group_project.csumb.com.autitrak.chanel.CaregiverMainActivity;
+import group_project.csumb.com.autitrak.jose.ProgressPageFragment;
+import group_project.csumb.com.autitrak.jose.SignUpFragment;
 import group_project.csumb.com.autitrak.simone.LoginFragment;
 import group_project.csumb.com.autitrak.simone.MainFragment;
 import group_project.csumb.com.autitrak.simone.User;
 
 
-public class FragmentActivity extends android.support.v4.app.FragmentActivity{
+public class FragmentActivity extends android.support.v4.app.FragmentActivity {
 
     private FragmentManager fm;
     private DatabaseReference db;
     private User user;
     private MainFragment mf;
     private LoginFragment lf;
+    private SignUpFragment suf;
     private Intent intent;
     private Bundle bundle;
 
@@ -48,6 +52,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
             mf = new MainFragment();
             lf = new LoginFragment();
+            suf = new SignUpFragment();
 
 
             //Start MainFragment onCreateView method
@@ -65,11 +70,10 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     }
                     else if(v.getId() == R.id.signup_fragment_button)
                     {
-                       fm.beginTransaction().replace(R.id.fragment_individual_container_signup, lf).commit();
+                       fm.beginTransaction().replace(R.id.signup_frag_container , suf).commit();
                     }
                 }
             });
-
 
             lf.setOnClickListener(new LoginFragment.FragmentListener(){
 
@@ -120,10 +124,6 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     }
                 }
             });
-
-
         }
     }
-
-
 }

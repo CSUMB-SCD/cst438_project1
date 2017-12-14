@@ -1,10 +1,12 @@
 package group_project.csumb.com.autitrak.jose;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -22,7 +24,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +34,7 @@ import group_project.csumb.com.autitrak.simone.User;
 import static android.content.ContentValues.TAG;
 
 public class SignUpFragment extends Fragment {
+    private OnFragmentInteractionListener mListener;
     private EditText firstName;
     private EditText lastName;
     private EditText emailTextEdit;
@@ -44,10 +46,19 @@ public class SignUpFragment extends Fragment {
     private RadioButton b1;
     private RadioButton b2;
     private Button next;
-    private OnFragmentInteractionListener mListener;
+    private int type;
+    private String key;
+    private String email;
 
     public SignUpFragment() {
-        // Required empty public constructor
+        this.mListener = null;
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_sign_up, container, false);
     }
 
     @Override
@@ -57,55 +68,31 @@ public class SignUpFragment extends Fragment {
             firstName = (EditText)view.findViewById(R.id.firstName);
             lastName = (EditText)view.findViewById(R.id.lastName);
             username = (EditText)view.findViewById(R.id.username);
-        emailTextEdit = (EditText)view.findViewById(R.id.email_editText);
-      passwordTextEdit = (EditText)view.findViewById(R.id.password_editText);
-      b1 = (RadioButton)view.findViewById(R.id.yes_bttn);
-      b2 = (RadioButton)view.findViewById(R.id.no_bttn);
-      next = (Button)view.findViewById(R.id.signup_next_bttn);
-
-
-
+            emailTextEdit = (EditText)view.findViewById(R.id.email_editText);
+            passwordTextEdit = (EditText)view.findViewById(R.id.password_editText);
+            b1 = (RadioButton)view.findViewById(R.id.yes_bttn);
+            b2 = (RadioButton)view.findViewById(R.id.no_bttn);
+            next = (Button)view.findViewById(R.id.signup_next_bttn);
+            email = emailTextEdit.toString();
+            key = encodeKey(email);
 
         mAuth = FirebaseAuth.getInstance();
 
-        next.setOnClickListener(new View.OnClickListener() {
+        signUp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                if(b1.isChecked())
-                {
-                    // CODE THAT WILL SET TYPE TO YES
-
-                }
-                else if(b2.isChecked())
-                {
-                // CODE THAT WILL SET TYPE TO NO
+            public void onClick(View view) {
+                if (view.getId() == R.id.signUp){
+                    mListener.onSuccess(true, key);
                 }
             }
         });
-
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        // FirebaseUser currentUser = mAuth.getCurrentUser();
-        // updateUI(currentUser);
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.signup_container, container, false);
-    }
-
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
     //private void createAccount(String firstName, String lastName, String username, String email, String password) {
   private void createAccount(String email,String password, String username, String first_name, String last_name, int type) {
         Log.d(TAG, "createAccount:" + email);
@@ -126,7 +113,6 @@ public class SignUpFragment extends Fragment {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
@@ -179,15 +165,15 @@ public class SignUpFragment extends Fragment {
             db.push().child("totalpoints").setValue(0);
             db.push().child("skill_levels").setValue(skills);
 
-            }
-        else{user = new User(firstName, 0, emailTextEdit, true);
-
+            }else{
+            user = new User(firstName, 0, emailTextEdit, true);
         }
-
         db.child(encodeKey(emailTextEdit)).setValue(user);
-
     }
-
+    public interface OnFragmentInteractionListener {
+        // TODO: Update argument type and name
+        void onSuccess(boolean in, String key);
+    }
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -213,10 +199,5 @@ public class SignUpFragment extends Fragment {
     public String decodeKey(String k)
     {
         return k.replace("%25", "%").replace("%2E",".").replace("%23","#").replace("%24","$").replace("%2F","/");
-    }
-
-    public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
     }
 }

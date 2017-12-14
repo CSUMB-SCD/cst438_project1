@@ -56,7 +56,6 @@ public class LoginFragment extends Fragment{
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
-
                             if(listener!=null)
                             {
                                 key = encodeKey(auth.getCurrentUser().getEmail());
@@ -72,7 +71,6 @@ public class LoginFragment extends Fragment{
                         }
                     }
                 });
-
             }
         });
     }
