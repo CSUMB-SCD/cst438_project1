@@ -10,16 +10,16 @@ jobs:
             - checkout:
                 path: ~/cst438_project1
             - restore_cache:
-                key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+                key: jars-{{ checksum "build.gradle" }}-{{ checksum  "build.gradle" }}
             - run:
                 command: chmod +x ./gradlew
             - run:
                 name: Download Dependencies
-                command: ./gradlew androidDependencies --stacktrace
+                command: ./gradlew androidDependencies
             - save_cache:
                 paths:
                     - ~/.gradle
-                key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+                key: jars-{{ checksum "build.gradle" }}-{{ checksum  "build.gradle" }}
             - run:
                 name: Run Tests
                 command: ./gradlew lint test
