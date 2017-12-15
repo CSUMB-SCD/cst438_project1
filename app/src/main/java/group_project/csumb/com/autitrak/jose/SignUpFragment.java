@@ -102,7 +102,7 @@ public class SignUpFragment extends Fragment {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "createUserWithEmail:success");
-                            //writeNewUser(e,f,l,t);
+                            writeNewUser(e,f,l,t);
                             //updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
@@ -127,15 +127,17 @@ public class SignUpFragment extends Fragment {
         skills.put("intrapersonal_points","0");
 
 
-        if (type == 1){user = new User(firstName, 1, email, true);
+        if (type == 1){user = new User(firstName + " " + lastName, 1, " ", true);
+            db.child(encodeKey(email)).setValue(user);
             db = FirebaseDatabase.getInstance().getReference().child("individuals");
-            db.push().child("totalpoints").setValue(0);
-            db.push().child("skill_levels").setValue(skills);
+            db.child(encodeKey(email)).child("totalpoints").setValue(0);
+            db.child(encodeKey(email)).push().child("skill_levels").setValue(skills);
 
             }else{
-            user = new User(firstName+ " " + lastName, 0, email, true);
+            user = new User(firstName+ " " + lastName, 0, " ", true);
+            db.child(encodeKey(email)).setValue(user);
         }
-        db.child(encodeKey(email)).setValue(user);
+
     }
 
 

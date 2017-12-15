@@ -37,12 +37,12 @@ public class CaregiverScreenFragment extends Fragment {
             public void onClick(View v){
                 if(yes_button.isChecked()) {
                     // CODE THAT WILL SET TYPE TO YES
-                    type = 1;
+                    type = 0;
                     mListener.changeFragment(type);
                 }
                 else if(no_button.isChecked()) {
                     // CODE THAT WILL SET TYPE TO No
-                    type = 0;
+                    type = 1;
                     mListener.changeFragment(type);
 
 
