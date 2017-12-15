@@ -125,6 +125,17 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity {
                     }
                 }
             });
+
+     /*       csf.setOnClickListener(new SignUpFragment.OnFragmentInteractionListener() {
+                @Override
+                public void onClicked(View v)
+                {
+                    if(v.getId() == R.id.signUp)
+                    {
+                        fm.beginTransaction().replace(R.id.fragment_individual_container, mf).commit();
+                    }
+                }
+            });*/
         }
     }
 }

@@ -42,7 +42,7 @@ public class CaregiverScreenFragment extends Fragment {
                     getChildFragmentManager().beginTransaction().replace(R.id.fragment_individual_container, newSingup).commit();
                 }
                 else if(no_button.isChecked()) {
-                    // CODE THAT WILL SET TYPE TO NO
+                    // CODE THAT WILL SET TYPE TO No
                     type = 0;
                     SignUpFragment newSingup = new SignUpFragment();
                     newSingup.setType(type);

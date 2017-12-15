@@ -26,6 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import group_project.csumb.com.autitrak.R;
+import group_project.csumb.com.autitrak.simone.MainFragment;
 import group_project.csumb.com.autitrak.simone.User;
 
 import static android.content.ContentValues.TAG;
@@ -54,7 +55,7 @@ public class SignUpFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_up, container, false);
+        return inflater.inflate(R.layout.fragment_sign_up, container, true);
     }
 
     @Override
@@ -74,20 +75,11 @@ public class SignUpFragment extends Fragment {
         signUp.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful())
+            public void onClick(View view) {
+                if(emailTextEdit != null)
                 {
-                    if(mListener!=null)
-                    {
-                        mListener.onSuccess(true,key);
-                    }
-                }
-                else
-                {
-                    if(mListener!=null)
-                    {
-                        mListener.onSuccess(false,"");
-                    }
+                    MainFragment newSingups = new MainFragment();
+                    getChildFragmentManager().beginTransaction().replace(R.id.fragment_individual_container, newSingups).commit();
                 }
             }
         });
@@ -179,6 +171,11 @@ public class SignUpFragment extends Fragment {
     }
     public interface OnFragmentInteractionListener {
         void onSuccess(boolean in,String key);
+    }
+
+    public void setOnClickListener(SignUpFragment.OnFragmentInteractionListener mListener )
+    {
+        this.mListener = mListener;
     }
 
     @Override
