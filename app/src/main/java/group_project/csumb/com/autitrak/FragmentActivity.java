@@ -14,6 +14,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import group_project.csumb.com.autitrak.chanel.CaregiverMainActivity;
+import group_project.csumb.com.autitrak.jose.CaregiverScreenFragment;
+import group_project.csumb.com.autitrak.jose.SignUpFragment;
 import group_project.csumb.com.autitrak.simone.LoginFragment;
 import group_project.csumb.com.autitrak.simone.MainFragment;
 import group_project.csumb.com.autitrak.simone.User;
@@ -26,6 +28,8 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
     private User user;
     private MainFragment mf;
     private LoginFragment lf;
+    private CaregiverScreenFragment csf;
+    private SignUpFragment sf;
     private Intent intent;
     private Bundle bundle;
     private FirebaseAuth auth;
@@ -50,6 +54,9 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
 
             mf = new MainFragment();
             lf = new LoginFragment();
+            csf = new CaregiverScreenFragment();
+            sf = new SignUpFragment();
+
 
             auth = FirebaseAuth.getInstance();
 
@@ -68,11 +75,19 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity{
                     }
                     else if(v.getId() == R.id.signup_fragment_button)
                     {
-                        
+                        fm.beginTransaction().replace(R.id.fragment_individual_container,csf).commit();
                     }
                 }
             });
 
+
+            csf.setOnClickListener(new CaregiverScreenFragment.OnFragmentInteractionListener() {
+                @Override
+                public void changeFragment(int type) {
+                    sf.setType(type);
+                    fm.beginTransaction().replace(R.id.fragment_individual_container,sf).commit();
+                }
+            });
 
             lf.setOnClickListener(new LoginFragment.FragmentListener(){
 
