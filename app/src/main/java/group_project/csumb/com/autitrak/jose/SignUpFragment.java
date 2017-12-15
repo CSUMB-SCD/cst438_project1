@@ -56,12 +56,12 @@ public class SignUpFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
 
-            firstNameEditText = (EditText)view.findViewById(R.id.firstName);
-            lastNameEditText = (EditText)view.findViewById(R.id.lastName);
-            emailEditText = (EditText)view.findViewById(R.id.email);
-            usernameEditText = (EditText)view.findViewById(R.id.username);
-            passwordEditText = (EditText)view.findViewById(R.id.password);
-            signUp = (Button)view.findViewById(R.id.signUp);
+            firstNameEditText = view.findViewById(R.id.firstName);
+            lastNameEditText = view.findViewById(R.id.lastName);
+            emailEditText = view.findViewById(R.id.email);
+            usernameEditText = view.findViewById(R.id.username);
+            passwordEditText = view.findViewById(R.id.password);
+            signUp = view.findViewById(R.id.signUp);
             mAuth = FirebaseAuth.getInstance();
 
             signUp.setOnClickListener(new View.OnClickListener() {

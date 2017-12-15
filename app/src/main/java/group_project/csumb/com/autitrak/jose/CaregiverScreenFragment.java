@@ -16,6 +16,7 @@ public class CaregiverScreenFragment extends Fragment {
     private Button next;
     private int type;
 
+
     public CaregiverScreenFragment (){this.mListener = null;}
 
     @Override
@@ -26,9 +27,9 @@ public class CaregiverScreenFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        yes_button = (RadioButton)view.findViewById(R.id.yes_button);
-        no_button = (RadioButton)view.findViewById(R.id.no_button);
-        next = (Button)view.findViewById(R.id.next_button);
+        yes_button = view.findViewById(R.id.yes_button);
+        no_button = view.findViewById(R.id.no_button);
+        next = view.findViewById(R.id.next_button);
 
         next.setOnClickListener(new View.OnClickListener(){
 
@@ -37,28 +38,25 @@ public class CaregiverScreenFragment extends Fragment {
                 if(yes_button.isChecked()) {
                     // CODE THAT WILL SET TYPE TO YES
                     type = 1;
-                    SignUpFragment newSingup = new SignUpFragment();
-                    newSingup.setType(type);
-                    getChildFragmentManager().beginTransaction().replace(R.id.fragment_individual_container, newSingup).commit();
+                    mListener.changeFragment(type);
                 }
                 else if(no_button.isChecked()) {
                     // CODE THAT WILL SET TYPE TO No
                     type = 0;
-                    SignUpFragment newSingup = new SignUpFragment();
-                    newSingup.setType(type);
-                    getChildFragmentManager().beginTransaction().replace(R.id.fragment_individual_container, newSingup).commit();
+                    mListener.changeFragment(type);
+
+
                 }
             }
         });
     }
 
-    @Override
-    public void onDetach() {
-        super.onDetach();
-        mListener = null;
-    }
 
+    public void setOnClickListener(OnFragmentInteractionListener mListener)
+    {
+        this.mListener = mListener;
+    }
     public interface OnFragmentInteractionListener {
-        public void changeFragment(int type);
+        void changeFragment(int type);
     }
 }

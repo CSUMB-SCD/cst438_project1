@@ -40,9 +40,9 @@ public class LoginFragment extends Fragment{
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         auth = FirebaseAuth.getInstance();
-        signin = (Button)view.findViewById(R.id.login_page_button);
-        email = (EditText)view.findViewById(R.id.email_editText);
-        password = (EditText)view.findViewById(R.id.password_editText);
+        signin = view.findViewById(R.id.login_page_button);
+        email = view.findViewById(R.id.email_editText);
+        password = view.findViewById(R.id.password_editText);
 
         signin.setOnClickListener(new View.OnClickListener(){
 
