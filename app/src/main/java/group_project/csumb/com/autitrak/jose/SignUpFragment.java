@@ -55,7 +55,7 @@ public class SignUpFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_up, container, true);
+        return inflater.inflate(R.layout.fragment_sign_up, container, false);
     }
 
     @Override
@@ -66,10 +66,10 @@ public class SignUpFragment extends Fragment {
             username = (EditText)view.findViewById(R.id.username);
             emailTextEdit = (EditText)view.findViewById(R.id.email_editText);
             passwordTextEdit = (EditText)view.findViewById(R.id.password_editText);
-            signUp = (Button)view.findViewById(R.id.signUp);
+            signUp = (Button)view.findViewById(R.id.signUp); /*
             email = emailTextEdit.toString();
             key = encodeKey(email);
-
+*/
         mAuth = FirebaseAuth.getInstance();
 
         signUp.setOnClickListener(new View.OnClickListener() {

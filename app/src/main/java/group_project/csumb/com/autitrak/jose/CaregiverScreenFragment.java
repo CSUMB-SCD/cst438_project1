@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RadioButton;
 import group_project.csumb.com.autitrak.R;
+import group_project.csumb.com.autitrak.jose.ProgressPageFragment;
+import group_project.csumb.com.autitrak.jose.SignUpFragment;
 
 public class CaregiverScreenFragment extends Fragment {
     private OnFragmentInteractionListener mListener;
